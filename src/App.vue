@@ -138,7 +138,7 @@
         <vl-region>
             <vl-layout>
                 <vl-title id="erkendeStandaarden" tag-name="h1">Erkende standaarden</vl-title>
-                <div v-if="!erkendError" class="vl-u-table-overflow">
+                <div v-if="this.erkendeStandaarden.length" class="vl-u-table-overflow">
                     <vl-data-table id="erkendeStandaardenTable" mod-hover>
                         <thead>
                         <tr>
@@ -172,7 +172,7 @@
         <vl-region>
             <vl-layout>
                 <vl-title id="kandidaatStandaarden" tag-name="h1">Kandidaat standaarden</vl-title>
-                <div v-if="!kandidaatError" class="vl-u-table-overflow">
+                <div v-if="this.kandidaatStandaarden.length" class="vl-u-table-overflow">
                     <vl-data-table id="kandidaatStandaardenTable" mod-hover>
                         <thead>
                         <tr>
@@ -206,7 +206,7 @@
         <vl-region>
             <vl-layout>
                 <vl-title id="standaardenInOntwikkeling" tag-name="h1">Standaarden in ontwikkeling</vl-title>
-                <div v-if="!ontwikkelingError" class="vl-u-table-overflow">
+                <div v-if="this.standaardInOntwikkeling.length" class="vl-u-table-overflow">
                     <vl-data-table id="ontwikkelingTable" mod-hover>
                         <thead>
                         <tr>
@@ -236,12 +236,11 @@
                 </div>
             </vl-layout>
         </vl-region>
-
-
     </div>
 </template>
 
 <script>
+    import {initializeStore} from "./store/storeInitializer";
 
     export default {
         name: 'App',
@@ -286,86 +285,12 @@
                     }
                 }
             },
-            init() {
-
-                // Erkende standaarden
-                try {
-                    const erkendeStandaarden = require.context('../public/erkende-standaard');
-                    if (erkendeStandaarden) {
-                        this.erkendError = false;
-                        this.createTable(erkendeStandaarden, 'erkende-standaard', this.erkendeStandaarden);
-                    }
-                } catch (e) {
-                    this.erkendError = true;
-                }
-
-                // Kandidaat standaarden
-                try {
-                    const kandidaatStandaarden = require.context('../public/kandidaat-standaard');
-                    if (kandidaatStandaarden) {
-                        this.kandidaatError = false;
-                        this.createTable(kandidaatStandaarden, 'kandidaat-standaard', this.kandidaatStandaarden);
-                    }
-                } catch (e) {
-                    this.kandidaatError = true;
-                }
-
-                // Standaarden in ontwikkeling
-                try {
-                    const inOntwikkeling = require.context('../public/standaard-in-ontwikkeling');
-                    if (inOntwikkeling) {
-                        this.ontwikkelingError = false;
-                        this.createTable(inOntwikkeling, 'standaard-in-ontwikkeling', this.standaardInOntwikkeling);
-                    }
-                } catch (e) {
-                    this.ontwikkelingError = true;
-                }
-            },
-            async createTable(standaarden, type, tableArray) {
-                for (let index in standaarden.keys()) {
-                    const filePath = "http://localhost:8080/" + type + standaarden.keys()[index].substring(1, standaarden.keys()[index].length);
-                    const info = await this.extractData(filePath);
-                    info.path = standaarden.keys()[index].substring(2, standaarden.keys()[index].length);
-                    tableArray.push(info);
-                }
-            },
-            extractData(filePath) {
-                return fetch(filePath).then(res => res.text()).then(html => {
-                    const parser = new DOMParser();
-                    const doc = parser.parseFromString(html, 'text/html');
-
-
-                    let information = {};
-
-                    const titles = doc.getElementsByTagName('h1');
-                    for (let i = 0; i < titles.length; i++) {
-                        const prop = titles[i].getAttribute('itemprop');
-                        if (prop && prop === 'title') {
-                            information['title'] = titles[i].innerHTML;
-                        }
-                    }
-
-                    const divs = doc.getElementsByTagName('div');
-                    for (let i = 0; i < divs.length; i++) {
-                        const prop = divs[i].getAttribute('itemprop');
-                        if (prop && prop != 'mainContentOfPage') {
-
-                            const content = divs[i].innerHTML;
-                            if (prop === 'publisher') {
-                                const hrefs = divs[i].getElementsByTagName('a');
-                                information.organisation = hrefs[0].text;
-                                information.organisationID = hrefs[0].href;
-                            } else {
-                                information[prop] = divs[i].innerHTML;
-                            }
-                        }
-                    }
-                    return information;
-                });
-            },
         },
-        mounted() {
-            this.init();
+        async beforeCreate() {
+            await initializeStore();
+            this.erkendeStandaarden = this.$store.state.acknowledgedStandards;
+            this.kandidaatStandaarden = this.$store.state.candidateStandards;
+            this.standaardInOntwikkeling = this.$store.state.standardsInDevelopment;
         }
     }
 </script>

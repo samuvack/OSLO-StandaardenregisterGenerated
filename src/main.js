@@ -1,7 +1,10 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App.vue';
+import store from "./store/store";
+import {initializeStore} from "./store/storeInitializer";
 
 Vue.config.productionTip = false;
+
 
 import {
     VlCore,
@@ -33,10 +36,10 @@ Vue.component('vl-link-list', VlLinkList);
 Vue.component('vl-link-list-item', VlLinkListItem);
 Vue.component('vl-link', VlLink);
 
-
 Vue.use(VlCore);
 Vue.use(VlUtil);
 
 new Vue({
+    store,
     render: h => h(App),
 }).$mount('#app')
