@@ -23,7 +23,8 @@ import {
     VlLink,
     VlCheckbox,
     VlInfoblock,
-    VlInputField
+    VlInputField,
+    VlButton
 } from '@govflanders/vl-ui-vue-components';
 
 Vue.component('vl-region', VlLayout);
@@ -41,6 +42,7 @@ Vue.component('vl-link', VlLink);
 Vue.component('vl-checkbox', VlCheckbox);
 Vue.component('vl-infoblock', VlInfoblock);
 Vue.component('vl-input-field', VlInputField);
+Vue.component('vl-button', VlButton);
 
 Vue.use(VlCore);
 Vue.use(VlUtil);
