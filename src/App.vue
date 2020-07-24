@@ -103,7 +103,7 @@
             </vl-layout>
         </vl-region>
 
-        <vl-region>
+        <!--<vl-region>
             <vl-layout>
                 <vl-dropdown-navigation label="Filter standaarden">
                     <vl-link-list>
@@ -113,7 +113,7 @@
                             </vl-link>
                         </vl-link-list-item>
                         <vl-link-list-item>
-                            <!-- Only applicatieprofielen because value to check contains &amp;-->
+                            Only applicatieprofielen because value to check contains &amp
                             <vl-link @click="filterTables('applicatieprofielen')" mod-block>
                                 Vocabularia & applicatieprofielen
                             </vl-link>
@@ -132,108 +132,161 @@
                     </vl-link-list>
                 </vl-dropdown-navigation>
             </vl-layout>
-        </vl-region>
+        </vl-region>-->
+
+            <vl-layout>
+                <vl-grid mod-stacked>
+                    <vl-column width="2">
+                        <vl-title tag-name="h4">
+                            <label for="searchInput">Zoek standaard</label>
+                        </vl-title>
+                    </vl-column>
+                    <vl-column width="10">
+                        <vl-input-field placeholder="Voer de naam in van de standaard die je zoekt" id="searchInput" name="searchInput"/>
+                    </vl-column>
+                    <vl-column width="2">
+                        <vl-title tag-name="h4">
+                            Filter standaarden
+                        </vl-title>
+                    </vl-column>
+                    <vl-column width="10">
+                        <vl-grid mod-stacked>
+                            <vl-column width="6">
+                                <vl-checkbox id="switchAll" name="switchAll" val="all" mod-switch>
+                                    Alle standaarden
+                                </vl-checkbox>
+                            </vl-column>
+                            <vl-column width="6">
+                                <vl-checkbox id="switchVocAp" name="switchVocAp" val="vocap" mod-switch>
+                                    Vocabularium & Applicatieprofielen
+                                </vl-checkbox>
+                            </vl-column>
+                            <vl-column width="6">
+                                <vl-checkbox id="switchTechnical" name="switchTechnical" val="technical" mod-switch>
+                                    Technische standaarden
+                                </vl-checkbox>
+                            </vl-column>
+                            <vl-column width="6">
+                                <vl-checkbox id="switchIoP" name="switchIoP" val="iop" mod-switch>
+                                    Standaarden voor organisatorische interoperabiliteit
+                                </vl-checkbox>
+                            </vl-column>
+                        </vl-grid>
+                    </vl-column>
+
+                </vl-grid>
+            </vl-layout>
 
 
         <vl-region>
             <vl-layout>
-                <vl-title id="erkendeStandaarden" tag-name="h1">Erkende standaarden</vl-title>
-                <div v-if="this.erkendeStandaarden.length" class="vl-u-table-overflow">
-                    <vl-data-table id="erkendeStandaardenTable" mod-hover>
-                        <thead>
-                        <tr>
-                            <th>Titel</th>
-                            <th>Categorie</th>
-                            <th>Verantwoordelijke organisatie</th>
-                            <th>Type toepassing</th>
-                            <th>Publicatiedatum</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr v-for="object in erkendeStandaarden">
-                            <td><a :href="/erkende-standaard/ + object.path">{{object.title}}</a></td>
-                            <td v-if="object.about.indexOf('&amp;') >= 0">
-                                {{object.about.replace('amp;', '')}}
-                            </td>
-                            <td v-else>{{object.about}}</td>
-                            <td><a :href=object.organisationID>{{object.organisation}}</a></td>
-                            <td>{{object.type}}</td>
-                            <td>{{object.datePublished}}</td>
-                        </tr>
-                        </tbody>
-                    </vl-data-table>
-                </div>
-                <div v-else>
-                    <vl-title tag-name="h5">Er zijn op dit moment geen erkende standaarden</vl-title>
-                </div>
+                <!--<vl-title id="erkendeStandaarden" tag-name="h1">Erkende standaarden</vl-title>-->
+                <vl-infoblock mod-type="publications"
+                              title="Erkende standaarden" id="erkendeStandaarden">
+                    <div v-if="this.erkendeStandaarden.length" class="vl-u-table-overflow">
+                        <vl-data-table id="erkendeStandaardenTable" mod-hover>
+                            <thead>
+                            <tr>
+                                <th>Titel</th>
+                                <th>Categorie</th>
+                                <th>Verantwoordelijke organisatie</th>
+                                <th>Type toepassing</th>
+                                <th>Publicatiedatum</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr v-for="object in erkendeStandaarden">
+                                <td><a :href="/erkende-standaard/ + object.path">{{object.title}}</a></td>
+                                <td v-if="object.about.indexOf('&amp;') >= 0">
+                                    {{object.about.replace('amp;', '')}}
+                                </td>
+                                <td v-else>{{object.about}}</td>
+                                <td><a :href=object.organisationID>{{object.organisation}}</a></td>
+                                <td>{{object.type}}</td>
+                                <td>{{object.datePublished}}</td>
+                            </tr>
+                            </tbody>
+                        </vl-data-table>
+                    </div>
+                    <div v-else>
+                        <vl-title tag-name="h5">Er zijn op dit moment geen erkende standaarden</vl-title>
+                    </div>
+                </vl-infoblock>
+
             </vl-layout>
         </vl-region>
 
         <vl-region>
             <vl-layout>
-                <vl-title id="kandidaatStandaarden" tag-name="h1">Kandidaat standaarden</vl-title>
-                <div v-if="this.kandidaatStandaarden.length" class="vl-u-table-overflow">
-                    <vl-data-table id="kandidaatStandaardenTable" mod-hover>
-                        <thead>
-                        <tr>
-                            <th>Titel</th>
-                            <th>Categorie</th>
-                            <th>Verantwoordelijke organisatie</th>
-                            <th>Type toepassing</th>
-                            <th>Publicatiedatum</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr v-for="object in kandidaatStandaarden">
-                            <td><a :href="/kandidaat-standaard/ + object.path">{{object.title}}</a></td>
-                            <td v-if="object.about.indexOf('&amp;') >= 0">
-                                {{object.about.replace('amp;', '')}}
-                            </td>
-                            <td v-else>{{object.about}}</td>
-                            <td><a :href=object.organisationID>{{object.organisation}}</a></td>
-                            <td>{{object.type}}</td>
-                            <td>{{object.datePublished}}</td>
-                        </tr>
-                        </tbody>
-                    </vl-data-table>
-                </div>
-                <div v-else>
-                    <vl-title tag-name="h5">Er zijn op dit moment geen kandidaat standaarden</vl-title>
-                </div>
+                <!--<vl-title id="kandidaatStandaarden" tag-name="h1">Kandidaat standaarden</vl-title>-->
+                <vl-infoblock mod-type="publications"
+                              title="Kandidaat standaarden" id="kandidaatStandaarden">
+                    <div v-if="this.kandidaatStandaarden.length" class="vl-u-table-overflow">
+                        <vl-data-table id="kandidaatStandaardenTable" mod-hover>
+                            <thead>
+                            <tr>
+                                <th>Titel</th>
+                                <th>Categorie</th>
+                                <th>Verantwoordelijke organisatie</th>
+                                <th>Type toepassing</th>
+                                <th>Publicatiedatum</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr v-for="object in kandidaatStandaarden">
+                                <td><a :href="/kandidaat-standaard/ + object.path">{{object.title}}</a></td>
+                                <td v-if="object.about.indexOf('&amp;') >= 0">
+                                    {{object.about.replace('amp;', '')}}
+                                </td>
+                                <td v-else>{{object.about}}</td>
+                                <td><a :href=object.organisationID>{{object.organisation}}</a></td>
+                                <td>{{object.type}}</td>
+                                <td>{{object.datePublished}}</td>
+                            </tr>
+                            </tbody>
+                        </vl-data-table>
+                    </div>
+                    <div v-else>
+                        <vl-title tag-name="h5">Er zijn op dit moment geen kandidaat standaarden</vl-title>
+                    </div>
+                </vl-infoblock>
             </vl-layout>
         </vl-region>
 
         <vl-region>
             <vl-layout>
-                <vl-title id="standaardenInOntwikkeling" tag-name="h1">Standaarden in ontwikkeling</vl-title>
-                <div v-if="this.standaardInOntwikkeling.length" class="vl-u-table-overflow">
-                    <vl-data-table id="ontwikkelingTable" mod-hover>
-                        <thead>
-                        <tr>
-                            <th>Titel</th>
-                            <th>Categorie</th>
-                            <th>Verantwoordelijke organisatie</th>
-                            <th>Type toepassing</th>
-                            <th>Publicatiedatum</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr v-for="object in standaardInOntwikkeling">
-                            <td><a :href="/standaard-in-ontwikkeling/ + object.path">{{object.title}}</a></td>
-                            <td v-if="object.about.indexOf('&amp;') >= 0">
-                                {{object.about.replace('amp;', '')}}
-                            </td>
-                            <td v-else>{{object.about}}</td>
-                            <td><a :href=object.organisationID>{{object.organisation}}</a></td>
-                            <td>{{object.type}}</td>
-                            <td>{{object.datePublished}}</td>
-                        </tr>
-                        </tbody>
-                    </vl-data-table>
-                </div>
-                <div v-else>
-                    <vl-title tag-name="h5">Er zijn op dit moment geen standaarden in ontwikkeling</vl-title>
-                </div>
+                <!--<vl-title id="standaardenInOntwikkeling" tag-name="h1">Standaarden in ontwikkeling</vl-title>-->
+                <vl-infoblock mod-type="publications"
+                              title="Standaarden in ontwikkeling" id="standaardenInOntwikkeling">
+                    <div v-if="this.standaardInOntwikkeling.length" class="vl-u-table-overflow">
+                        <vl-data-table id="ontwikkelingTable" mod-hover>
+                            <thead>
+                            <tr>
+                                <th>Titel</th>
+                                <th>Categorie</th>
+                                <th>Verantwoordelijke organisatie</th>
+                                <th>Type toepassing</th>
+                                <th>Publicatiedatum</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr v-for="object in standaardInOntwikkeling">
+                                <td><a :href="/standaard-in-ontwikkeling/ + object.path">{{object.title}}</a></td>
+                                <td v-if="object.about.indexOf('&amp;') >= 0">
+                                    {{object.about.replace('amp;', '')}}
+                                </td>
+                                <td v-else>{{object.about}}</td>
+                                <td><a :href=object.organisationID>{{object.organisation}}</a></td>
+                                <td>{{object.type}}</td>
+                                <td>{{object.datePublished}}</td>
+                            </tr>
+                            </tbody>
+                        </vl-data-table>
+                    </div>
+                    <div v-else>
+                        <vl-title tag-name="h5">Er zijn op dit moment geen standaarden in ontwikkeling</vl-title>
+                    </div>
+                </vl-infoblock>
             </vl-layout>
         </vl-region>
     </div>
@@ -308,9 +361,16 @@
     @import "~@govflanders/vl-ui-link-list/src/scss/link-list";
     @import "~@govflanders/vl-ui-popover/src/scss/popover";
     @import "~@govflanders/vl-ui-util/src/scss/util";
+    @import "~@govflanders/vl-ui-checkbox/src/scss/checkbox";
+    @import "~@govflanders/vl-ui-infoblock/src/scss/infoblock";
+    @import "~@govflanders/vl-ui-input-field/src/scss/input-field";
 
     p, ul {
         font-size: 1.8rem;
+    }
+
+    #searchInput {
+        width: 40%;
     }
 
 </style>
