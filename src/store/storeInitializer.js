@@ -2,6 +2,8 @@ import store from "./store";
 const config = require('../../config.json');
 
 export async function initializeStore() {
+    // Information about the pages
+
     // Get all pages and extract data
     try {
         await processPages(require.context('../../public/erkende-standaard'), 'erkende-standaard');
@@ -23,6 +25,13 @@ export async function initializeStore() {
         //store.commit('setStandardsInDevelopmentError', true);
         console.error(e);
     }
+
+    // Information about the statistics
+    processStatistics();
+}
+
+function processStatistics(){
+    store.dispatch('loadStatistics');
 }
 
 

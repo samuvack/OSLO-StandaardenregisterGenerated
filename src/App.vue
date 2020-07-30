@@ -19,7 +19,7 @@
                                     <div class="vl-infotext__value" data-vl-infotext-value>
                                         {{this.erkendeStandaarden.length}}
                                     </div>
-                                    <div class="vl-infotext__text">erkende standaarden</div>
+                                    <div class="vl-infotext__text">Erkende standaarden</div>
                                 </a>
                             </div>
                         </div>
@@ -31,7 +31,7 @@
                                     <div class="vl-infotext__value" data-vl-infotext-value>
                                         {{this.kandidaatStandaarden.length}}
                                     </div>
-                                    <div class="vl-infotext__text">kandidaat standaarden</div>
+                                    <div class="vl-infotext__text">Kandidaat standaarden</div>
                                 </a>
                             </div>
                         </div>
@@ -43,7 +43,33 @@
                                     <div class="vl-infotext__value" data-vl-infotext-value>
                                         {{this.standaardInOntwikkeling.length}}
                                     </div>
-                                    <div class="vl-infotext__text">standaarden in ontwikkeling</div>
+                                    <div class="vl-infotext__text">Standaarden in ontwikkeling</div>
+                                </a>
+                            </div>
+                        </div>
+                    </vl-column>
+                </vl-grid>
+                <vl-grid class="vl-grid--align-center">
+                    <vl-column width="3">
+                        <div class="vl-infotext-wrapper">
+                            <div class="vl-infotext vl-infotext--badge">
+                                <a href="#standaardenInOntwikkeling">
+                                    <div class="vl-infotext__value" data-vl-infotext-value>
+                                        {{this.uniqueContributors}}
+                                    </div>
+                                    <div class="vl-infotext__text">mensen hielpen mee</div>
+                                </a>
+                            </div>
+                        </div>
+                    </vl-column>
+                    <vl-column width="3">
+                        <div class="vl-infotext-wrapper">
+                            <div class="vl-infotext vl-infotext--badge">
+                                <a href="#standaardenInOntwikkeling">
+                                    <div class="vl-infotext__value" data-vl-infotext-value>
+                                        {{this.uniqueAffiliations}}
+                                    </div>
+                                    <div class="vl-infotext__text">organisaties hielpen mee</div>
                                 </a>
                             </div>
                         </div>
@@ -103,7 +129,6 @@
             </vl-layout>
         </vl-region>
 
-        {{filters}}
         <vl-layout>
             <vl-grid mod-stacked>
                 <vl-column width="2">
@@ -281,6 +306,8 @@
                 erkendeStandaarden: [],
                 kandidaatStandaarden: [],
                 standaardInOntwikkeling: [],
+                uniqueAffiliations: 0,
+                uniqueContributors: 0,
                 keywords: "",
                 filterAll: true,
                 filterVocAp: false,
@@ -371,7 +398,7 @@
                 this.filterTechnical = false;
                 this.filterOrgIoP = false;
             },
-            onSwitch: function(switchName){
+            onSwitch: function (switchName) {
                 // From the moment a checkbox was clicked, was erase the input values
                 this.keywords = '';
 
@@ -379,7 +406,7 @@
                 switch (switchName) {
                     case 'all':
                         // All button was turned on
-                        if(this.filterAll){
+                        if (this.filterAll) {
                             this.filterVocAp = false;
                             this.filterTechnical = false;
                             this.filterOrgIoP = false;
@@ -387,17 +414,17 @@
                         }
                         break;
                     case 'vocap':
-                        if(this.filterVocAp){
+                        if (this.filterVocAp) {
                             this.filterAll = false;
                         }
                         break;
                     case 'technical':
-                        if(this.filterTechnical){
+                        if (this.filterTechnical) {
                             this.filterAll = false;
                         }
                         break;
                     case 'organizational':
-                        if(this.filterOrgIoP){
+                        if (this.filterOrgIoP) {
                             this.filterAll = false;
                         }
                         break;
@@ -405,19 +432,19 @@
 
                 // Determine what filters are enabled
                 let filters = [];
-                if(this.filterVocAp){
+                if (this.filterVocAp) {
                     filters.push('Vocabularium &amp; applicatieprofielen')
                 }
 
-                if(this.filterTechnical){
+                if (this.filterTechnical) {
                     filters.push('Technische standaard')
                 }
 
-                if(this.filterOrgIoP){
+                if (this.filterOrgIoP) {
                     filters.push('Organisatorische interoperabiliteit');
                 }
 
-                if(filters.length){
+                if (filters.length) {
                     this.applySwitchFilters(filters);
                 }
             }
@@ -427,6 +454,9 @@
             this.erkendeStandaarden = this.$store.state.acknowledgedStandards;
             this.kandidaatStandaarden = this.$store.state.candidateStandards;
             this.standaardInOntwikkeling = this.$store.state.standardsInDevelopment;
+            this.uniqueAffiliations = this.$store.state.uniqueAffiliations;
+            this.uniqueContributors = this.$store.state.uniqueContributors;
+            console.log(this.$store.state.uniqueContributors);
         },
         watch: {
             keywords: function () {

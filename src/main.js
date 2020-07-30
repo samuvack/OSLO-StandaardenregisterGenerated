@@ -1,10 +1,8 @@
 import Vue from 'vue';
 import App from './App.vue';
 import store from "./store/store";
-import {initializeStore} from "./store/storeInitializer";
 
 Vue.config.productionTip = false;
-
 
 import {
     VlCore,
