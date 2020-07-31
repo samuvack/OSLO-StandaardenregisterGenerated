@@ -28,6 +28,9 @@ export async function initializeStore() {
 
     // Information about the statistics
     processStatistics();
+
+    // Store was initialized at this moment
+    store.commit('setStoreInitialized', true);
 }
 
 function processStatistics(){

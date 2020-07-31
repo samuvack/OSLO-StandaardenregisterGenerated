@@ -12,8 +12,10 @@ export default new Vuex.Store({
         acknowledgedStandards: [],
         candidateStandards: [],
         standardsInDevelopment: [],
+        statistics: [],
         uniqueContributors: 0,
-        uniqueAffiliations: 0
+        uniqueAffiliations: 0,
+        storeWasInitialized: false
     },
 
     mutations: {
@@ -40,6 +42,12 @@ export default new Vuex.Store({
         },
         setUniqueAffiliations(state, value){
             state.uniqueAffiliations = value;
+        },
+        setStatistics(state, value){
+            state.statistics = value;
+        },
+        setStoreInitialized(state, value){
+            state.storeWasInitialized = value;
         }
     },
     actions: {
@@ -64,9 +72,12 @@ export default new Vuex.Store({
         loadStatistics({commit}){
             try {
                 const stats = require('../../data/statistics.json');
-                const summary = stats.shift();
+                const summary = stats[0];
                 commit('setUniqueContributors', summary.uniqueContributors);
                 commit('setUniqueAffiliations', summary.uniqueAffiliations);
+
+                commit('setStatistics', stats.slice(1, stats.length));
+
             } catch (e) {
                 console.log('No statistics file available.');
             }
