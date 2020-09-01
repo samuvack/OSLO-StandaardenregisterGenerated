@@ -77,7 +77,15 @@
                 </vl-grid>
             </vl-layout>
         </vl-region>
-        <router-link to="/statistics">Link naar stats</router-link>
+        <vl-layout>
+            <vl-grid>
+                <vl-column>
+                    <vl-button @click="$router.push('statistics')">
+                        Ontdek hier meer statistieken
+                    </vl-button>
+                </vl-column>
+            </vl-grid>
+        </vl-layout>
         <vl-region>
             <vl-layout>
                 <p>Overheden op lokaal, Vlaams, interfederaal en Europees niveau moeten in het kader van hun
@@ -445,25 +453,6 @@
                     this.applySwitchFilters(filters);
                 }
             }
-        },
-        async beforeCreate() {
-            if (!this.$store.state.storeWasInitialized) {
-                await initializeStore();
-
-                // Because it takes some time to load, we have to assign the values again
-                this.erkendeStandaarden = this.$store.state.acknowledgedStandards;
-                this.kandidaatStandaarden = this.$store.state.candidateStandards;
-                this.standaardInOntwikkeling = this.$store.state.standardsInDevelopment;
-                this.uniqueAffiliations = this.$store.state.uniqueAffiliations;
-                this.uniqueContributors = this.$store.state.uniqueContributors;
-            }
-
-            // If components were rendered before values were assigned, we have to force a re-render
-            this.$forceUpdate()
-
-        },
-        mounted() {
-            this.$forceUpdate();
         },
         watch: {
             keywords: function () {

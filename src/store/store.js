@@ -3,7 +3,6 @@ import Vue from 'vue'
 
 Vue.use(Vuex);
 
-
 export default new Vuex.Store({
     state: {
         acknowledgedStandardsError: true,
@@ -76,7 +75,24 @@ export default new Vuex.Store({
                 commit('setUniqueContributors', summary.uniqueContributors);
                 commit('setUniqueAffiliations', summary.uniqueAffiliations);
 
-                commit('setStatistics', stats.slice(1, stats.length));
+                // Sort statistics based on standard
+                let list = stats.slice(1, stats.length);
+                list = list.sort( (a, b) => {
+                    const nameA = a.standard.toUpperCase();
+                    const nameB = b.standard.toUpperCase();
+                    return (nameA < nameB) ? -1 : (nameA > nameB ) ? 1 : 0;
+                });
+
+                // Sort names of affiliations per standard
+                for(let standard of list){
+                    standard.contributors = standard.contributors.sort( (a, b) => {
+                        const nameA = a.affiliation.toUpperCase();
+                        const nameB = b.affiliation.toUpperCase();
+                        return (nameA < nameB) ? -1 : (nameA > nameB ) ? 1 : 0;
+                    });
+                }
+
+                commit('setStatistics', list);
 
             } catch (e) {
                 console.log('No statistics file available.');

@@ -28,6 +28,11 @@
     @import "~@govflanders/vl-ui-infoblock/src/scss/infoblock";
     @import "~@govflanders/vl-ui-input-field/src/scss/input-field";
     @import "~@govflanders/vl-ui-button/src/scss/button";
+    @import "~@govflanders/vl-ui-drawer/src/scss/drawer";
+    @import "~@govflanders/vl-ui-icon/src/scss/icon";
+    @import "~@govflanders/vl-ui-toggle/src/scss/toggle";
+    @import "~@govflanders/vl-ui-dynamic-drawer/src/scss/dynamic-drawer";
+    @import "~@govflanders/vl-ui-spotlight/src/scss/spotlight";
 
     p, ul {
         font-size: 1.8rem;

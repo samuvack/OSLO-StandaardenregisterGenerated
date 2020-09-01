@@ -23,8 +23,12 @@ import {
     VlCheckbox,
     VlInfoblock,
     VlInputField,
-    VlButton
+    VlButton,
+    VlDrawers,
+    VlDrawer,
+    VlSpotlight
 } from '@govflanders/vl-ui-vue-components';
+import {initializeStore} from "./store/storeInitializer";
 
 Vue.component('vl-region', VlLayout);
 Vue.component('vl-layout', VlRegion);
@@ -42,12 +46,19 @@ Vue.component('vl-checkbox', VlCheckbox);
 Vue.component('vl-infoblock', VlInfoblock);
 Vue.component('vl-input-field', VlInputField);
 Vue.component('vl-button', VlButton);
+Vue.component('vl-drawers', VlDrawers);
+Vue.component('vl-drawer', VlDrawer);
+Vue.component('vl-spotlight', VlSpotlight);
 
 Vue.use(VlCore);
 Vue.use(VlUtil);
 
-new Vue({
-    store,
-    router,
-    render: h => h(App),
-}).$mount('#app')
+initializeStore().then(() => {
+    new Vue({
+        store,
+        router,
+        render: h => h(App),
+    }).$mount('#app')
+});
+
+
