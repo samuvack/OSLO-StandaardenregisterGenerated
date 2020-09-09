@@ -1,0 +1,281 @@
+[
+    {
+        "uniqueContributors": 29,
+        "uniqueAffiliations": 16
+    },
+    {
+        "standard": "Applicatieprofiel Persoon basis",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Weg",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Wegenregister",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Dienst Transactiemodel",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Transactie",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Dienst",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Dienstencataloog",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Vlaamse Codex",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Organisatie",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Organisatie Basis",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Toeristische Logies Basis",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Toeristische Logies",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Adresregister",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Adres",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Gebouwenregister",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Gebouw",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Inname openbaar domein",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Notificatie Basis",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Notificatie",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Melding",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Issue tracking voor burgers en organisaties",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Generieke Terugmeldfaciliteit",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Dossier",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Dossier",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Besluit Subsidies",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Subsidies",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Mobiliteit Trips en Aanbod",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Mobiliteit Trips en Aanbod",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel DCAT-AP VL",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Generieke Hypermedia API",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Toestemming",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Contactvoorkeuren",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Percelen",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Percelen",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Bedrijventerreinen",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Bedrijventerreinen",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Mandaat",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Mandatendatabank",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Besluit",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Besluit Publicatie",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Bestuur",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Proces en methode voor de ontwikkeling en erkenning van data standaarden",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vlaamse URI-Standaard voor Data",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Openbaar Domein",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Verkeersborden",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Besluitvorming",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Besluitvorming",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofielen Cultureel Erfgoed",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Cultureel Erfgoed",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Applicatieprofiel Besluit Mobiliteit",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Mobiliteit",
+        "totalPeople": 0
+    },
+    {
+        "standard": "Vocabularium Persoon",
+        "publicationDate": "2018-07-03",
+        "totalPeople": 29,
+        "contributors": [
+            {
+                "affiliation": "ABB",
+                "count": 2
+            },
+            {
+                "affiliation": "Digipolis Antwerpen",
+                "count": 1
+            },
+            {
+                "affiliation": "LNE",
+                "count": 1
+            },
+            {
+                "affiliation": "VLM",
+                "count": 1
+            },
+            {
+                "affiliation": "Informatie Vlaanderen",
+                "count": 8
+            },
+            {
+                "affiliation": "Cipal Schaubroeck",
+                "count": 3
+            },
+            {
+                "affiliation": "Soprasteria/IV",
+                "count": 1
+            },
+            {
+                "affiliation": "Geosolutions",
+                "count": 1
+            },
+            {
+                "affiliation": "DG Digitale Transformatie",
+                "count": 1
+            },
+            {
+                "affiliation": "imec - UGent",
+                "count": 3
+            },
+            {
+                "affiliation": "Kruispuntbank Sociale Zekerheid",
+                "count": 1
+            },
+            {
+                "affiliation": "Digipolis Gent",
+                "count": 1
+            },
+            {
+                "affiliation": "HPE",
+                "count": 2
+            },
+            {
+                "affiliation": "AgO",
+                "count": 1
+            },
+            {
+                "affiliation": "FOD Binnenlandse Zaken - Rijksregister",
+                "count": 1
+            },
+            {
+                "affiliation": "Departement Omgeving",
+                "count": 1
+            }
+        ]
+    }
+]
