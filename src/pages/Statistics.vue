@@ -24,20 +24,41 @@
             </vl-grid>
         </vl-infoblock>
         <vl-infoblock mod-type="publications"
-                      title="Statistieken per standaard" id="detail">
+                      title="Gepubliceerde standaarden per jaar" id="annual">
             <vl-drawers id="drawer-1">
-                <vl-drawer width="4" width-m="12" v-for="object in statistics" :ket="object.standard" :label="object.standard">
-                    <vl-grid class="vl-grid--align-center" mod-stacked>
-                        <vl-column width="6">
+                <vl-drawer width="4" width-m="12" v-for="(standards, year) in standardsPerYear" :label="year === 'TBD' ? 'Datum nog te bepalen' : year" :key="year">
+                    <vl-grid mod-stacked>
+                        <vl-column>
+                            <vl-spotlight mod-large
+                                          :title="standards.length.toString()"
+                                          :subtitle="year === 'TBD' ? 'standaarden waarvoor nog geen datum bekend is' : 'standaarden werden gepubliceerd'"/>
+                        </vl-column>
+                        <vl-column width="4" v-for="standard in standards" :key="standard.standard">
+                            <p>{{standard.standard}}</p>
+                        </vl-column>
+                    </vl-grid>
+                </vl-drawer>
+            </vl-drawers>
+        </vl-infoblock>
+        <vl-infoblock mod-type="publications"
+                      title="Statistieken per standaard" id="detail">
+            <vl-drawers id="drawer-2">
+                <vl-drawer width="4" width-m="12" v-for="object in statistics" :key="object.standard"
+                           :label="object.standard">
+                    <vl-grid mod-stacked>
+                        <vl-column width="6" v-if="object.contributors">
                             <vl-spotlight mod-large
                                           :title="object.totalPeople.toString()"
                                           subtitle="mensen hielpen mee aan deze standaard">
                             </vl-spotlight>
                         </vl-column>
-                        <vl-column width="6">
+                        <vl-column width="6" v-if="object.contributors">
                             <vl-spotlight :title="object.contributors.length.toString()"
                                           subtitle="organisaties hielpen mee"
                                           mod-large/>
+                        </vl-column>
+                        <vl-column v-else>
+                            <p>Geen cijfers bekend voor deze standaard</p>
                         </vl-column>
                         <vl-column>
                             <vl-data-table mod-hover>
@@ -63,15 +84,10 @@
             </vl-drawers>
 
         </vl-infoblock>
-        <vl-infoblock mod-type="publications"
-                      title="Statistieken per jaar" id="annual">
-            Binnenkort meer info.
-        </vl-infoblock>
     </vl-layout>
 </template>
 
 <script>
-    import {initializeStore} from "../store/storeInitializer";
 
     export default {
         name: "Statistics",
@@ -79,7 +95,8 @@
             return {
                 uniqueContributors: this.$store.state.uniqueContributors,
                 uniqueAffiliations: this.$store.state.uniqueAffiliations,
-                statistics: this.$store.state.statistics
+                statistics: this.$store.state.statistics,
+                standardsPerYear: this.$store.state.standardsPerYear
             }
         }
     }

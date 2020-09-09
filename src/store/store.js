@@ -14,7 +14,8 @@ export default new Vuex.Store({
         statistics: [],
         uniqueContributors: 0,
         uniqueAffiliations: 0,
-        storeWasInitialized: false
+        storeWasInitialized: false,
+        standardsPerYear: {}
     },
 
     mutations: {
@@ -47,6 +48,9 @@ export default new Vuex.Store({
         },
         setStoreInitialized(state, value){
             state.storeWasInitialized = value;
+        },
+        setStatisticsPerYear(state, value){
+            state.standardsPerYear = value;
         }
     },
     actions: {
@@ -70,7 +74,7 @@ export default new Vuex.Store({
         },
         loadStatistics({commit}){
             try {
-                const stats = require('../../data/statistics.json');
+                const stats = require('../../data/statistics.json.bak');
                 const summary = stats[0];
                 commit('setUniqueContributors', summary.uniqueContributors);
                 commit('setUniqueAffiliations', summary.uniqueAffiliations);
@@ -83,19 +87,43 @@ export default new Vuex.Store({
                     return (nameA < nameB) ? -1 : (nameA > nameB ) ? 1 : 0;
                 });
 
-                // Sort names of affiliations per standard
+                let filteredAnnual = {};
                 for(let standard of list){
-                    standard.contributors = standard.contributors.sort( (a, b) => {
-                        const nameA = a.affiliation.toUpperCase();
-                        const nameB = b.affiliation.toUpperCase();
-                        return (nameA < nameB) ? -1 : (nameA > nameB ) ? 1 : 0;
-                    });
+
+                    // Sort names of affiliations per standard
+                    if(standard.contributors){
+                        standard.contributors = standard.contributors.sort( (a, b) => {
+                            const nameA = a.affiliation.toUpperCase();
+                            const nameB = b.affiliation.toUpperCase();
+                            return (nameA < nameB) ? -1 : (nameA > nameB ) ? 1 : 0;
+                        });
+                    }
+
+
+                    // Create separate list with standard filtered per year
+                    if(standard.publicationDate){
+                        if(!isNaN(Date.parse(standard.publicationDate))){
+                            const year = new Date(standard.publicationDate).getFullYear();
+
+                            if(!filteredAnnual.hasOwnProperty(year)){
+                                filteredAnnual[year] = [];
+                            }
+                            filteredAnnual[year].push(standard);
+
+                        } else {
+                            if(!filteredAnnual.hasOwnProperty('TBD')){
+                                filteredAnnual['TBD'] = [];
+                            }
+                            filteredAnnual['TBD'].push(standard);
+                        }
+                    }
                 }
 
                 commit('setStatistics', list);
-
+                commit('setStatisticsPerYear', filteredAnnual);
             } catch (e) {
-                console.log('No statistics file available.');
+                console.log('Something went wrong when trying to load the statistics:');
+                console.log(e);
             }
         }
     }
