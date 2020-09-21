@@ -74,7 +74,7 @@ export default new Vuex.Store({
         },
         loadStatistics({commit}){
             try {
-                const stats = require('../../public/data/statistics.json.bak');
+                const stats = require('../../public/data/statistics.bak.json'); // TODO: change this to the production file
                 const summary = stats[0];
                 commit('setUniqueContributors', summary.uniqueContributors);
                 commit('setUniqueAffiliations', summary.uniqueAffiliations);
