@@ -42,7 +42,7 @@ async function processPages(pages, status) {
     if (pages) {
         let pageInformation = [];
         for (let page of pages.keys()) {
-            const filePath = config.baseURL + '/' + status + page.substring(1, page.length);
+            const filePath = '/' + status + page.substring(1, page.length);
             const info = await processPage(filePath);
             info.path = page.substring(2, page.length);
             pageInformation.push(info);
