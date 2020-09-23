@@ -4,7 +4,8 @@
             <vl-button @click="$router.push('/')">Terug</vl-button>
         </vl-region>
         <vl-introduction>
-            Op deze pagina vind je allerlei statistieken terug van de OSLO-standaarden.
+            Op deze pagina vind je allerlei statistieken terug van de OSLO-standaarden. Deze statistieken zijn louter een indicatie op basis van de data
+            die we ter beschikking hebben.
         </vl-introduction>
         <vl-infoblock mod-type="publications"
                       title="Algemeen" id="general">
