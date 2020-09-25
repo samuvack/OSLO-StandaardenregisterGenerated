@@ -6,6 +6,7 @@ jobs:
     steps:
       - checkout
       - run: ls -al
+      - run: npm install
       - run: npm run build
       - run: ls -al
 workflows:
