@@ -1,16 +1,24 @@
 version: 2
 jobs:
-  build:
+  dist-build:
     docker:
       - image: circleci/node
     steps:
       - checkout
-      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+      - run:
+          name: Create .npmrc file with NPM token to be able to build because we use private NPM packages
+          command: |
+            echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
       - run: npm install
+      - run:
+          name: Installing the Vue CLI service to be able to build our project
+          command: |
+            npm install -g @vue/cli
+      - run: npm run build
 workflows:
   version: 2
   publish-updated-content:
     jobs:
-      - build
+      - dist-build
 
 
