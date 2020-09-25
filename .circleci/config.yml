@@ -20,10 +20,6 @@ jobs:
             [ -d "./public/erkende-standaard" ] && echo "Directory erkende-standaard exists" || mkdir -p ./public/erkende-standaard
             [ -d "./public/kandidaat-standaard" ] && echo "Directory kandidaat-standaard exists" || mkdir -p ./public/kandidaat-standaard
             [ -d "./public/standaard-in-ontwikkeling" ] && echo "Directory standaard-in-ontwikkeling exists" || mkdir -p ./public/standaard-in-ontwikkeling
-      - run:
-          name: Update all packages because otherwise build fails
-          command: |
-            npm update
       - run: npm run build
 workflows:
   version: 2
