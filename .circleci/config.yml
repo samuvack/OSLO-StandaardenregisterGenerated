@@ -13,7 +13,7 @@ jobs:
       - run:
           name: Installing the Vue CLI service to be able to build our project
           command: |
-            npm install -g @vue/cli
+            sudo npm install -g @vue/cli
       - run: npm run build
 workflows:
   version: 2
