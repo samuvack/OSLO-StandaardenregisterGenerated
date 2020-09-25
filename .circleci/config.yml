@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node
+    steps:
+      - checkout
+      - run: ls -al
+      - run: npm run build
+      - run: ls -al
+
