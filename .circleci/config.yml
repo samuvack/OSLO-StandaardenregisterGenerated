@@ -5,9 +5,8 @@ jobs:
       - image: circleci/node
     steps:
       - checkout
-      - run: ls -al
       - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
-      - run: ls -al
+      - run: npm install
 workflows:
   version: 2
   publish-updated-content:
