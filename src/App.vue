@@ -33,6 +33,8 @@
     @import "~@govflanders/vl-ui-toggle/src/scss/toggle";
     @import "~@govflanders/vl-ui-dynamic-drawer/src/scss/dynamic-drawer";
     @import "~@govflanders/vl-ui-spotlight/src/scss/spotlight";
+    @import "~@govflanders/vl-ui-alert/src/scss/alert";
+    @import "~@govflanders/vl-ui-action-group/src/scss/action-group";
 
     p, ul {
         font-size: 1.8rem;

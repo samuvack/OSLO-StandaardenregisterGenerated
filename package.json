@@ -7,11 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@govflanders/vl-ui-action-group": "^3.11.12",
+    "@govflanders/vl-ui-alert": "^3.11.12",
     "@govflanders/vl-ui-arrow-navigation": "^3.11.9",
     "@govflanders/vl-ui-button": "^3.11.9",
     "@govflanders/vl-ui-checkbox": "^3.11.9",
     "@govflanders/vl-ui-content-header": "^3.11.9",
-    "@govflanders/vl-ui-core": "^4.0.9",
+    "@govflanders/vl-ui-core": "^4.0.11",
     "@govflanders/vl-ui-data-table": "^3.11.9",
     "@govflanders/vl-ui-drawer": "^3.11.9",
     "@govflanders/vl-ui-dropdown-navigation": "^3.11.9",
@@ -24,7 +26,7 @@
     "@govflanders/vl-ui-titles": "^3.11.9",
     "@govflanders/vl-ui-toggle": "^3.11.9",
     "@govflanders/vl-ui-util": "^3.11.9",
-    "@govflanders/vl-ui-vue-components": "^3.11.0",
+    "@govflanders/vl-ui-vue-components": "^4.0.10",
     "@rdfjs/data-model": "^1.2.0",
     "core-js": "^3.6.5",
     "fs": "0.0.1-security",

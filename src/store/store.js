@@ -99,9 +99,26 @@ export default new Vuex.Store({
                         });
                     }
 
+                    if(standard.status === 'erkende-standaard'){
+                        const date = Date.parse(standard.publicationDate);
+
+                        if(!isNaN(date)){
+                            const year = new Date(standard.publicationDate).getFullYear();
+
+                            if(!filteredAnnual.hasOwnProperty(year)){
+                                filteredAnnual[year] = 0;
+                            }
+                            filteredAnnual[year] += 1;
+                        } else {
+                            if(!filteredAnnual.hasOwnProperty('TBD')){
+                                filteredAnnual['TBD'] = 0;
+                            }
+                            filteredAnnual['TBD'] += 1;
+                        }
+                    }
 
                     // Create separate list with standard filtered per year
-                    if(standard.publicationDate){
+                    /*if(standard.publicationDate){
                         if(!isNaN(Date.parse(standard.publicationDate))){
                             const year = new Date(standard.publicationDate).getFullYear();
 
@@ -116,7 +133,7 @@ export default new Vuex.Store({
                             }
                             filteredAnnual['TBD'].push(standard);
                         }
-                    }
+                    }*/
                 }
 
                 commit('setStatistics', list);

@@ -148,10 +148,14 @@
                 <vl-column width="4">
                     <vl-input-field v-model="keywords" placeholder="Voer de naam in van de standaard die je zoekt"
                                     id="searchInput"
-                                    name="searchInput"/>
+                                    name="searchInput"
+                                    @keyup.enter.native="filterWithKeywords"/>
                 </vl-column>
                 <vl-column width="6">
-                    <vl-button @click="filterWithKeywords">Zoek</vl-button>
+                    <vl-action-group>
+                        <vl-button @click="filterWithKeywords">Zoek</vl-button>
+                        <vl-button @click="reset">Reset</vl-button>
+                    </vl-action-group>
                 </vl-column>
                 <vl-column width="2">
                     <vl-title tag-name="h4">
@@ -306,8 +310,6 @@
 </template>
 
 <script>
-    import {initializeStore} from "../store/storeInitializer";
-
     export default {
         name: 'Home',
         data() {
@@ -385,6 +387,8 @@
                 }
             },
             reset() {
+                this.keywords = '';
+                this.filterAll = true;
                 this.displayAllRows(document.getElementById("erkendeStandaardenTable"));
                 this.displayAllRows(document.getElementById("kandidaatStandaardenTable"));
                 this.displayAllRows(document.getElementById("ontwikkelingTable"));
@@ -455,11 +459,11 @@
             }
         },
         watch: {
-            keywords: function () {
+            /*keywords: function () {
                 if (this.keywords === '') {
                     this.reset();
                 }
-            }
+            }*/
         }
     }
 </script>

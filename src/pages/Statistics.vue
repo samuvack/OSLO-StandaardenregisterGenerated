@@ -25,8 +25,25 @@
             </vl-grid>
         </vl-infoblock>
         <vl-infoblock mod-type="publications"
-                      title="Gepubliceerde standaarden per jaar" id="annual">
-            <vl-drawers id="drawer-1">
+                      title="Erkende standaarden per jaar" id="annual">
+            <vl-grid mod-stacked>
+                <vl-column width="4" v-for="(number, year) in standardsPerYear" :key="year">
+                    <vl-infotext href="#"
+                                 :value="number.toString()"
+                                 :text="'werden erkend in ' + year"/>
+                </vl-column>
+                <vl-column v-if="standardsPerYear['TBD'] > 0">
+                    <vl-alert
+                            icon="warning"
+                            title="Opmerking"
+                            mod-naked
+                            mod-warning
+                    >
+                        Er zijn {{standardsPerYear['TBD']}} erkende standaarden waarvan de publicatiedatum niet bekend is.
+                    </vl-alert>
+                </vl-column>
+            </vl-grid>
+            <!--<vl-drawers id="drawer-1">
                 <vl-drawer width="4" width-m="12" v-for="(standards, year) in standardsPerYear" :label="year === 'TBD' ? 'Datum nog te bepalen' : year" :key="year">
                     <vl-grid mod-stacked>
                         <vl-column>
@@ -39,9 +56,9 @@
                         </vl-column>
                     </vl-grid>
                 </vl-drawer>
-            </vl-drawers>
+            </vl-drawers>-->
         </vl-infoblock>
-        <vl-infoblock mod-type="publications"
+        <!--<vl-infoblock mod-type="publications"
                       title="Statistieken per standaard" id="detail">
             <vl-drawers id="drawer-2">
                 <vl-drawer width="4" width-m="12" v-for="object in statistics" :key="object.standard"
@@ -83,8 +100,7 @@
                     </vl-grid>
                 </vl-drawer>
             </vl-drawers>
-
-        </vl-infoblock>
+        </vl-infoblock>-->
     </vl-layout>
 </template>
 

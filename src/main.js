@@ -26,7 +26,9 @@ import {
     VlButton,
     VlDrawers,
     VlDrawer,
-    VlSpotlight
+    VlSpotlight,
+    VlAlert,
+    VlActionGroup
 } from '@govflanders/vl-ui-vue-components';
 import {initializeStore} from "./store/storeInitializer";
 
@@ -49,6 +51,8 @@ Vue.component('vl-button', VlButton);
 Vue.component('vl-drawers', VlDrawers);
 Vue.component('vl-drawer', VlDrawer);
 Vue.component('vl-spotlight', VlSpotlight);
+Vue.component('vl-alert', VlAlert);
+Vue.component('vl-action-group', VlActionGroup)
 
 Vue.use(VlCore);
 Vue.use(VlUtil);
