@@ -58,7 +58,7 @@
                 </vl-drawer>
             </vl-drawers>-->
         </vl-infoblock>
-        <!--<vl-infoblock mod-type="publications"
+        <vl-infoblock mod-type="publications"
                       title="Statistieken per standaard" id="detail">
             <vl-drawers id="drawer-2">
                 <vl-drawer width="4" width-m="12" v-for="object in statistics" :key="object.standard"
@@ -100,7 +100,7 @@
                     </vl-grid>
                 </vl-drawer>
             </vl-drawers>
-        </vl-infoblock>-->
+        </vl-infoblock>
     </vl-layout>
 </template>
 

@@ -2,10 +2,12 @@ import Vue from 'vue';
 import App from './App.vue';
 import store from "./store/store";
 import router from './router/route';
+import VueI18n from 'vue-i18n';
 
 Vue.config.productionTip = false;
 
 import {
+    i18n,
     VlCore,
     VlUtil,
     VlIntroduction,
@@ -52,8 +54,16 @@ Vue.component('vl-drawers', VlDrawers);
 Vue.component('vl-drawer', VlDrawer);
 Vue.component('vl-spotlight', VlSpotlight);
 Vue.component('vl-alert', VlAlert);
-Vue.component('vl-action-group', VlActionGroup)
+Vue.component('vl-action-group', VlActionGroup);
 
+Vue.use(VueI18n);
+
+const messages = i18n;
+const vlI18n = new VueI18n({
+    locale: 'nl-BE',
+    messages,
+});
+Vue.use(vlI18n);
 Vue.use(VlCore);
 Vue.use(VlUtil);
 
