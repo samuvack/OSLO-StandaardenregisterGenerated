@@ -21,11 +21,17 @@ jobs:
             [ -d "./public/kandidaat-standaard" ] && echo "Directory kandidaat-standaard exists" || mkdir -p ./public/kandidaat-standaard
             [ -d "./public/standaard-in-ontwikkeling" ] && echo "Directory standaard-in-ontwikkeling exists" || mkdir -p ./public/standaard-in-ontwikkeling
       - run: npm run build
+      - persit_to_workspace:
+          root: dist 
+          paths:
+            - *
   upload:
     docker:
       - image: circleci/python
     steps:
       - checkout
+      - attach_workspace:
+          at: dist
       - run: cd $PWD/scripts; bash ./azure.sh ${SAS_TOKEN}
 workflows:
   version: 2
