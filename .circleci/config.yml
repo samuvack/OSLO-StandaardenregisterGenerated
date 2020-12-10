@@ -23,8 +23,7 @@ jobs:
       - run: npm run build
       - persit_to_workspace:
           root: dist 
-          paths:
-            - *
+          paths: .
   upload:
     docker:
       - image: circleci/python
