@@ -21,7 +21,7 @@ jobs:
             [ -d "./public/kandidaat-standaard" ] && echo "Directory kandidaat-standaard exists" || mkdir -p ./public/kandidaat-standaard
             [ -d "./public/standaard-in-ontwikkeling" ] && echo "Directory standaard-in-ontwikkeling exists" || mkdir -p ./public/standaard-in-ontwikkeling
       - run: npm run build
-      - persit_to_workspace:
+      - persist_to_workspace:
           root: ./ 
           paths: 
             - dist
