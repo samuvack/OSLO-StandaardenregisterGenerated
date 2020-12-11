@@ -22,8 +22,8 @@ jobs:
             [ -d "./public/standaard-in-ontwikkeling" ] && echo "Directory standaard-in-ontwikkeling exists" || mkdir -p ./public/standaard-in-ontwikkeling
       - run: npm run build
       - persist_to_workspace:
-          root: ./ 
-          paths: 
+          root: ./
+          paths:
             - dist
   upload:
     docker:
@@ -32,7 +32,7 @@ jobs:
       - checkout
       - attach_workspace:
           at: ./
-      - run: cd $PWD/scripts; bash ./azure.sh ${SAS_TOKEN}
+      - run: cd $PWD/dist; bash ../scripts/azure.sh ${SAS_TOKEN}
 workflows:
   version: 2
   publish-updated-content:
