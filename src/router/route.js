@@ -15,10 +15,12 @@ const router = new Router({
     routes: [
         {
             path: '/',
+            name: 'home',
             component: Home
         },
         {
             path:'/statistics',
+            name: 'statistics',
             component: Statistics
         }
     ]

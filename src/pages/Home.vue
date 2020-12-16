@@ -221,7 +221,7 @@
                         </thead>
                         <tbody>
                         <tr v-for="object in erkendeStandaarden">
-                            <td><a :href="/erkende-standaard/ + object.path">{{object.title}}</a></td>
+                            <td><a :href="'/standaarden/erkende-standaard/' + object.path">{{object.title}}</a></td>
                             <td v-if="object.about.indexOf('&amp;') >= 0">
                                 {{object.about.replace('amp;', '')}}
                             </td>
@@ -255,7 +255,7 @@
                         </thead>
                         <tbody>
                         <tr v-for="object in kandidaatStandaarden">
-                            <td><a :href="/kandidaat-standaard/ + object.path">{{object.title}}</a></td>
+                            <td><a :href="'/standaarden/kandidaat-standaard/' + object.path">{{object.title}}</a></td>
                             <td v-if="object.about.indexOf('&amp;') >= 0">
                                 {{object.about.replace('amp;', '')}}
                             </td>
@@ -289,7 +289,7 @@
                         </thead>
                         <tbody>
                         <tr v-for="object in standaardInOntwikkeling">
-                            <td><a :href="/standaard-in-ontwikkeling/ + object.path">{{object.title}}</a></td>
+                            <td><a :href="'/standaarden/standaard-in-ontwikkeling/' + object.path">{{object.title}}</a></td>
                             <td v-if="object.about.indexOf('&amp;') >= 0">
                                 {{object.about.replace('amp;', '')}}
                             </td>

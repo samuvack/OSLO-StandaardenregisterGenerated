@@ -17,10 +17,11 @@ jobs:
       - run:
           name: Project checks content of 3 folders in /public, but the must exist otherwise an error is thrown
           command: |
-            [ -d "./public/erkende-standaard" ] && echo "Directory erkende-standaard exists" || mkdir -p ./public/erkende-standaard
-            [ -d "./public/kandidaat-standaard" ] && echo "Directory kandidaat-standaard exists" || mkdir -p ./public/kandidaat-standaard
-            [ -d "./public/standaard-in-ontwikkeling" ] && echo "Directory standaard-in-ontwikkeling exists" || mkdir -p ./public/standaard-in-ontwikkeling
+            [ -d "./public/standaarden/erkende-standaard" ] && echo "Directory erkende-standaard exists" || mkdir -p ./public/standaarden/erkende-standaard
+            [ -d "./public/standaarden/kandidaat-standaard" ] && echo "Directory kandidaat-standaard exists" || mkdir -p ./public/standaarden/kandidaat-standaard
+            [ -d "./public/standaarden/standaard-in-ontwikkeling" ] && echo "Directory standaard-in-ontwikkeling exists" || mkdir -p ./public/standaarden/standaard-in-ontwikkeling
       - run: npm run build
+      - run: cp dist/index.html dist/standaarden/index.html; cp dist/index.html dist/standaarden/statistics.html
       - persist_to_workspace:
           root: ./
           paths:
