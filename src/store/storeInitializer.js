@@ -6,21 +6,21 @@ export async function initializeStore() {
 
     // Get all pages and extract data
     try {
-        await processPages(require.context('../../public/standaarden/erkende-standaard'), 'erkende-standaard');
+        await processPages(require.context('../../public/erkende-standaard'), 'erkende-standaard');
     } catch (e) {
         //store.commit('setAcknowledgedStandardsError', true);
         console.error(e);
     }
 
     try {
-        await processPages(require.context('../../public/standaarden/kandidaat-standaard'), 'kandidaat-standaard');
+        await processPages(require.context('../../public/kandidaat-standaard'), 'kandidaat-standaard');
     } catch (e) {
         //store.commit('setCandidateStandardsError', true);
         console.error(e);
     }
 
     try {
-        await processPages(require.context('../../public/standaarden/standaard-in-ontwikkeling'), 'standaard-in-ontwikkeling');
+        await processPages(require.context('../../public/standaard-in-ontwikkeling'), 'standaard-in-ontwikkeling');
     } catch (e) {
         //store.commit('setStandardsInDevelopmentError', true);
         console.error(e);
