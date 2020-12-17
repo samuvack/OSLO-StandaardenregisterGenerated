@@ -1,7 +1,7 @@
 <template>
     <vl-layout>
         <vl-region>
-            <vl-button @click="$router.push('home')">Terug</vl-button>
+            <vl-button @click="$router.push({name:'home'})">Terug</vl-button>
         </vl-region>
         <vl-introduction>
             Op deze pagina vind je allerlei statistieken terug van de OSLO-standaarden. Deze statistieken zijn louter een indicatie op basis van de data

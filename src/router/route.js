@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from 'vue-router'
 import Statistics from "../pages/Statistics";
 import Home from "../pages/Home";
+import PageNotFound from "../pages/PageNotFound";
 
 Vue.use(Router)
 
@@ -22,6 +23,10 @@ const router = new Router({
             path:'/statistics',
             name: 'statistics',
             component: Statistics
+        },   {
+            path:'/:pathMatch(.*)*',
+            name: 'error',
+            component: PageNotFound
         }
     ]
 });

@@ -80,7 +80,7 @@
         <vl-layout>
             <vl-grid>
                 <vl-column>
-                    <vl-button @click="$router.push('statistics')">
+                    <vl-button @click="$router.push({name:'statistics'})">
                         Ontdek hier meer statistieken
                     </vl-button>
                 </vl-column>
