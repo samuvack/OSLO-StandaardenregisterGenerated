@@ -39,9 +39,9 @@
         "contributors": []
     },
     {
-        "standard": "Proces en methode voor de ontwikkeling en erkenning van data standaarden",
-        "publicationDate": "2018-05-22",
-        "status": "erkende-standaard",
+        "standard": "",
+        "publicationDate": "",
+        "status": "kandidaat-standaard",
         "totalPeople": 0,
         "contributors": []
     },
@@ -173,15 +173,71 @@
     },
     {
         "standard": "Applicatieprofiel Generiek basis",
-        "publicationDate": "TBD",
+        "publicationDate": "2017-03-23",
         "status": "zonder-status",
         "totalPeople": 0,
         "contributors": []
     },
     {
         "standard": "Vocabularium Generiek",
-        "publicationDate": "TBD",
+        "publicationDate": "2017-03-31",
         "status": "zonder-status",
+        "totalPeople": 0,
+        "contributors": []
+    },
+    {
+        "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Begraafplaatsenbeheer",
+        "publicationDate": "TBD",
+        "status": "kandidaat-standaard",
+        "totalPeople": 0,
+        "contributors": []
+    },
+    {
+        "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Begraafplaatsen",
+        "publicationDate": "TBD",
+        "status": "kandidaat-standaard",
+        "totalPeople": 0,
+        "contributors": []
+    },
+    {
+        "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Begroeid Voorkomen",
+        "publicationDate": "TBD",
+        "status": "kandidaat-standaard",
+        "totalPeople": 0,
+        "contributors": []
+    },
+    {
+        "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Gebieden",
+        "publicationDate": "TBD",
+        "status": "kandidaat-standaard",
+        "totalPeople": 0,
+        "contributors": []
+    },
+    {
+        "standard": "Openbaar Domein 2.0.0 - Applicatieprofiel Infrastructuurelementen",
+        "publicationDate": "TBD",
+        "status": "kandidaat-standaard",
+        "totalPeople": 0,
+        "contributors": []
+    },
+    {
+        "standard": "Openbaar Domein 2.0.0 - Basisprofiel Openbaar Domein",
+        "publicationDate": "TBD",
+        "status": "erkende-standaard",
+        "totalPeople": 0,
+        "contributors": []
+    },
+    {
+        "standard": "Vocabularia en Applicatieprofielen Bodem en Ondergrond",
+        "publicationDate": "TBD",
+        "status": "standaard-in-ontwikkeling",
+        "totalPeople": 0,
+        "contributors": []
+    },
+    {
+        "standard": "Conformiteitsraamwerk voor data standaarden",
+        "publicationDate": "TBD",
+        "status": "standaard-in-ontwikkeling",
         "totalPeople": 0,
         "contributors": []
     },
@@ -193,7 +249,28 @@
         "contributors": []
     },
     {
-        "standard": "Vocabularium Mobiliteit",
+        "standard": "Applicatieprofiel Toeristische Logies Basis",
+        "publicationDate": "2019-12-05",
+        "status": "erkende-standaard",
+        "totalPeople": 0,
+        "contributors": []
+    },
+    {
+        "standard": "Vocabularium Dossier",
+        "publicationDate": "TBD",
+        "status": "kandidaat-standaard",
+        "totalPeople": 0,
+        "contributors": []
+    },
+    {
+        "standard": "Vocabularium Bestuur",
+        "publicationDate": "2018-06-26",
+        "status": "erkende-standaard",
+        "totalPeople": 0,
+        "contributors": []
+    },
+    {
+        "standard": "Applicatieprofiel Besluit Mobiliteit",
         "publicationDate": "TBD",
         "status": "kandidaat-standaard",
         "totalPeople": 0,
@@ -214,85 +291,60 @@
         "contributors": []
     },
     {
-        "standard": "Vocabularium Dossier",
+        "standard": "Vocabularium Mobiliteit",
         "publicationDate": "TBD",
         "status": "kandidaat-standaard",
         "totalPeople": 0,
         "contributors": []
     },
     {
-        "standard": "Applicatieprofiel Toeristische Logies Basis",
-        "publicationDate": "2019-12-05",
-        "status": "erkende-standaard",
-        "totalPeople": 0,
-        "contributors": []
-    },
-    {
-        "standard": "Vocabularium Bestuur",
-        "publicationDate": "2018-06-26",
-        "status": "erkende-standaard",
-        "totalPeople": 0,
-        "contributors": []
-    },
-    {
-        "standard": "Applicatieprofiel Besluit Mobiliteit",
+        "standard": "Applicatieprofiel Adresregister",
         "publicationDate": "TBD",
         "status": "kandidaat-standaard",
-        "totalPeople": 0,
-        "contributors": []
-    },
-    {
-        "standard": "Applicatieprofiel DCAT-AP VL",
-        "publicationDate": "2019-10-03",
-        "status": "erkende-standaard",
-        "totalPeople": 16,
+        "totalPeople": 21,
         "contributors": [
-            {
-                "affiliation": "Agentschap Wegen en Verkeer",
-                "count": 2
-            },
-            {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 3
-            },
-            {
-                "affiliation": "Centrum voor Informatica voor het Brusselse Gewest",
-                "count": 1
-            },
-            {
-                "affiliation": "Agentschap voor Natuur en Bos",
-                "count": 1
-            },
-            {
-                "affiliation": "GIM",
-                "count": 1
-            },
-            {
-                "affiliation": "Vlaams Energiebedrijf",
-                "count": 1
-            },
-            {
-                "affiliation": "DWVG",
-                "count": 1
-            },
-            {
-                "affiliation": "Provincie Limburg",
-                "count": 1
-            },
-            {
-                "affiliation": "Agentschap Onroerend Erfgoed",
-                "count": 1
-            },
-            {
-                "affiliation": "Departement Omgeving",
-                "count": 1
-            },
             {
                 "affiliation": "Stad Antwerpen",
                 "count": 1
             },
             {
-                "affiliation": "PwC",
+                "affiliation": "Informatie Vlaanderen",
+                "count": 8
+            },
+            {
+                "affiliation": "Telenet",
+                "count": 1
+            },
+            {
+                "affiliation": "imec - UGent",
+                "count": 3
+            },
+            {
+                "affiliation": "Stad Gent",
+                "count": 1
+            },
+            {
+                "affiliation": "VMSW",
+                "count": 1
+            },
+            {
+                "affiliation": "Wonen-Vlaanderen",
+                "count": 1
+            },
+            {
+                "affiliation": "Provincie Vlaams-Brabant",
+                "count": 1
+            },
+            {
+                "affiliation": "VMM",
+                "count": 1
+            },
+            {
+                "affiliation": "Stad Leuven",
+                "count": 1
+            },
+            {
+                "affiliation": "Fednot",
                 "count": 1
             },
             {
@@ -358,58 +410,134 @@
         ]
     },
     {
-        "standard": "Applicatieprofiel Adresregister",
-        "publicationDate": "TBD",
-        "status": "kandidaat-standaard",
-        "totalPeople": 21,
+        "standard": "Applicatieprofiel DCAT-AP VL",
+        "publicationDate": "2019-10-03",
+        "status": "erkende-standaard",
+        "totalPeople": 16,
         "contributors": [
+            {
+                "affiliation": "Agentschap Wegen en Verkeer",
+                "count": 2
+            },
+            {
+                "affiliation": "Informatie Vlaanderen",
+                "count": 3
+            },
+            {
+                "affiliation": "Centrum voor Informatica voor het Brusselse Gewest",
+                "count": 1
+            },
+            {
+                "affiliation": "Agentschap voor Natuur en Bos",
+                "count": 1
+            },
+            {
+                "affiliation": "GIM",
+                "count": 1
+            },
+            {
+                "affiliation": "Vlaams Energiebedrijf",
+                "count": 1
+            },
+            {
+                "affiliation": "DWVG",
+                "count": 1
+            },
+            {
+                "affiliation": "Provincie Limburg",
+                "count": 1
+            },
+            {
+                "affiliation": "Agentschap Onroerend Erfgoed",
+                "count": 1
+            },
+            {
+                "affiliation": "Departement Omgeving",
+                "count": 1
+            },
             {
                 "affiliation": "Stad Antwerpen",
                 "count": 1
             },
             {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 8
-            },
-            {
-                "affiliation": "Telenet",
-                "count": 1
-            },
-            {
-                "affiliation": "imec - UGent",
-                "count": 3
-            },
-            {
-                "affiliation": "Stad Gent",
-                "count": 1
-            },
-            {
-                "affiliation": "VMSW",
-                "count": 1
-            },
-            {
-                "affiliation": "Wonen-Vlaanderen",
-                "count": 1
-            },
-            {
-                "affiliation": "Provincie Vlaams-Brabant",
-                "count": 1
-            },
-            {
-                "affiliation": "VMM",
-                "count": 1
-            },
-            {
-                "affiliation": "Stad Leuven",
-                "count": 1
-            },
-            {
-                "affiliation": "Fednot",
+                "affiliation": "PwC",
                 "count": 1
             },
             {
                 "affiliation": "Tenforce",
                 "count": 1
+            }
+        ]
+    },
+    {
+        "standard": "Applicatieprofiel Issue tracking voor burgers en organisaties",
+        "publicationDate": "2019-02-07",
+        "status": "erkende-standaard",
+        "totalPeople": 15,
+        "contributors": [
+            {
+                "affiliation": "Informatie Vlaanderen",
+                "count": 10
+            },
+            {
+                "affiliation": "Stad Antwerpen",
+                "count": 1
+            },
+            {
+                "affiliation": "PwC",
+                "count": 3
+            },
+            {
+                "affiliation": "BOSA",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "standard": "Applicatieprofiel Contactvoorkeuren",
+        "publicationDate": "2019-02-07",
+        "status": "erkende-standaard",
+        "totalPeople": 13,
+        "contributors": [
+            {
+                "affiliation": "Informatie Vlaanderen",
+                "count": 7
+            },
+            {
+                "affiliation": "PwC",
+                "count": 3
+            },
+            {
+                "affiliation": "CSPI",
+                "count": 1
+            },
+            {
+                "affiliation": "BOSA",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "standard": "Applicatieprofiel Vlaamse Codex",
+        "publicationDate": "2019-02-07",
+        "status": "erkende-standaard",
+        "totalPeople": 7,
+        "contributors": [
+            {
+                "affiliation": "Agentschap Binnenlands Bestuur",
+                "count": 1
+            },
+            {
+                "affiliation": "Departement Omgeving",
+                "count": 1
+            },
+            {
+                "affiliation": "Departement Kanselarij en Bestuur",
+                "count": 2
+            },
+            {
+                "affiliation": "PwC",
+                "count": 3
             }
         ]
     },
@@ -462,290 +590,6 @@
             {
                 "affiliation": "Fednot",
                 "count": 1
-            }
-        ]
-    },
-    {
-        "standard": "Applicatieprofiel Dienst Transactiemodel",
-        "publicationDate": "2019-02-07",
-        "status": "erkende-standaard",
-        "totalPeople": 16,
-        "contributors": [
-            {
-                "affiliation": "Stad Antwerpen",
-                "count": 1
-            },
-            {
-                "affiliation": "PwC",
-                "count": 3
-            },
-            {
-                "affiliation": "Cevi NV",
-                "count": 1
-            },
-            {
-                "affiliation": "Skryv",
-                "count": 1
-            },
-            {
-                "affiliation": "BOSA",
-                "count": 1
-            },
-            {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 9
-            }
-        ]
-    },
-    {
-        "standard": "Vocabularium Persoon",
-        "publicationDate": "2018-07-03",
-        "status": "erkende-standaard",
-        "totalPeople": 29,
-        "contributors": [
-            {
-                "affiliation": "ABB",
-                "count": 2
-            },
-            {
-                "affiliation": "Digipolis Antwerpen",
-                "count": 1
-            },
-            {
-                "affiliation": "LNE",
-                "count": 1
-            },
-            {
-                "affiliation": "VLM",
-                "count": 1
-            },
-            {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 8
-            },
-            {
-                "affiliation": "Cipal Schaubroeck",
-                "count": 3
-            },
-            {
-                "affiliation": "Soprasteria/IV",
-                "count": 1
-            },
-            {
-                "affiliation": "Geosolutions",
-                "count": 1
-            },
-            {
-                "affiliation": "DG Digitale Transformatie",
-                "count": 1
-            },
-            {
-                "affiliation": "imec - UGent",
-                "count": 3
-            },
-            {
-                "affiliation": "Kruispuntbank Sociale Zekerheid",
-                "count": 1
-            },
-            {
-                "affiliation": "Digipolis Gent",
-                "count": 1
-            },
-            {
-                "affiliation": "HPE",
-                "count": 2
-            },
-            {
-                "affiliation": "AgO",
-                "count": 1
-            },
-            {
-                "affiliation": "FOD Binnenlandse Zaken - Rijksregister",
-                "count": 1
-            },
-            {
-                "affiliation": "Departement Omgeving",
-                "count": 1
-            }
-        ]
-    },
-    {
-        "standard": "Applicatieprofiel Besluit Subsidies",
-        "publicationDate": "TBD",
-        "status": "kandidaat-standaard",
-        "totalPeople": 6,
-        "contributors": [
-            {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 1
-            },
-            {
-                "affiliation": "Agentschap Binnenlands Bestuur",
-                "count": 1
-            },
-            {
-                "affiliation": "Skryv",
-                "count": 1
-            },
-            {
-                "affiliation": "PwC",
-                "count": 1
-            },
-            {
-                "affiliation": "imec - UGent",
-                "count": 2
-            }
-        ]
-    },
-    {
-        "standard": "Applicatieprofiel Issue tracking voor burgers en organisaties",
-        "publicationDate": "2019-02-07",
-        "status": "erkende-standaard",
-        "totalPeople": 15,
-        "contributors": [
-            {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 10
-            },
-            {
-                "affiliation": "Stad Antwerpen",
-                "count": 1
-            },
-            {
-                "affiliation": "PwC",
-                "count": 3
-            },
-            {
-                "affiliation": "BOSA",
-                "count": 1
-            }
-        ]
-    },
-    {
-        "standard": "Applicatieprofiel Vlaamse Codex",
-        "publicationDate": "2019-02-07",
-        "status": "erkende-standaard",
-        "totalPeople": 7,
-        "contributors": [
-            {
-                "affiliation": "Agentschap Binnenlands Bestuur",
-                "count": 1
-            },
-            {
-                "affiliation": "Departement Omgeving",
-                "count": 1
-            },
-            {
-                "affiliation": "Departement Kanselarij en Bestuur",
-                "count": 2
-            },
-            {
-                "affiliation": "PwC",
-                "count": 3
-            }
-        ]
-    },
-    {
-        "standard": "Applicatieprofiel Contactvoorkeuren",
-        "publicationDate": "2019-02-07",
-        "status": "erkende-standaard",
-        "totalPeople": 13,
-        "contributors": [
-            {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 7
-            },
-            {
-                "affiliation": "PwC",
-                "count": 3
-            },
-            {
-                "affiliation": "CSPI",
-                "count": 1
-            },
-            {
-                "affiliation": "BOSA",
-                "count": 2
-            }
-        ]
-    },
-    {
-        "standard": "Applicatieprofiel Wegenregister",
-        "publicationDate": "TBD",
-        "status": "kandidaat-standaard",
-        "totalPeople": 24,
-        "contributors": [
-            {
-                "affiliation": "Nevele",
-                "count": 1
-            },
-            {
-                "affiliation": "Agentschap Wegen en Verkeer",
-                "count": 4
-            },
-            {
-                "affiliation": "Stad Gent",
-                "count": 1
-            },
-            {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 7
-            },
-            {
-                "affiliation": "Mobiliteit en Openbare Werken",
-                "count": 2
-            },
-            {
-                "affiliation": "Zulte",
-                "count": 1
-            },
-            {
-                "affiliation": "Provincie Vlaams-Brabant",
-                "count": 1
-            },
-            {
-                "affiliation": "VVSG",
-                "count": 1
-            },
-            {
-                "affiliation": "Tenforce",
-                "count": 1
-            },
-            {
-                "affiliation": "Turnhout",
-                "count": 1
-            },
-            {
-                "affiliation": "Vlaams Verkeerscentrum",
-                "count": 1
-            },
-            {
-                "affiliation": "PwC",
-                "count": 3
-            }
-        ]
-    },
-    {
-        "standard": "Vocabularium Toestemming",
-        "publicationDate": "2019-02-07",
-        "status": "erkende-standaard",
-        "totalPeople": 13,
-        "contributors": [
-            {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 7
-            },
-            {
-                "affiliation": "PwC",
-                "count": 3
-            },
-            {
-                "affiliation": "CSPI",
-                "count": 1
-            },
-            {
-                "affiliation": "BOSA",
-                "count": 2
             }
         ]
     },
@@ -854,81 +698,73 @@
         ]
     },
     {
-        "standard": "Vocabularium Bedrijventerreinen",
-        "publicationDate": "2020-04-23",
-        "status": "kandidaat-standaard",
-        "totalPeople": 27,
+        "standard": "Applicatieprofiel Dienst Transactiemodel",
+        "publicationDate": "2019-02-07",
+        "status": "erkende-standaard",
+        "totalPeople": 16,
         "contributors": [
             {
-                "affiliation": "VLINTER (Interleuven)",
-                "count": 2
-            },
-            {
-                "affiliation": "Provinciale Ontwikkelingsmaatschappij Oost-Vlaanderen",
-                "count": 1
-            },
-            {
-                "affiliation": "WVI",
-                "count": 1
-            },
-            {
-                "affiliation": "Veneco",
-                "count": 1
-            },
-            {
-                "affiliation": "Agentschap Informatie Vlaanderen",
-                "count": 5
-            },
-            {
-                "affiliation": "Agentschap Innoveren en Ondernemen",
-                "count": 3
-            },
-            {
-                "affiliation": "Departement Omgeving",
-                "count": 3
-            },
-            {
-                "affiliation": "Interleuven",
-                "count": 1
-            },
-            {
-                "affiliation": "Aura",
-                "count": 1
-            },
-            {
-                "affiliation": "Provinciale Ontwikkelingsmaatschappij West-Vlaanderen",
-                "count": 1
-            },
-            {
-                "affiliation": "Provinciale Ontwikkelingsmaatschappij Vlaams-Brabant",
-                "count": 2
-            },
-            {
-                "affiliation": "Quares",
-                "count": 1
-            },
-            {
-                "affiliation": "Mathieu Gijbels",
-                "count": 1
-            },
-            {
-                "affiliation": "Intercommunale Leiedal",
-                "count": 1
-            },
-            {
-                "affiliation": "Futurn NV",
+                "affiliation": "Stad Antwerpen",
                 "count": 1
             },
             {
                 "affiliation": "PwC",
-                "count": 2
+                "count": 3
+            },
+            {
+                "affiliation": "Cevi NV",
+                "count": 1
+            },
+            {
+                "affiliation": "Skryv",
+                "count": 1
+            },
+            {
+                "affiliation": "BOSA",
+                "count": 1
+            },
+            {
+                "affiliation": "Informatie Vlaanderen",
+                "count": 9
             }
         ]
     },
     {
-        "standard": "Applicatieprofiel Persoon basis",
-        "publicationDate": "TBD",
-        "status": "kandidaat-standaard",
+        "standard": "Vocabularium Transactie",
+        "publicationDate": "2019-02-07",
+        "status": "erkende-standaard",
+        "totalPeople": 16,
+        "contributors": [
+            {
+                "affiliation": "Stad Antwerpen",
+                "count": 1
+            },
+            {
+                "affiliation": "PwC",
+                "count": 3
+            },
+            {
+                "affiliation": "Cevi NV",
+                "count": 1
+            },
+            {
+                "affiliation": "Skryv",
+                "count": 1
+            },
+            {
+                "affiliation": "BOSA",
+                "count": 1
+            },
+            {
+                "affiliation": "Informatie Vlaanderen",
+                "count": 9
+            }
+        ]
+    },
+    {
+        "standard": "Vocabularium Persoon",
+        "publicationDate": "2018-07-03",
+        "status": "erkende-standaard",
         "totalPeople": 29,
         "contributors": [
             {
@@ -998,7 +834,323 @@
         ]
     },
     {
-        "standard": "Vocabularium Mandaat",
+        "standard": "Vocabularium Bedrijventerrein",
+        "publicationDate": "2020-06-18",
+        "status": "erkende-standaard",
+        "totalPeople": 27,
+        "contributors": [
+            {
+                "affiliation": "VLINTER (Interleuven)",
+                "count": 2
+            },
+            {
+                "affiliation": "Provinciale Ontwikkelingsmaatschappij Oost-Vlaanderen",
+                "count": 1
+            },
+            {
+                "affiliation": "WVI",
+                "count": 1
+            },
+            {
+                "affiliation": "Veneco",
+                "count": 1
+            },
+            {
+                "affiliation": "Agentschap Informatie Vlaanderen",
+                "count": 5
+            },
+            {
+                "affiliation": "Agentschap Innoveren en Ondernemen",
+                "count": 3
+            },
+            {
+                "affiliation": "Departement Omgeving",
+                "count": 3
+            },
+            {
+                "affiliation": "Interleuven",
+                "count": 1
+            },
+            {
+                "affiliation": "Aura",
+                "count": 1
+            },
+            {
+                "affiliation": "Provinciale Ontwikkelingsmaatschappij West-Vlaanderen",
+                "count": 1
+            },
+            {
+                "affiliation": "Provinciale Ontwikkelingsmaatschappij Vlaams-Brabant",
+                "count": 2
+            },
+            {
+                "affiliation": "Quares",
+                "count": 1
+            },
+            {
+                "affiliation": "Mathieu Gijbels",
+                "count": 1
+            },
+            {
+                "affiliation": "Intercommunale Leiedal",
+                "count": 1
+            },
+            {
+                "affiliation": "Futurn NV",
+                "count": 1
+            },
+            {
+                "affiliation": "PwC",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "standard": "Applicatieprofiel Besluit Subsidies",
+        "publicationDate": "TBD",
+        "status": "kandidaat-standaard",
+        "totalPeople": 6,
+        "contributors": [
+            {
+                "affiliation": "Informatie Vlaanderen",
+                "count": 1
+            },
+            {
+                "affiliation": "Agentschap Binnenlands Bestuur",
+                "count": 1
+            },
+            {
+                "affiliation": "Skryv",
+                "count": 1
+            },
+            {
+                "affiliation": "PwC",
+                "count": 1
+            },
+            {
+                "affiliation": "imec - UGent",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "standard": "Vocabularium Toestemming",
+        "publicationDate": "2019-02-07",
+        "status": "erkende-standaard",
+        "totalPeople": 13,
+        "contributors": [
+            {
+                "affiliation": "Informatie Vlaanderen",
+                "count": 7
+            },
+            {
+                "affiliation": "PwC",
+                "count": 3
+            },
+            {
+                "affiliation": "CSPI",
+                "count": 1
+            },
+            {
+                "affiliation": "BOSA",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "standard": "Vocabularium Perceel",
+        "publicationDate": "2020-06-18",
+        "status": "erkende-standaard",
+        "totalPeople": 33,
+        "contributors": [
+            {
+                "affiliation": "VLINTER (Interleuven)",
+                "count": 2
+            },
+            {
+                "affiliation": "Agentschap Informatie Vlaanderen",
+                "count": 11
+            },
+            {
+                "affiliation": "Federale Overheidsdiesnt Financiën",
+                "count": 2
+            },
+            {
+                "affiliation": "Departement Landbouw en Visserij",
+                "count": 2
+            },
+            {
+                "affiliation": "WVI",
+                "count": 1
+            },
+            {
+                "affiliation": "Vlaamse Landmaatschappij",
+                "count": 1
+            },
+            {
+                "affiliation": "Agentschap Innoveren en Ondernemen",
+                "count": 3
+            },
+            {
+                "affiliation": "Provinciale Ontwikkelingsmaatschappij Vlaams-Brabant",
+                "count": 2
+            },
+            {
+                "affiliation": "CIB",
+                "count": 1
+            },
+            {
+                "affiliation": "Stad Gent",
+                "count": 1
+            },
+            {
+                "affiliation": "SCIP-CSPI",
+                "count": 1
+            },
+            {
+                "affiliation": "Departement Omgeving",
+                "count": 2
+            },
+            {
+                "affiliation": "Openbare Vlaamse Afvalstoffenmaatschappij",
+                "count": 1
+            },
+            {
+                "affiliation": "Hogeschool Gent",
+                "count": 1
+            },
+            {
+                "affiliation": "PwC",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "standard": "Vocabularium Notificatie",
+        "publicationDate": "2019-02-07",
+        "status": "erkende-standaard",
+        "totalPeople": 13,
+        "contributors": [
+            {
+                "affiliation": "PwC",
+                "count": 3
+            },
+            {
+                "affiliation": "Informatie Vlaanderen",
+                "count": 6
+            },
+            {
+                "affiliation": "CSPI",
+                "count": 1
+            },
+            {
+                "affiliation": "AHOVOKS",
+                "count": 1
+            },
+            {
+                "affiliation": "BOSA",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "standard": "Applicatieprofiel Bedrijventerrein",
+        "publicationDate": "2020-06-18",
+        "status": "erkende-standaard",
+        "totalPeople": 27,
+        "contributors": [
+            {
+                "affiliation": "VLINTER (Interleuven)",
+                "count": 2
+            },
+            {
+                "affiliation": "Provinciale Ontwikkelingsmaatschappij Oost-Vlaanderen",
+                "count": 1
+            },
+            {
+                "affiliation": "WVI",
+                "count": 1
+            },
+            {
+                "affiliation": "Veneco",
+                "count": 1
+            },
+            {
+                "affiliation": "Agentschap Informatie Vlaanderen",
+                "count": 5
+            },
+            {
+                "affiliation": "Agentschap Innoveren en Ondernemen",
+                "count": 3
+            },
+            {
+                "affiliation": "Departement Omgeving",
+                "count": 3
+            },
+            {
+                "affiliation": "Interleuven",
+                "count": 1
+            },
+            {
+                "affiliation": "Aura",
+                "count": 1
+            },
+            {
+                "affiliation": "Provinciale Ontwikkelingsmaatschappij West-Vlaanderen",
+                "count": 1
+            },
+            {
+                "affiliation": "Provinciale Ontwikkelingsmaatschappij Vlaams-Brabant",
+                "count": 2
+            },
+            {
+                "affiliation": "Quares",
+                "count": 1
+            },
+            {
+                "affiliation": "Mathieu Gijbels",
+                "count": 1
+            },
+            {
+                "affiliation": "Intercommunale Leiedal",
+                "count": 1
+            },
+            {
+                "affiliation": "Futurn NV",
+                "count": 1
+            },
+            {
+                "affiliation": "PwC",
+                "count": 2
+            }
+        ]
+    },
+    {
+        "standard": "Vocabularium Melding",
+        "publicationDate": "2019-02-07",
+        "status": "erkende-standaard",
+        "totalPeople": 15,
+        "contributors": [
+            {
+                "affiliation": "Informatie Vlaanderen",
+                "count": 10
+            },
+            {
+                "affiliation": "Stad Antwerpen",
+                "count": 1
+            },
+            {
+                "affiliation": "PwC",
+                "count": 3
+            },
+            {
+                "affiliation": "BOSA",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "standard": "Applicatieprofiel Besluit Publicatie",
         "publicationDate": "2018-07-20",
         "status": "erkende-standaard",
         "totalPeople": 39,
@@ -1102,54 +1254,58 @@
         ]
     },
     {
-        "standard": "Vocabularium Melding",
-        "publicationDate": "2019-02-07",
-        "status": "erkende-standaard",
-        "totalPeople": 15,
+        "standard": "Applicatieprofiel Wegenregister",
+        "publicationDate": "TBD",
+        "status": "kandidaat-standaard",
+        "totalPeople": 24,
         "contributors": [
             {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 10
-            },
-            {
-                "affiliation": "Stad Antwerpen",
+                "affiliation": "Nevele",
                 "count": 1
             },
             {
-                "affiliation": "PwC",
-                "count": 3
+                "affiliation": "Agentschap Wegen en Verkeer",
+                "count": 4
             },
             {
-                "affiliation": "BOSA",
+                "affiliation": "Stad Gent",
                 "count": 1
-            }
-        ]
-    },
-    {
-        "standard": "Vocabularium Notificatie",
-        "publicationDate": "2019-02-07",
-        "status": "erkende-standaard",
-        "totalPeople": 13,
-        "contributors": [
-            {
-                "affiliation": "PwC",
-                "count": 3
             },
             {
                 "affiliation": "Informatie Vlaanderen",
-                "count": 6
+                "count": 7
             },
             {
-                "affiliation": "CSPI",
-                "count": 1
-            },
-            {
-                "affiliation": "AHOVOKS",
-                "count": 1
-            },
-            {
-                "affiliation": "BOSA",
+                "affiliation": "Mobiliteit en Openbare Werken",
                 "count": 2
+            },
+            {
+                "affiliation": "Zulte",
+                "count": 1
+            },
+            {
+                "affiliation": "Provincie Vlaams-Brabant",
+                "count": 1
+            },
+            {
+                "affiliation": "VVSG",
+                "count": 1
+            },
+            {
+                "affiliation": "Tenforce",
+                "count": 1
+            },
+            {
+                "affiliation": "Turnhout",
+                "count": 1
+            },
+            {
+                "affiliation": "Vlaams Verkeerscentrum",
+                "count": 1
+            },
+            {
+                "affiliation": "PwC",
+                "count": 3
             }
         ]
     },
@@ -1202,231 +1358,7 @@
         ]
     },
     {
-        "standard": "Vocabularium Percelen",
-        "publicationDate": "2020-04-23",
-        "status": "kandidaat-standaard",
-        "totalPeople": 33,
-        "contributors": [
-            {
-                "affiliation": "VLINTER (Interleuven)",
-                "count": 2
-            },
-            {
-                "affiliation": "Agentschap Informatie Vlaanderen",
-                "count": 11
-            },
-            {
-                "affiliation": "Federale Overheidsdiesnt Financiën",
-                "count": 2
-            },
-            {
-                "affiliation": "Departement Landbouw en Visserij",
-                "count": 2
-            },
-            {
-                "affiliation": "WVI",
-                "count": 1
-            },
-            {
-                "affiliation": "Vlaamse Landmaatschappij",
-                "count": 1
-            },
-            {
-                "affiliation": "Agentschap Innoveren en Ondernemen",
-                "count": 3
-            },
-            {
-                "affiliation": "Provinciale Ontwikkelingsmaatschappij Vlaams-Brabant",
-                "count": 2
-            },
-            {
-                "affiliation": "CIB",
-                "count": 1
-            },
-            {
-                "affiliation": "Stad Gent",
-                "count": 1
-            },
-            {
-                "affiliation": "SCIP-CSPI",
-                "count": 1
-            },
-            {
-                "affiliation": "Departement Omgeving",
-                "count": 2
-            },
-            {
-                "affiliation": "Openbare Vlaamse Afvalstoffenmaatschappij",
-                "count": 1
-            },
-            {
-                "affiliation": "Hogeschool Gent",
-                "count": 1
-            },
-            {
-                "affiliation": "PwC",
-                "count": 2
-            }
-        ]
-    },
-    {
-        "standard": "Vocabularium Transactie",
-        "publicationDate": "2019-02-07",
-        "status": "erkende-standaard",
-        "totalPeople": 16,
-        "contributors": [
-            {
-                "affiliation": "Stad Antwerpen",
-                "count": 1
-            },
-            {
-                "affiliation": "PwC",
-                "count": 3
-            },
-            {
-                "affiliation": "Cevi NV",
-                "count": 1
-            },
-            {
-                "affiliation": "Skryv",
-                "count": 1
-            },
-            {
-                "affiliation": "BOSA",
-                "count": 1
-            },
-            {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 9
-            }
-        ]
-    },
-    {
-        "standard": "Applicatieprofiel Bedrijventerreinen",
-        "publicationDate": "2020-04-23",
-        "status": "kandidaat-standaard",
-        "totalPeople": 27,
-        "contributors": [
-            {
-                "affiliation": "VLINTER (Interleuven)",
-                "count": 2
-            },
-            {
-                "affiliation": "Provinciale Ontwikkelingsmaatschappij Oost-Vlaanderen",
-                "count": 1
-            },
-            {
-                "affiliation": "WVI",
-                "count": 1
-            },
-            {
-                "affiliation": "Veneco",
-                "count": 1
-            },
-            {
-                "affiliation": "Agentschap Informatie Vlaanderen",
-                "count": 5
-            },
-            {
-                "affiliation": "Agentschap Innoveren en Ondernemen",
-                "count": 3
-            },
-            {
-                "affiliation": "Departement Omgeving",
-                "count": 3
-            },
-            {
-                "affiliation": "Interleuven",
-                "count": 1
-            },
-            {
-                "affiliation": "Aura",
-                "count": 1
-            },
-            {
-                "affiliation": "Provinciale Ontwikkelingsmaatschappij West-Vlaanderen",
-                "count": 1
-            },
-            {
-                "affiliation": "Provinciale Ontwikkelingsmaatschappij Vlaams-Brabant",
-                "count": 2
-            },
-            {
-                "affiliation": "Quares",
-                "count": 1
-            },
-            {
-                "affiliation": "Mathieu Gijbels",
-                "count": 1
-            },
-            {
-                "affiliation": "Intercommunale Leiedal",
-                "count": 1
-            },
-            {
-                "affiliation": "Futurn NV",
-                "count": 1
-            },
-            {
-                "affiliation": "PwC",
-                "count": 2
-            }
-        ]
-    },
-    {
-        "standard": "Applicatieprofiel Dossier",
-        "publicationDate": "TBD",
-        "status": "kandidaat-standaard",
-        "totalPeople": 16,
-        "contributors": [
-            {
-                "affiliation": "Provincie Oost-Vlaanderen",
-                "count": 1
-            },
-            {
-                "affiliation": "Skryv",
-                "count": 2
-            },
-            {
-                "affiliation": "Departement Kanselarij en Bestuur",
-                "count": 1
-            },
-            {
-                "affiliation": "Departement CJM",
-                "count": 1
-            },
-            {
-                "affiliation": "Cipal Schaubroeck",
-                "count": 1
-            },
-            {
-                "affiliation": "Onroerend Erfgoed",
-                "count": 1
-            },
-            {
-                "affiliation": "Stad Gent",
-                "count": 1
-            },
-            {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 2
-            },
-            {
-                "affiliation": "Het Facilitair Bedrijf",
-                "count": 2
-            },
-            {
-                "affiliation": "Departement Omgeving",
-                "count": 1
-            },
-            {
-                "affiliation": "PwC",
-                "count": 3
-            }
-        ]
-    },
-    {
-        "standard": "Applicatieprofiel Besluit Publicatie",
+        "standard": "Vocabularium Mandaat",
         "publicationDate": "2018-07-20",
         "status": "erkende-standaard",
         "totalPeople": 39,
@@ -1634,6 +1566,122 @@
         ]
     },
     {
+        "standard": "Applicatieprofiel Dienstencataloog",
+        "publicationDate": "TBD",
+        "status": "kandidaat-standaard",
+        "totalPeople": 27,
+        "contributors": [
+            {
+                "affiliation": "LNE",
+                "count": 1
+            },
+            {
+                "affiliation": "ABB",
+                "count": 2
+            },
+            {
+                "affiliation": "Digipolis Gent",
+                "count": 2
+            },
+            {
+                "affiliation": "Informatie Vlaanderen",
+                "count": 14
+            },
+            {
+                "affiliation": "VLM",
+                "count": 1
+            },
+            {
+                "affiliation": "ANB",
+                "count": 1
+            },
+            {
+                "affiliation": "imec - UGent",
+                "count": 3
+            },
+            {
+                "affiliation": "Stad Gent",
+                "count": 1
+            },
+            {
+                "affiliation": "Departement Omgeving",
+                "count": 1
+            },
+            {
+                "affiliation": "Cipal Schaubroeck",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "standard": "Applicatieprofiel Perceel",
+        "publicationDate": "2020-06-18",
+        "status": "erkende-standaard",
+        "totalPeople": 33,
+        "contributors": [
+            {
+                "affiliation": "VLINTER (Interleuven)",
+                "count": 2
+            },
+            {
+                "affiliation": "Agentschap Informatie Vlaanderen",
+                "count": 11
+            },
+            {
+                "affiliation": "Federale Overheidsdiesnt Financiën",
+                "count": 2
+            },
+            {
+                "affiliation": "Departement Landbouw en Visserij",
+                "count": 2
+            },
+            {
+                "affiliation": "WVI",
+                "count": 1
+            },
+            {
+                "affiliation": "Vlaamse Landmaatschappij",
+                "count": 1
+            },
+            {
+                "affiliation": "Agentschap Innoveren en Ondernemen",
+                "count": 3
+            },
+            {
+                "affiliation": "Provinciale Ontwikkelingsmaatschappij Vlaams-Brabant",
+                "count": 2
+            },
+            {
+                "affiliation": "CIB",
+                "count": 1
+            },
+            {
+                "affiliation": "Stad Gent",
+                "count": 1
+            },
+            {
+                "affiliation": "SCIP-CSPI",
+                "count": 1
+            },
+            {
+                "affiliation": "Departement Omgeving",
+                "count": 2
+            },
+            {
+                "affiliation": "Openbare Vlaamse Afvalstoffenmaatschappij",
+                "count": 1
+            },
+            {
+                "affiliation": "Hogeschool Gent",
+                "count": 1
+            },
+            {
+                "affiliation": "PwC",
+                "count": 2
+            }
+        ]
+    },
+    {
         "standard": "Vocabularium Weg",
         "publicationDate": "2018-11-27",
         "status": "erkende-standaard",
@@ -1794,93 +1842,33 @@
         ]
     },
     {
-        "standard": "Applicatieprofiel Dienstencataloog",
+        "standard": "Applicatieprofiel Dossier",
         "publicationDate": "TBD",
         "status": "kandidaat-standaard",
-        "totalPeople": 27,
+        "totalPeople": 16,
         "contributors": [
             {
-                "affiliation": "LNE",
+                "affiliation": "Provincie Oost-Vlaanderen",
                 "count": 1
             },
             {
-                "affiliation": "ABB",
+                "affiliation": "Skryv",
                 "count": 2
             },
             {
-                "affiliation": "Digipolis Gent",
-                "count": 2
-            },
-            {
-                "affiliation": "Informatie Vlaanderen",
-                "count": 14
-            },
-            {
-                "affiliation": "VLM",
+                "affiliation": "Departement Kanselarij en Bestuur",
                 "count": 1
             },
             {
-                "affiliation": "ANB",
-                "count": 1
-            },
-            {
-                "affiliation": "imec - UGent",
-                "count": 3
-            },
-            {
-                "affiliation": "Stad Gent",
-                "count": 1
-            },
-            {
-                "affiliation": "Departement Omgeving",
+                "affiliation": "Departement CJM",
                 "count": 1
             },
             {
                 "affiliation": "Cipal Schaubroeck",
                 "count": 1
-            }
-        ]
-    },
-    {
-        "standard": "Applicatieprofiel Percelen",
-        "publicationDate": "2020-04-23",
-        "status": "kandidaat-standaard",
-        "totalPeople": 33,
-        "contributors": [
-            {
-                "affiliation": "VLINTER (Interleuven)",
-                "count": 2
             },
             {
-                "affiliation": "Agentschap Informatie Vlaanderen",
-                "count": 11
-            },
-            {
-                "affiliation": "Federale Overheidsdiesnt Financiën",
-                "count": 2
-            },
-            {
-                "affiliation": "Departement Landbouw en Visserij",
-                "count": 2
-            },
-            {
-                "affiliation": "WVI",
-                "count": 1
-            },
-            {
-                "affiliation": "Vlaamse Landmaatschappij",
-                "count": 1
-            },
-            {
-                "affiliation": "Agentschap Innoveren en Ondernemen",
-                "count": 3
-            },
-            {
-                "affiliation": "Provinciale Ontwikkelingsmaatschappij Vlaams-Brabant",
-                "count": 2
-            },
-            {
-                "affiliation": "CIB",
+                "affiliation": "Onroerend Erfgoed",
                 "count": 1
             },
             {
@@ -1888,29 +1876,25 @@
                 "count": 1
             },
             {
-                "affiliation": "SCIP-CSPI",
-                "count": 1
-            },
-            {
-                "affiliation": "Departement Omgeving",
+                "affiliation": "Informatie Vlaanderen",
                 "count": 2
             },
             {
-                "affiliation": "Openbare Vlaamse Afvalstoffenmaatschappij",
-                "count": 1
+                "affiliation": "Het Facilitair Bedrijf",
+                "count": 2
             },
             {
-                "affiliation": "Hogeschool Gent",
+                "affiliation": "Departement Omgeving",
                 "count": 1
             },
             {
                 "affiliation": "PwC",
-                "count": 2
+                "count": 3
             }
         ]
     },
     {
-        "standard": "Applicatieprofiel Mobiliteit Trips en Aanbod",
+        "standard": "Applicatieprofiel Mobiliteit: Trips & Aanbod",
         "publicationDate": "2020-04-23",
         "status": "erkende-standaard",
         "totalPeople": 33,
@@ -2177,6 +2161,78 @@
             },
             {
                 "affiliation": "UGent - imec",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "standard": "Applicatieprofiel Persoon basis",
+        "publicationDate": "TBD",
+        "status": "kandidaat-standaard",
+        "totalPeople": 29,
+        "contributors": [
+            {
+                "affiliation": "ABB",
+                "count": 2
+            },
+            {
+                "affiliation": "Digipolis Antwerpen",
+                "count": 1
+            },
+            {
+                "affiliation": "LNE",
+                "count": 1
+            },
+            {
+                "affiliation": "VLM",
+                "count": 1
+            },
+            {
+                "affiliation": "Informatie Vlaanderen",
+                "count": 8
+            },
+            {
+                "affiliation": "Cipal Schaubroeck",
+                "count": 3
+            },
+            {
+                "affiliation": "Soprasteria/IV",
+                "count": 1
+            },
+            {
+                "affiliation": "Geosolutions",
+                "count": 1
+            },
+            {
+                "affiliation": "DG Digitale Transformatie",
+                "count": 1
+            },
+            {
+                "affiliation": "imec - UGent",
+                "count": 3
+            },
+            {
+                "affiliation": "Kruispuntbank Sociale Zekerheid",
+                "count": 1
+            },
+            {
+                "affiliation": "Digipolis Gent",
+                "count": 1
+            },
+            {
+                "affiliation": "HPE",
+                "count": 2
+            },
+            {
+                "affiliation": "AgO",
+                "count": 1
+            },
+            {
+                "affiliation": "FOD Binnenlandse Zaken - Rijksregister",
+                "count": 1
+            },
+            {
+                "affiliation": "Departement Omgeving",
                 "count": 1
             }
         ]
