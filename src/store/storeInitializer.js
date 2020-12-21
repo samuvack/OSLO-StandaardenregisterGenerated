@@ -44,7 +44,7 @@ async function processPages(pages, status) {
         for (let page of pages.keys()) {
             //pages start with ./
             const filePath = '/standaarden/' + status + page.substring(1, page.length);
-            const info = await processPage(filePath);
+            const info = await processPage(pages(page).default);
             info.path = page.substring(2, page.length);
             pageInformation.push(info);
         }
@@ -53,10 +53,9 @@ async function processPages(pages, status) {
     }
 }
 
-function processPage(filePath) {
-    return fetch(filePath).then(res => res.text()).then(html => {
+function processPage(data) {
         const parser = new DOMParser();
-        const doc = parser.parseFromString(html, 'text/html');
+        const doc = parser.parseFromString(data, 'text/html');
 
 
         let information = {};
@@ -85,5 +84,4 @@ function processPage(filePath) {
             }
         }
         return information;
-    });
 }
