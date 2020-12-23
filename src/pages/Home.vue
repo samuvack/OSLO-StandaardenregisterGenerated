@@ -17,7 +17,7 @@
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#erkendeStandaarden">
                                     <div class="vl-infotext__value" data-vl-infotext-value>
-                                        {{erkendeStandaarden.length}}
+                                        {{ erkendeStandaarden.length }}
                                     </div>
                                     <div class="vl-infotext__text">Erkende standaarden</div>
                                 </a>
@@ -29,7 +29,7 @@
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#kandidaatStandaarden">
                                     <div class="vl-infotext__value" data-vl-infotext-value>
-                                        {{kandidaatStandaarden.length}}
+                                        {{ kandidaatStandaarden.length }}
                                     </div>
                                     <div class="vl-infotext__text">Kandidaat standaarden</div>
                                 </a>
@@ -39,9 +39,21 @@
                     <vl-column width="3">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
+                                <a href="#kandidaatStandaarden">
+                                    <div class="vl-infotext__value" data-vl-infotext-value>
+                                        {{ geregistreerdeStandaarden.length }}
+                                    </div>
+                                    <div class="vl-infotext__text">Geregistreerde standaarden</div>
+                                </a>
+                            </div>
+                        </div>
+                    </vl-column>
+                    <vl-column width="3">
+                        <div class="vl-infotext-wrapper">
+                            <div class="vl-infotext vl-infotext--badge">
                                 <a href="#standaardenInOntwikkeling">
                                     <div class="vl-infotext__value" data-vl-infotext-value>
-                                        {{standaardInOntwikkeling.length}}
+                                        {{ standaardInOntwikkeling.length }}
                                     </div>
                                     <div class="vl-infotext__text">Standaarden in ontwikkeling</div>
                                 </a>
@@ -55,7 +67,7 @@
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#">
                                     <div class="vl-infotext__value" data-vl-infotext-value>
-                                        {{uniqueContributors}}
+                                        {{ uniqueContributors }}
                                     </div>
                                     <div class="vl-infotext__text">mensen hielpen mee</div>
                                 </a>
@@ -67,7 +79,7 @@
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#">
                                     <div class="vl-infotext__value" data-vl-infotext-value>
-                                        {{uniqueAffiliations}}
+                                        {{ uniqueAffiliations }}
                                     </div>
                                     <div class="vl-infotext__text">organisaties waren vertegenwoordigd</div>
                                 </a>
@@ -108,9 +120,12 @@
                         goedgekeurd door de Werkgroep Datastandaarden van het Stuurorgaan Vlaams Informatie- en
                         ICT-beleid als standaard binnen de Vlaamse overheid.
                     </li>
-                    <li><strong>Kandidaat-standaarden</strong>: een stabiele specificatie voor de standaard werd
+                    <li><strong>Kandidaat standaarden</strong>: een stabiele specificatie voor de standaard werd
                         ontwikkeld, aan de hand van een publieke reviewperiode wordt implementatie-ervaring opgedaan en
                         feedback van buiten de thematische werkgroep verzameld.
+                    </li>
+                    <li><strong>Geregistreerde standaarden</strong>: werden aangemeld bij de Werkgroep Datastandaarden,
+                        maar kunnen niet erkend worden omdat de erkenningsprocedure nog niet goedgekeurd is.
                     </li>
                     <li><strong>Standaarden in ontwikkeling</strong>: werden reeds aangemeld bij de Werkgroep
                         Datastandaarden en worden uitgewerkt door een thematische werkgroep aan de hand van publieke
@@ -174,12 +189,30 @@
                             </vl-checkbox>
                         </vl-column>
                         <vl-column width="6">
-                            <vl-checkbox id="switchVocAp"
-                                         name="switchVocAp"
-                                         v-model="filterVocAp"
-                                         v-on:input="onSwitch('vocap')"
+                            <vl-checkbox id="switchVoc"
+                                         name="switchVoc"
+                                         v-model="filterVoc"
+                                         v-on:input="onSwitch('voc')"
                                          mod-switch>
-                                Vocabularium & Applicatieprofielen
+                                Vocabularium
+                            </vl-checkbox>
+                        </vl-column>
+                        <vl-column width="6">
+                            <vl-checkbox id="switchAp"
+                                         name="switchAp"
+                                         v-model="filterAp"
+                                         v-on:input="onSwitch('ap')"
+                                         mod-switch>
+                                Applicatieprofielen
+                            </vl-checkbox>
+                        </vl-column>
+                        <vl-column width="6">
+                            <vl-checkbox id="switchImpl"
+                                         name="switchImpl"
+                                         v-model="filterImpl"
+                                         v-on:input="onSwitch('impl')"
+                                         mod-switch>
+                                ImplementatieModel
                             </vl-checkbox>
                         </vl-column>
                         <vl-column width="6">
@@ -221,14 +254,14 @@
                         </thead>
                         <tbody>
                         <tr v-for="object in erkendeStandaarden">
-                            <td><a :href="'/standaarden/erkende-standaard/' + object.path">{{object.title}}</a></td>
+                            <td><a :href="'/standaarden/erkende-standaard/' + object.path">{{ object.title }}</a></td>
                             <td v-if="object.about.indexOf('&amp;') >= 0">
-                                {{object.about.replace('amp;', '')}}
+                                {{ object.about.replace('amp;', '') }}
                             </td>
-                            <td v-else>{{object.about}}</td>
-                            <td><a :href=object.organisationID>{{object.organisation}}</a></td>
-                            <td>{{object.type}}</td>
-                            <td>{{object.datePublished}}</td>
+                            <td v-else>{{ object.about }}</td>
+                            <td><a :href=object.organisationID>{{ object.organisation }}</a></td>
+                            <td>{{ object.type }}</td>
+                            <td>{{ object.datePublished }}</td>
                         </tr>
                         </tbody>
                     </vl-data-table>
@@ -255,20 +288,55 @@
                         </thead>
                         <tbody>
                         <tr v-for="object in kandidaatStandaarden">
-                            <td><a :href="'/standaarden/kandidaat-standaard/' + object.path">{{object.title}}</a></td>
+                            <td><a :href="'/standaarden/kandidaat-standaard/' + object.path">{{ object.title }}</a></td>
                             <td v-if="object.about.indexOf('&amp;') >= 0">
-                                {{object.about.replace('amp;', '')}}
+                                {{ object.about.replace('amp;', '') }}
                             </td>
-                            <td v-else>{{object.about}}</td>
-                            <td><a :href=object.organisationID>{{object.organisation}}</a></td>
-                            <td>{{object.type}}</td>
-                            <td>{{object.datePublished}}</td>
+                            <td v-else>{{ object.about }}</td>
+                            <td><a :href=object.organisationID>{{ object.organisation }}</a></td>
+                            <td>{{ object.type }}</td>
+                            <td>{{ object.datePublished }}</td>
                         </tr>
                         </tbody>
                     </vl-data-table>
                 </div>
                 <div v-else>
                     <vl-title tag-name="h5">Er zijn op dit moment geen kandidaat standaarden</vl-title>
+                </div>
+            </vl-infoblock>
+        </vl-layout>
+
+
+        <vl-layout>
+            <vl-infoblock mod-type="publications"
+                          title="Geregistreerde standaarden" id="geregistreedeStandaarden">
+                <div v-if="this.geregistreerdeStandaarden.length" class="vl-u-table-overflow">
+                    <vl-data-table id="geregistreerdeStandaardenTable" mod-hover>
+                        <thead>
+                        <tr>
+                            <th>Titel</th>
+                            <th>Categorie</th>
+                            <th>Verantwoordelijke organisatie</th>
+                            <th>Type toepassing</th>
+                            <th>Publicatiedatum</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr v-for="object in geregistreerdeStandaarden">
+                            <td><a :href="'/standaarden/geregistreerde-standaard/' + object.path">{{ object.title }}</a></td>
+                            <td v-if="object.about.indexOf('&amp;') >= 0">
+                                {{ object.about.replace('amp;', '') }}
+                            </td>
+                            <td v-else>{{ object.about }}</td>
+                            <td><a :href=object.organisationID>{{ object.organisation }}</a></td>
+                            <td>{{ object.type }}</td>
+                            <td>{{ object.datePublished }}</td>
+                        </tr>
+                        </tbody>
+                    </vl-data-table>
+                </div>
+                <div v-else>
+                    <vl-title tag-name="h5">Er zijn op dit moment geen geregistreerde standaarden</vl-title>
                 </div>
             </vl-infoblock>
         </vl-layout>
@@ -289,14 +357,14 @@
                         </thead>
                         <tbody>
                         <tr v-for="object in standaardInOntwikkeling">
-                            <td><a :href="'/standaarden/standaard-in-ontwikkeling/' + object.path">{{object.title}}</a></td>
+                            <td><a :href="'/standaarden/standaard-in-ontwikkeling/' + object.path">{{ object.title }}</a></td>
                             <td v-if="object.about.indexOf('&amp;') >= 0">
-                                {{object.about.replace('amp;', '')}}
+                                {{ object.about.replace('amp;', '') }}
                             </td>
-                            <td v-else>{{object.about}}</td>
-                            <td><a :href=object.organisationID>{{object.organisation}}</a></td>
-                            <td>{{object.type}}</td>
-                            <td>{{object.datePublished}}</td>
+                            <td v-else>{{ object.about }}</td>
+                            <td><a :href=object.organisationID>{{ object.organisation }}</a></td>
+                            <td>{{ object.type }}</td>
+                            <td>{{ object.datePublished }}</td>
                         </tr>
                         </tbody>
                     </vl-data-table>
@@ -310,162 +378,191 @@
 </template>
 
 <script>
-    export default {
-        name: 'Home',
-        data() {
-            return {
-                erkendeStandaarden: this.$store.state.acknowledgedStandards,
-                kandidaatStandaarden: this.$store.state.candidateStandards,
-                standaardInOntwikkeling: this.$store.state.standardsInDevelopment,
-                uniqueAffiliations: this.$store.state.uniqueAffiliations,
-                uniqueContributors: this.$store.state.uniqueContributors,
-                keywords: "",
-                filterAll: true,
-                filterVocAp: false,
-                filterTechnical: false,
-                filterOrgIoP: false,
-                filters: []
-            }
-        },
-        methods: {
-            filterWithKeywords() {
-                const keys = this.keywords.split(' ');
-                if (keys.length) {
-                    // Set all switch buttons to false
-                    this.turnSwitchesOff();
-
-                    // Filter all tables
-                    this.filterTableRows(document.getElementById('erkendeStandaardenTable'), keys);
-                    this.filterTableRows(document.getElementById('kandidaatStandaardenTable'), keys);
-                    this.filterTableRows(document.getElementById('ontwikkelingTable'), keys);
-                }
-            },
-            filterTableRows(table, keys) {
-                if (table) {
-                    const rows = table.getElementsByTagName('tr');
-
-                    for (let row of rows) {
-                        const td = row.getElementsByTagName('td')[0];
-                        if (td) {
-                            const title = td.getElementsByTagName('a')[0].innerHTML;
-                            let display = true
-                            for (let key of keys) {
-                                if (title.toLowerCase().indexOf(key.toLowerCase()) < 0) {
-                                    display = false;
-                                }
-                            }
-
-                            row.style.display = display ? "" : "none";
-                        }
-                    }
-                }
-            },
-            applySwitchFilters(filters) {
-                this.filterRowsWithFilter(document.getElementById("erkendeStandaardenTable"), filters);
-                this.filterRowsWithFilter(document.getElementById("kandidaatStandaardenTable"), filters);
-                this.filterRowsWithFilter(document.getElementById("ontwikkelingTable"), filters);
-
-            },
-            filterRowsWithFilter(table, filters) {
-                if (table) {
-                    const rows = table.getElementsByTagName('tr');
-
-                    for (let row of rows) {
-                        const td = row.getElementsByTagName('td')[1];
-                        if (td) {
-                            const category = td.innerHTML;
-                            let display = false;
-                            for (let filter of filters) {
-                                if (category.toLowerCase().indexOf(filter.toLowerCase()) >= 0) {
-                                    display = true;
-                                }
-                            }
-
-                            row.style.display = display ? "" : "none";
-                        }
-                    }
-                }
-            },
-            reset() {
-                this.keywords = '';
-                this.filterAll = true;
-                this.displayAllRows(document.getElementById("erkendeStandaardenTable"));
-                this.displayAllRows(document.getElementById("kandidaatStandaardenTable"));
-                this.displayAllRows(document.getElementById("ontwikkelingTable"));
-            },
-            displayAllRows(table) {
-                if (table) {
-                    const rows = table.getElementsByTagName('tr');
-                    for (let row of rows) {
-                        row.style.display = "";
-                    }
-                }
-            },
-            turnSwitchesOff() {
-                this.filterAll = false;
-                this.filterVocAp = false;
-                this.filterTechnical = false;
-                this.filterOrgIoP = false;
-            },
-            onSwitch: function (switchName) {
-                // From the moment a checkbox was clicked, was erase the input values
-                this.keywords = '';
-
-                // Switch case to determine true/false value of the buttons
-                switch (switchName) {
-                    case 'all':
-                        // All button was turned on
-                        if (this.filterAll) {
-                            this.filterVocAp = false;
-                            this.filterTechnical = false;
-                            this.filterOrgIoP = false;
-                            this.reset();
-                        }
-                        break;
-                    case 'vocap':
-                        if (this.filterVocAp) {
-                            this.filterAll = false;
-                        }
-                        break;
-                    case 'technical':
-                        if (this.filterTechnical) {
-                            this.filterAll = false;
-                        }
-                        break;
-                    case 'organizational':
-                        if (this.filterOrgIoP) {
-                            this.filterAll = false;
-                        }
-                        break;
-                }
-
-                // Determine what filters are enabled
-                let filters = [];
-                if (this.filterVocAp) {
-                    filters.push('Vocabularium &amp; applicatieprofielen')
-                }
-
-                if (this.filterTechnical) {
-                    filters.push('Technische standaard')
-                }
-
-                if (this.filterOrgIoP) {
-                    filters.push('Organisatorische interoperabiliteit');
-                }
-
-                if (filters.length) {
-                    this.applySwitchFilters(filters);
-                }
-            }
-        },
-        watch: {
-            /*keywords: function () {
-                if (this.keywords === '') {
-                    this.reset();
-                }
-            }*/
+export default {
+    name: 'Home',
+    data() {
+        return {
+            erkendeStandaarden: this.$store.state.acknowledgedStandards,
+            kandidaatStandaarden: this.$store.state.candidateStandards,
+            geregistreerdeStandaarden: this.$store.state.registeredStandards,
+            standaardInOntwikkeling: this.$store.state.standardsInDevelopment,
+            uniqueAffiliations: this.$store.state.uniqueAffiliations,
+            uniqueContributors: this.$store.state.uniqueContributors,
+            keywords: "",
+            filterAll: true,
+            filterVoc: false,
+            filterAp: false,
+            filterImpl: false,
+            filterTechnical: false,
+            filterOrgIoP: false,
+            filters: []
         }
+    },
+    methods: {
+        filterWithKeywords() {
+            const keys = this.keywords.split(' ');
+            if (keys.length) {
+                // Set all switch buttons to false
+                this.turnSwitchesOff();
+
+                // Filter all tables
+                this.filterTableRows(document.getElementById('erkendeStandaardenTable'), keys);
+                this.filterTableRows(document.getElementById('kandidaatStandaardenTable'), keys);
+                this.filterTableRows(document.getElementById('geregistreerdeStandaardenTable'), keys);
+                this.filterTableRows(document.getElementById('ontwikkelingTable'), keys);
+            }
+        },
+        filterTableRows(table, keys) {
+            if (table) {
+                const rows = table.getElementsByTagName('tr');
+
+                for (let row of rows) {
+                    const td = row.getElementsByTagName('td')[0];
+                    if (td) {
+                        const title = td.getElementsByTagName('a')[0].innerHTML;
+                        let display = true
+                        for (let key of keys) {
+                            if (title.toLowerCase().indexOf(key.toLowerCase()) < 0) {
+                                display = false;
+                            }
+                        }
+
+                        row.style.display = display ? "" : "none";
+                    }
+                }
+            }
+        },
+        applySwitchFilters(filters) {
+            this.filterRowsWithFilter(document.getElementById("erkendeStandaardenTable"), filters);
+            this.filterRowsWithFilter(document.getElementById("kandidaatStandaardenTable"), filters);
+            this.filterRowsWithFilter(document.getElementById('geregistreerdeStandaardenTable'), filters);
+            this.filterRowsWithFilter(document.getElementById("ontwikkelingTable"), filters);
+
+        },
+        filterRowsWithFilter(table, filters) {
+            if (table) {
+                const rows = table.getElementsByTagName('tr');
+
+                for (let row of rows) {
+                    const td = row.getElementsByTagName('td')[1];
+                    if (td) {
+                        const category = td.innerHTML;
+                        let display = false;
+                        for (let filter of filters) {
+                            if (category.toLowerCase().indexOf(filter.toLowerCase()) >= 0) {
+                                display = true;
+                            }
+                        }
+
+                        row.style.display = display ? "" : "none";
+                    }
+                }
+            }
+        },
+        reset() {
+            this.keywords = '';
+            this.filterAll = true;
+            this.displayAllRows(document.getElementById("erkendeStandaardenTable"));
+            this.displayAllRows(document.getElementById("kandidaatStandaardenTable"));
+            this.displayAllRows(document.getElementById("geregistreerdeStandaardenTable"));
+            this.displayAllRows(document.getElementById("ontwikkelingTable"));
+        },
+        displayAllRows(table) {
+            if (table) {
+                const rows = table.getElementsByTagName('tr');
+                for (let row of rows) {
+                    row.style.display = "";
+                }
+            }
+        },
+        turnSwitchesOff() {
+            this.filterAll = false;
+            this.filterVoc = false;
+            this.filterAp = false;
+            this.filterImpl = false;
+            this.filterTechnical = false;
+            this.filterOrgIoP = false;
+        },
+        onSwitch: function (switchName) {
+            // From the moment a checkbox was clicked, was erase the input values
+            this.keywords = '';
+
+            // Switch case to determine true/false value of the buttons
+            switch (switchName) {
+                case 'all':
+                    // All button was turned on
+                    if (this.filterAll) {
+                        this.filterVoc = false;
+                        this.filterAp = false;
+                        this.filterImpl = false;
+                        this.filterTechnical = false;
+                        this.filterOrgIoP = false;
+                        this.reset();
+                    }
+                    break;
+                case 'voc':
+                    if (this.filterVoc) {
+                        this.filterAll = false;
+                    }
+                    break;
+                case 'ap':
+                    if (this.filterAp) {
+                        this.filterAll = false;
+                    }
+                    break;
+                case 'impl':
+                    if (this.filterImpl) {
+                        this.filterAll = false;
+                    }
+                    break;
+                case 'technical':
+                    if (this.filterTechnical) {
+                        this.filterAll = false;
+                    }
+                    break;
+                case 'organizational':
+                    if (this.filterOrgIoP) {
+                        this.filterAll = false;
+                    }
+                    break;
+            }
+
+            // Determine what filters are enabled
+            let filters = [];
+
+            if (this.filterVoc) {
+                filters.push('Vocabularium')
+            }
+
+            if (this.filterAp) {
+                filters.push('Applicatieprofiel')
+            }
+
+            if (this.filterImpl) {
+                filters.push('Implementatiemodel')
+            }
+
+            if (this.filterTechnical) {
+                filters.push('Technische standaard')
+            }
+
+            if (this.filterOrgIoP) {
+                filters.push('Organisatorische interoperabiliteit');
+            }
+
+            if (filters.length) {
+                this.applySwitchFilters(filters);
+            }
+        }
+    },
+    watch: {
+        /*keywords: function () {
+            if (this.keywords === '') {
+                this.reset();
+            }
+        }*/
     }
+}
 </script>
 
 <style lang="scss">
