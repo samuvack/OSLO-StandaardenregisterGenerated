@@ -12,7 +12,7 @@
         <vl-region>
             <vl-layout>
                 <vl-grid class="vl-grid--align-center" mod-stacked>
-                    <vl-column width="3">
+                    <vl-column class="vl-gr" width="2">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#erkendeStandaarden">
@@ -24,7 +24,7 @@
                             </div>
                         </div>
                     </vl-column>
-                    <vl-column width="3">
+                    <vl-column width="2">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#kandidaatStandaarden">
@@ -36,7 +36,7 @@
                             </div>
                         </div>
                     </vl-column>
-                    <vl-column width="3">
+                    <vl-column width="2">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#kandidaatStandaarden">
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </vl-column>
-                    <vl-column width="3">
+                    <vl-column width="2">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#standaardenInOntwikkeling">
@@ -74,9 +74,10 @@
                             </div>
                         </div>
                     </vl-column>
+                    <vl-column width="3"></vl-column>
                     <vl-column width="3">
                         <div class="vl-infotext-wrapper">
-                            <div class="vl-infotext vl-infotext--badge">
+                            <div class=" vl-infotext--badge">
                                 <a href="#">
                                     <div class="vl-infotext__value" data-vl-infotext-value>
                                         {{ uniqueAffiliations }}
@@ -179,7 +180,7 @@
                 </vl-column>
                 <vl-column width="10">
                     <vl-grid mod-stacked>
-                        <vl-column width="6">
+                        <vl-column width="4">
                             <vl-checkbox id="switchAll"
                                          name="switchAll"
                                          v-model="filterAll"
@@ -188,34 +189,7 @@
                                 Alle standaarden
                             </vl-checkbox>
                         </vl-column>
-                        <vl-column width="6">
-                            <vl-checkbox id="switchVoc"
-                                         name="switchVoc"
-                                         v-model="filterVoc"
-                                         v-on:input="onSwitch('voc')"
-                                         mod-switch>
-                                Vocabularium
-                            </vl-checkbox>
-                        </vl-column>
-                        <vl-column width="6">
-                            <vl-checkbox id="switchAp"
-                                         name="switchAp"
-                                         v-model="filterAp"
-                                         v-on:input="onSwitch('ap')"
-                                         mod-switch>
-                                Applicatieprofielen
-                            </vl-checkbox>
-                        </vl-column>
-                        <vl-column width="6">
-                            <vl-checkbox id="switchImpl"
-                                         name="switchImpl"
-                                         v-model="filterImpl"
-                                         v-on:input="onSwitch('impl')"
-                                         mod-switch>
-                                ImplementatieModel
-                            </vl-checkbox>
-                        </vl-column>
-                        <vl-column width="6">
+                        <vl-column width="4">
                             <vl-checkbox id="switchTechnical"
                                          name="switchTechnical"
                                          v-model="filterTechnical"
@@ -224,12 +198,39 @@
                                 Technische standaarden
                             </vl-checkbox>
                         </vl-column>
-                        <vl-column width="6">
+                        <vl-column width="4">
                             <vl-checkbox id="switchIoP"
                                          name="switchIoP"
                                          v-model="filterOrgIoP"
                                          v-on:input="onSwitch('organizational')" mod-switch>
                                 Standaarden voor organisatorische interoperabiliteit
+                            </vl-checkbox>
+                        </vl-column>
+                        <vl-column width="4">
+                            <vl-checkbox id="switchVoc"
+                                         name="switchVoc"
+                                         v-model="filterVoc"
+                                         v-on:input="onSwitch('voc')"
+                                         mod-switch>
+                                Vocabularium
+                            </vl-checkbox>
+                        </vl-column>
+                        <vl-column width="4">
+                            <vl-checkbox id="switchAp"
+                                         name="switchAp"
+                                         v-model="filterAp"
+                                         v-on:input="onSwitch('ap')"
+                                         mod-switch>
+                                Applicatieprofielen
+                            </vl-checkbox>
+                        </vl-column>
+                        <vl-column width="4">
+                            <vl-checkbox id="switchImpl"
+                                         name="switchImpl"
+                                         v-model="filterImpl"
+                                         v-on:input="onSwitch('impl')"
+                                         mod-switch>
+                                ImplementatieModel
                             </vl-checkbox>
                         </vl-column>
                     </vl-grid>
