@@ -12,7 +12,7 @@
         <vl-region>
             <vl-layout>
                 <vl-grid class="vl-grid--align-center" mod-stacked>
-                    <vl-column class="vl-gr" width="2">
+                    <vl-column width="3">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#erkendeStandaarden">
@@ -24,7 +24,7 @@
                             </div>
                         </div>
                     </vl-column>
-                    <vl-column width="2">
+                    <vl-column width="3">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#kandidaatStandaarden">
@@ -36,7 +36,7 @@
                             </div>
                         </div>
                     </vl-column>
-                    <vl-column width="2">
+                    <vl-column width="3">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#kandidaatStandaarden">
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </vl-column>
-                    <vl-column width="2">
+                    <vl-column width="3">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#standaardenInOntwikkeling">
