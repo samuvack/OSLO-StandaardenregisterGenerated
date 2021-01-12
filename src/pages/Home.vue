@@ -77,7 +77,7 @@
                     <vl-column width="3"></vl-column>
                     <vl-column width="3">
                         <div class="vl-infotext-wrapper">
-                            <div class=" vl-infotext--badge">
+                            <div class="vl-infotext vl-infotext--badge">
                                 <a href="#">
                                     <div class="vl-infotext__value" data-vl-infotext-value>
                                         {{ uniqueAffiliations }}
