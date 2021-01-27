@@ -16,6 +16,10 @@ export default new Vuex.Store({
         statistics: [],
         uniqueContributors: 0,
         uniqueAffiliations: 0,
+        numberOfTerms: 0,
+        numberOfStandardsConfigured: 0,
+        reportErrors: 0,
+        reportsMissing: 0,
         storeWasInitialized: false,
         standardsPerYear: {}
     },
@@ -45,19 +49,31 @@ export default new Vuex.Store({
         setStandardsInDevelopmentError(state, value) {
             state.standardsInDevelopmentError = value;
         },
-        setUniqueContributors(state, value){
+        setUniqueContributors(state, value) {
             state.uniqueContributors = value;
         },
-        setUniqueAffiliations(state, value){
+        setUniqueAffiliations(state, value) {
             state.uniqueAffiliations = value;
         },
-        setStatistics(state, value){
+        setNumberOfTerms(state, value) {
+            state.numberOfTerms = value;
+        },
+        setNumberOfStandardsConfigured(state, value) {
+            state.numberOfStandardsConfigured = value;
+        },
+        setReportErrors(state, value) {
+            state.reportErrors = value;
+        },
+        setReportMissing(state, value) {
+            state.reportsMissing = value;
+        },
+        setStatistics(state, value) {
             state.statistics = value;
         },
-        setStoreInitialized(state, value){
+        setStoreInitialized(state, value) {
             state.storeWasInitialized = value;
         },
-        setStatisticsPerYear(state, value){
+        setStatisticsPerYear(state, value) {
             state.standardsPerYear = value;
         }
     },
@@ -84,45 +100,49 @@ export default new Vuex.Store({
                 }
             }
         },
-        loadStatistics({commit}){
+        loadStatistics({commit}) {
             try {
                 const stats = require('../../public/data/statistics.json'); // TODO: change this to the production file
                 const summary = stats[0];
-                commit('setUniqueContributors', summary.uniqueContributors);
-                commit('setUniqueAffiliations', summary.uniqueAffiliations);
+                commit('setUniqueContributors', stats.uniqueContributors);
+                commit('setUniqueAffiliations', stats.uniqueAffiliations);
+                commit('setNumberOfTerms', stats.numberOfTerms);
+                commit('setNumberOfStandardsConfigured', stats.numberOfStandardsConfigured);
+                commit('setReportErrors', stats.reportErrors);
+                commit('setReportMissing', stats.reportsMissing);
 
                 // Sort statistics based on standard
-                let list = stats.slice(1, stats.length);
-                list = list.sort( (a, b) => {
+                let list = stats.standards;
+                list = list.sort((a, b) => {
                     const nameA = a.standard.toUpperCase();
                     const nameB = b.standard.toUpperCase();
-                    return (nameA < nameB) ? -1 : (nameA > nameB ) ? 1 : 0;
+                    return (nameA < nameB) ? -1 : (nameA > nameB) ? 1 : 0;
                 });
 
                 let filteredAnnual = {};
-                for(let standard of list){
+                for (let standard of list) {
 
                     // Sort names of affiliations per standard
-                    if(standard.contributors){
-                        standard.contributors = standard.contributors.sort( (a, b) => {
+                    if (standard.contributors) {
+                        standard.contributors = standard.contributors.sort((a, b) => {
                             const nameA = a.affiliation.toUpperCase();
                             const nameB = b.affiliation.toUpperCase();
-                            return (nameA < nameB) ? -1 : (nameA > nameB ) ? 1 : 0;
+                            return (nameA < nameB) ? -1 : (nameA > nameB) ? 1 : 0;
                         });
                     }
 
-                    if(standard.status === 'erkende-standaard'){
+                    if (standard.status === 'erkende-standaard') {
                         const date = Date.parse(standard.publicationDate);
 
-                        if(!isNaN(date)){
+                        if (!isNaN(date)) {
                             const year = new Date(standard.publicationDate).getFullYear();
 
-                            if(!filteredAnnual.hasOwnProperty(year)){
+                            if (!filteredAnnual.hasOwnProperty(year)) {
                                 filteredAnnual[year] = 0;
                             }
                             filteredAnnual[year] += 1;
                         } else {
-                            if(!filteredAnnual.hasOwnProperty('TBD')){
+                            if (!filteredAnnual.hasOwnProperty('TBD')) {
                                 filteredAnnual['TBD'] = 0;
                             }
                             filteredAnnual['TBD'] += 1;
