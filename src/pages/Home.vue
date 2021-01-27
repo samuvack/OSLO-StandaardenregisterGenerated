@@ -12,7 +12,7 @@
         <vl-region>
             <vl-layout>
                 <vl-grid class="vl-grid--align-center" mod-stacked>
-                    <vl-column width="3">
+                    <vl-column width="4">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#erkendeStandaarden">
@@ -24,7 +24,7 @@
                             </div>
                         </div>
                     </vl-column>
-                    <vl-column width="3">
+                    <vl-column width="4">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#kandidaatStandaarden">
@@ -36,19 +36,7 @@
                             </div>
                         </div>
                     </vl-column>
-                    <vl-column width="3">
-                        <div class="vl-infotext-wrapper">
-                            <div class="vl-infotext vl-infotext--badge">
-                                <a href="#kandidaatStandaarden">
-                                    <div class="vl-infotext__value" data-vl-infotext-value>
-                                        {{ geregistreerdeStandaarden.length }}
-                                    </div>
-                                    <div class="vl-infotext__text">Geregistreerde standaarden</div>
-                                </a>
-                            </div>
-                        </div>
-                    </vl-column>
-                    <vl-column width="3">
+                    <vl-column width="4">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#standaardenInOntwikkeling">
@@ -62,7 +50,7 @@
                     </vl-column>
                 </vl-grid>
                 <vl-grid class="vl-grid--align-center">
-                    <vl-column width="3">
+                    <vl-column width="4">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#">
@@ -74,8 +62,7 @@
                             </div>
                         </div>
                     </vl-column>
-                    <vl-column width="3"></vl-column>
-                    <vl-column width="3">
+                    <vl-column width="4">
                         <div class="vl-infotext-wrapper">
                             <div class="vl-infotext vl-infotext--badge">
                                 <a href="#">
@@ -125,12 +112,28 @@
                         ontwikkeld, aan de hand van een publieke reviewperiode wordt implementatie-ervaring opgedaan en
                         feedback van buiten de thematische werkgroep verzameld.
                     </li>
-                    <li><strong>Geregistreerde standaarden</strong>: werden aangemeld bij de Werkgroep Datastandaarden,
-                        maar kunnen niet erkend worden omdat de erkenningsprocedure nog niet goedgekeurd is.
-                    </li>
                     <li><strong>Standaarden in ontwikkeling</strong>: werden reeds aangemeld bij de Werkgroep
                         Datastandaarden en worden uitgewerkt door een thematische werkgroep aan de hand van publieke
                         werksessies.
+                    </li>
+                </ul>
+            </vl-layout>
+        </vl-region>
+
+        <vl-region>
+            <vl-layout>
+                <ul>
+                    <li><strong>Technische standaarden</strong>: de technische specificaties voor gegevensuitwisseling, ze bieden manieren aan van gestandaardiseerde gegevensuitwisseling aan.
+                    </li>
+                    <li><strong>Standaarden voor organisatorische interoperabiliteit</strong>: een stabiele specificatie voor de standaard werd
+                        ontwikkeld, aan de hand van een publieke reviewperiode wordt implementatie-ervaring opgedaan en
+                        feedback van buiten de thematische werkgroep verzameld.
+                    </li>
+                    <li><strong>Vocabularium</strong>: de basis voor open semantische informatiestandaarden, ze bieden een gedeeld begrippenkader voor bepaalde concepten met een focus op gegevensuitwisseling.
+                    </li>
+                    <li><strong>Applicatieprofielen</strong>: een specificatie voor gegevensuitwisseling voor applicaties die een bepaalde use case vervullen. Het laat toe om naast een gedeelde semantiek ook bijkomende restricties op te leggen, zoals het vastleggen van kardinaliteiten of het gebruik van bepaalde codelijsten.
+                    </li>
+                    <li><strong>ImplementatieModel</strong>: een specificatie voor gegevensuitwisseling voor applicaties die een bepaalde use case vervullen, deze modellen kunnen een deel van de interne gegevensverwerking van specifieke applicaties bevatten. Het laat toe om naast een gedeelde semantiek ook bijkomende restricties op te leggen, zoals het vastleggen van kardinaliteiten of het gebruik van bepaalde codelijsten. De ontwikkeling hiervan volgt dezelfe ideologie als applicatieprofielen en vocabularia, maar heeft nog geen officiele erkenning als proces en methode.
                     </li>
                 </ul>
             </vl-layout>
@@ -201,9 +204,9 @@
                         <vl-column width="4">
                             <vl-checkbox id="switchIoP"
                                          name="switchIoP"
-                                         v-model="filterOrgIoP"
-                                         v-on:input="onSwitch('organizational')" mod-switch>
-                                Standaarden voor organisatorische interoperabiliteit
+                                         v-model="filterIoP"
+                                         v-on:input="onSwitch('interoperability')" mod-switch>
+                                Standaarden voor interoperabiliteit
                             </vl-checkbox>
                         </vl-column>
                         <vl-column width="4">
@@ -307,41 +310,6 @@
             </vl-infoblock>
         </vl-layout>
 
-
-        <vl-layout>
-            <vl-infoblock mod-type="publications"
-                          title="Geregistreerde standaarden" id="geregistreedeStandaarden">
-                <div v-if="this.geregistreerdeStandaarden.length" class="vl-u-table-overflow">
-                    <vl-data-table id="geregistreerdeStandaardenTable" mod-hover>
-                        <thead>
-                        <tr>
-                            <th>Titel</th>
-                            <th>Categorie</th>
-                            <th>Verantwoordelijke organisatie</th>
-                            <th>Type toepassing</th>
-                            <th>Publicatiedatum</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr v-for="object in geregistreerdeStandaarden">
-                            <td><a :href="'/standaarden/geregistreerde-standaard/' + object.path">{{ object.title }}</a></td>
-                            <td v-if="object.about.indexOf('&amp;') >= 0">
-                                {{ object.about.replace('amp;', '') }}
-                            </td>
-                            <td v-else>{{ object.about }}</td>
-                            <td><a :href=object.organisationID>{{ object.organisation }}</a></td>
-                            <td>{{ object.type }}</td>
-                            <td>{{ object.datePublished }}</td>
-                        </tr>
-                        </tbody>
-                    </vl-data-table>
-                </div>
-                <div v-else>
-                    <vl-title tag-name="h5">Er zijn op dit moment geen geregistreerde standaarden</vl-title>
-                </div>
-            </vl-infoblock>
-        </vl-layout>
-
         <vl-layout>
             <vl-infoblock mod-type="publications"
                           title="Standaarden in ontwikkeling" id="standaardenInOntwikkeling">
@@ -385,7 +353,6 @@ export default {
         return {
             erkendeStandaarden: this.$store.state.acknowledgedStandards,
             kandidaatStandaarden: this.$store.state.candidateStandards,
-            geregistreerdeStandaarden: this.$store.state.registeredStandards,
             standaardInOntwikkeling: this.$store.state.standardsInDevelopment,
             uniqueAffiliations: this.$store.state.uniqueAffiliations,
             uniqueContributors: this.$store.state.uniqueContributors,
@@ -395,7 +362,7 @@ export default {
             filterAp: false,
             filterImpl: false,
             filterTechnical: false,
-            filterOrgIoP: false,
+            filterIoP: false,
             filters: []
         }
     },
@@ -409,7 +376,6 @@ export default {
                 // Filter all tables
                 this.filterTableRows(document.getElementById('erkendeStandaardenTable'), keys);
                 this.filterTableRows(document.getElementById('kandidaatStandaardenTable'), keys);
-                this.filterTableRows(document.getElementById('geregistreerdeStandaardenTable'), keys);
                 this.filterTableRows(document.getElementById('ontwikkelingTable'), keys);
             }
         },
@@ -436,7 +402,6 @@ export default {
         applySwitchFilters(filters) {
             this.filterRowsWithFilter(document.getElementById("erkendeStandaardenTable"), filters);
             this.filterRowsWithFilter(document.getElementById("kandidaatStandaardenTable"), filters);
-            this.filterRowsWithFilter(document.getElementById('geregistreerdeStandaardenTable'), filters);
             this.filterRowsWithFilter(document.getElementById("ontwikkelingTable"), filters);
 
         },
@@ -465,7 +430,6 @@ export default {
             this.filterAll = true;
             this.displayAllRows(document.getElementById("erkendeStandaardenTable"));
             this.displayAllRows(document.getElementById("kandidaatStandaardenTable"));
-            this.displayAllRows(document.getElementById("geregistreerdeStandaardenTable"));
             this.displayAllRows(document.getElementById("ontwikkelingTable"));
         },
         displayAllRows(table) {
@@ -482,7 +446,7 @@ export default {
             this.filterAp = false;
             this.filterImpl = false;
             this.filterTechnical = false;
-            this.filterOrgIoP = false;
+            this.filterIoP = false;
         },
         onSwitch: function (switchName) {
             // From the moment a checkbox was clicked, was erase the input values
@@ -497,7 +461,7 @@ export default {
                         this.filterAp = false;
                         this.filterImpl = false;
                         this.filterTechnical = false;
-                        this.filterOrgIoP = false;
+                        this.filterIoP = false;
                         this.reset();
                     }
                     break;
@@ -521,8 +485,8 @@ export default {
                         this.filterAll = false;
                     }
                     break;
-                case 'organizational':
-                    if (this.filterOrgIoP) {
+                case 'interoperability':
+                    if (this.filterIoP) {
                         this.filterAll = false;
                     }
                     break;
@@ -547,8 +511,8 @@ export default {
                 filters.push('Technische standaard')
             }
 
-            if (this.filterOrgIoP) {
-                filters.push('Organisatorische interoperabiliteit');
+            if (this.filterIoP) {
+                filters.push('interoperabiliteit');
             }
 
             if (filters.length) {

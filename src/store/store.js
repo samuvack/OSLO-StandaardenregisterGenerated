@@ -7,11 +7,9 @@ export default new Vuex.Store({
     state: {
         acknowledgedStandardsError: true,
         candidateStandardsError: true,
-        registeredStandardsError: true,
         standardsInDevelopmentError: true,
         acknowledgedStandards: [],
         candidateStandards: [],
-        registeredStandards: [],
         standardsInDevelopment: [],
         statistics: [],
         uniqueContributors: 0,
@@ -31,9 +29,6 @@ export default new Vuex.Store({
         setCandidateStandards(state, data) {
             state.candidateStandards = data;
         },
-        setRegisteredStandards(state, data) {
-            state.registeredStandards = data;
-        },
         setStandardsInDevelopment(state, data) {
             state.standardsInDevelopment = data;
         },
@@ -42,9 +37,6 @@ export default new Vuex.Store({
         },
         setCandidateStandardsError(state, value) {
             state.candidateStandardsError = value;
-        },
-        setRegisteredStandardsError(state, value) {
-            state.registeredStandardsError = value;
         },
         setStandardsInDevelopmentError(state, value) {
             state.standardsInDevelopmentError = value;
@@ -88,10 +80,6 @@ export default new Vuex.Store({
                     case 'kandidaat-standaard':
                         commit('setCandidateStandards', payload.standards);
                         commit('setCandidateStandardsError', false);
-                        break;
-                    case 'geregistreerde-standaard':
-                        commit('setRegisteredStandards', payload.standards);
-                        commit('setRegisteredStandardsError', false);
                         break;
                     case 'standaard-in-ontwikkeling':
                         commit('setStandardsInDevelopment', payload.standards);

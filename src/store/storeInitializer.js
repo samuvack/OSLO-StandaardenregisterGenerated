@@ -20,13 +20,6 @@ export async function initializeStore() {
     }
 
     try {
-        await processPages(require.context('../../public/geregistreerde-standaard'), 'geregistreerde-standaard');
-    } catch (e) {
-        //store.commit('setCandidateStandardsError', true);
-        console.error(e);
-    }
-
-    try {
         await processPages(require.context('../../public/standaard-in-ontwikkeling'), 'standaard-in-ontwikkeling');
     } catch (e) {
         //store.commit('setStandardsInDevelopmentError', true);
