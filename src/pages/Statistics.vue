@@ -9,7 +9,27 @@
         </vl-introduction>
         <vl-infoblock mod-type="publications"
                       title="Algemeen" id="general">
-            <vl-grid>
+            <vl-grid class="vl-grid--align-center">
+                <vl-column width="4">
+                    <vl-infotext
+                            href="#"
+                            :value="numberOfStandardsConfigured.toString()"
+                            text="standaarden zijn geconfigureerd"/>
+                </vl-column>
+                <vl-column width="4">
+                    <vl-infotext
+                            href="#"
+                            :value="numberOfTerms.toString()"
+                            text="termen zijn gedefinieerd in de standaarden"/>
+                </vl-column>
+                <vl-column width="4">
+                    <vl-infotext
+                            href="#"
+                            :value="noReports.toString()"
+                            text="standaarden hebben geen of onvolledige statistiek"/>
+                </vl-column>
+            </vl-grid>
+            <vl-grid class="vl-grid--align-center">
                 <vl-column width="6">
                     <vl-infotext
                             href="#"
@@ -24,57 +44,40 @@
                 </vl-column>
             </vl-grid>
         </vl-infoblock>
-        <vl-infoblock mod-type="publications"
-                      title="Algemene statistieken" id="standaards">
-            <vl-grid>
-                <vl-column width="6">
-                    <vl-infotext
-                            href="#"
-                            :value="numberOfStandardsConfigured.toString()"
-                            text="standaarden zijn geconfigureerd"/>
-                </vl-column>
-                <vl-column width="6">
-                    <vl-infotext
-                            href="#"
-                            :value="numberOfTerms.toString()"
-                            text="termen zijn gedefinieerd in de standaarden"/>
-                </vl-column>
-            </vl-grid>
-        </vl-infoblock>
-<!--        <vl-infoblock mod-type="publications"
-                      title="Erkende standaarden per jaar" id="annual">
-            <vl-grid mod-stacked>
-                <vl-column width="4" v-for="(number, year) in standardsPerYear" :key="year">
-                    <vl-infotext href="#"
-                                 :value="number.toString()"
-                                 :text="'werden erkend in ' + year"/>
-                </vl-column>
-                <vl-column v-if="standardsPerYear['TBD'] > 0">
-                    <vl-alert
-                            icon="warning"
-                            title="Opmerking"
-                            mod-naked
-                            mod-warning
-                    >
-                        Er zijn {{ standardsPerYear['TBD'] }} erkende standaarden waarvan de publicatiedatum niet bekend is.
-                    </vl-alert>
-                </vl-column>
-            </vl-grid>
-            &lt;!&ndash;<vl-drawers id="drawer-1">
-                <vl-drawer width="4" width-m="12" v-for="(standards, year) in standardsPerYear" :label="year === 'TBD' ? 'Datum nog te bepalen' : year" :key="year">
+        <!--        <vl-infoblock mod-type="publications"
+                              title="Erkende standaarden per jaar" id="annual">
                     <vl-grid mod-stacked>
-                        <vl-column>
-                            <vl-spotlight mod-large
-                                          :title="standards.length.toString()"
-                                          :subtitle="year === 'TBD' ? 'standaarden waarvoor nog geen datum bekend is' : 'standaarden werden gepubliceerd'"/>
+                        <vl-column width="4" v-for="(number, year) in standardsPerYear" :key="year">
+                            <vl-infotext href="#"
+                                         :value="number.toString()"
+                                         :text="'werden erkend in ' + year"/>
                         </vl-column>
-                        <vl-column width="4" v-for="standard in standards" :key="standard.standard">
-                            <p>{{standard.standard}}</p>
+                        <vl-column v-if="standardsPerYear['TBD'] > 0">
+                            <vl-alert
+                                    icon="warning"
+                                    title="Opmerking"
+                                    mod-naked
+                                    mod-warning
+                            >
+                                Er zijn {{ standardsPerYear['TBD'] }} erkende standaarden waarvan de publicatiedatum niet bekend is.
+                            </vl-alert>
                         </vl-column>
                     </vl-grid>
-                </vl-drawer>
-            </vl-drawers>&ndash;&gt;
-        </vl-infoblock>-->
+                    &lt;!&ndash;<vl-drawers id="drawer-1">
+                        <vl-drawer width="4" width-m="12" v-for="(standards, year) in standardsPerYear" :label="year === 'TBD' ? 'Datum nog te bepalen' : year" :key="year">
+                            <vl-grid mod-stacked>
+                                <vl-column>
+                                    <vl-spotlight mod-large
+                                                  :title="standards.length.toString()"
+                                                  :subtitle="year === 'TBD' ? 'standaarden waarvoor nog geen datum bekend is' : 'standaarden werden gepubliceerd'"/>
+                                </vl-column>
+                                <vl-column width="4" v-for="standard in standards" :key="standard.standard">
+                                    <p>{{standard.standard}}</p>
+                                </vl-column>
+                            </vl-grid>
+                        </vl-drawer>
+                    </vl-drawers>&ndash;&gt;
+                </vl-infoblock>-->
         <vl-infoblock mod-type="publications"
                       title="Statistieken per standaard" id="detail">
             <vl-drawers id="drawer-2">
@@ -133,6 +136,7 @@ export default {
             numberOfStandardsConfigured: this.$store.state.numberOfStandardsConfigured,
             reportErrors: this.$store.state.reportErrors,
             reportMissing: this.$store.state.reportsMissing,
+            noReports: this.$store.state.reportErrors + this.$store.state.reportsMissing,
             statistics: this.$store.state.statistics,
             standardsPerYear: this.$store.state.standardsPerYear
         }
