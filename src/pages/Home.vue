@@ -125,7 +125,7 @@
                 <ul>
                     <li><strong>Technische standaarden</strong>: de technische specificaties voor gegevensuitwisseling, ze bieden manieren aan van gestandaardiseerde gegevensuitwisseling aan.
                     </li>
-                    <li><strong>Standaarden voor organisatorische interoperabiliteit</strong>: een stabiele specificatie voor de standaard werd
+                    <li><strong>Standaarden voor interoperabiliteit</strong>: een stabiele specificatie voor de standaard werd
                         ontwikkeld, aan de hand van een publieke reviewperiode wordt implementatie-ervaring opgedaan en
                         feedback van buiten de thematische werkgroep verzameld.
                     </li>
