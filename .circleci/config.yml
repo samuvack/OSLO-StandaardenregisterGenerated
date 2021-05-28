@@ -27,11 +27,6 @@ jobs:
           paths:
             - dist
   upload-test:
-    parameters:
-      sas_token:
-        type: string
-      url:
-        type: string
     docker:
       - image: circleci/python
     steps:
@@ -40,11 +35,6 @@ jobs:
           at: ./
       - run: cd $PWD/dist; bash ../scripts/azure.sh https://swarmstoraccount.blob.core.windows.net/oslo-standards-register/dist.tar ${SAS_TOKEN_TEST}
   upload-prod:
-    parameters:
-      sas_token:
-        type: string
-      url:
-        type: string
     docker:
       - image: circleci/python
     steps:
