@@ -1,9 +1,6 @@
 version: 2.1
 jobs:
   dist-build:
-    parameters:
-      npm_token:
-        type: string
     docker:
       - image: circleci/node
     steps:
@@ -11,7 +8,7 @@ jobs:
       - run:
           name: Create .npmrc file with NPM token to be able to build because we use private NPM packages
           command: |
-            echo "//registry.npmjs.org/:_authToken=<< parameters.npm_token >>" > .npmrc
+            echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
       - run: npm install
       - run:
           name: Installing the Vue CLI service to be able to build our project
@@ -29,7 +26,7 @@ jobs:
           root: ./
           paths:
             - dist
-  upload:
+  upload-test:
     parameters:
       sas_token:
         type: string
@@ -41,30 +38,36 @@ jobs:
       - checkout
       - attach_workspace:
           at: ./
-      - run: cd $PWD/dist; bash ../scripts/azure.sh <<parameters.url >> << parameters.sas_token >>
+      - run: cd $PWD/dist; bash ../scripts/azure.sh https://swarmstoraccount.blob.core.windows.net/oslo-standards-register/dist.tar ${SAS_TOKEN_TEST}
+  upload-prod:
+    parameters:
+      sas_token:
+        type: string
+      url:
+        type: string
+    docker:
+      - image: circleci/python
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ./
+      - run: cd $PWD/dist; bash ../scripts/azure.sh https://swarmstoraccountprod.blob.core.windows.net/oslo-standards-register/dist.tar ${SAS_TOKEN_PROD}
 workflows:
   version: 2
   publish-updated-content:
     jobs:
-      - dist-build:
-          npm_token: ${NPM_TOKEN}
-      - upload:
-          name: upload-test
+      - dist-build
+      - upload-test:
           requires:
             - dist-build
-          sas_token: ${SAS_TOKEN_TEST}
-          url: https://swarmstoraccount.blob.core.windows.net/oslo-standards-register/dist.tar
       - hold:
           type: approval # presents manual approval button in the UI
           requires:
             - upload-test
-      - upload:
-          name: upload-prod
+      - upload-prod:
           requires:
             - hold
             - dist-build
-          sas_token: ${SAS_TOKEN_PROD}
-          url: https://swarmstoraccountprod.blob.core.windows.net/oslo-standards-register/dist.tar
 
 
 
