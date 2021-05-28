@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   dist-build:
     docker:
-      - image: circleci/node
+      - image: circleci/node@sha256:021a53feab8f1d138abc26d1795d31804197d85d2ca4c654829ef7f9dc388217 #shoud not have @ but breaks
     steps:
       - checkout
       - run:
