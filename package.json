@@ -7,8 +7,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@govflanders/vl-ui-alert": "9.0.8",
     "@govflanders/vl-ui-action-group": "9.0.8",
-    "@govflanders/vl-ui-alert": "3.12.33",
     "@govflanders/vl-ui-arrow-navigation": "3.12.33",
     "@govflanders/vl-ui-button": "3.12.33",
     "@govflanders/vl-ui-checkbox": "3.12.33",
