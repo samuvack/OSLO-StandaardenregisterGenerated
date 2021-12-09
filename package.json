@@ -7,6 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@govflanders/vl-ui-infoblock": "9.0.8",
     "@govflanders/vl-ui-icon": "9.0.8",
     "@govflanders/vl-ui-dynamic-drawer": "9.0.8",
     "@govflanders/vl-ui-dropdown-navigation": "9.0.8",
@@ -19,7 +20,6 @@
     "@govflanders/vl-ui-arrow-navigation": "9.0.8",
     "@govflanders/vl-ui-alert": "9.0.8",
     "@govflanders/vl-ui-action-group": "9.0.8",
-    "@govflanders/vl-ui-infoblock": "3.12.33",
     "@govflanders/vl-ui-infotext": "3.12.33",
     "@govflanders/vl-ui-input-field": "3.12.33",
     "@govflanders/vl-ui-introduction": "3.12.33",
