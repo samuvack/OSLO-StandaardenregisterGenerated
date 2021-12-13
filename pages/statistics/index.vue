@@ -10,6 +10,7 @@
             :mod-icon-before="backButtonHover"
             @mouseover.native="backButtonHover = true"
             @mouseleave.native="backButtonHover = false"
+            @click="navigateBack"
           >
             Terug
           </vl-button>
@@ -35,6 +36,11 @@ export default {
   data: () => {
     return {
       backButtonHover: false
+    }
+  },
+  methods: {
+    navigateBack() {
+      this.$router.push('/')
     }
   }
 }

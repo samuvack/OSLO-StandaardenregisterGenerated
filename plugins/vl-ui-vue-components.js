@@ -27,6 +27,8 @@ import {
   VlDrawers,
   VlDataTable,
   VlAccordion,
+  VlInfoblock,
+  VlDescriptionDataItem,
 } from '@govflanders/vl-ui-vue-components'
 
 Vue.component('vl-content-header', VlContentHeader)
@@ -49,6 +51,9 @@ Vue.component('vl-drawer', VlDrawer)
 Vue.component('vl-drawers', VlDrawers)
 Vue.component('vl-data-table', VlDataTable)
 Vue.component('vl-accordion', VlAccordion)
+Vue.component('vl-infoblock', VlInfoblock)
+Vue.component('vl-description-data-item', VlDescriptionDataItem)
+
 Vue.use(VlCore)
 Vue.use(VlUtil)
 Vue.use(VueI18n)

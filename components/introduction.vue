@@ -1,5 +1,6 @@
 <template>
   <vl-grid mod-stacked>
+    <!--TODO: check whether spotlight should be changed to doormat -->
     <vl-column>
       <vl-introduction>
         Dit standaardenregister geeft een overzicht van alle lopende en

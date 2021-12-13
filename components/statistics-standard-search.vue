@@ -1,10 +1,9 @@
 <template>
   <div>
     <vl-input-field
-      id="standard-input-field"
+      id="standard-statistics-input-field"
       v-model="input"
-      autocomplete="off"
-      name="standard-input-field"
+      name="standard-statistics-input-field"
       placeholder="Geef minstens 3 letters in..."
       mod-block
       @input="onChange"
@@ -22,24 +21,17 @@ export default {
   },
   watch: {
     result(newValue) {
-      this.$root.$emit('onStandardInput', newValue)
+      this.$root.$emit('onInput', newValue)
     }
   },
   methods: {
     async onChange() {
-      const keyword = this.input.trim()
+      const keyword = this.input.trim();
       if (keyword.length >= 3) {
-        const data = await this.$content('standards')
-          .only([
-            'naam',
-            'categorie',
-            'verantwoordelijke_organisatie',
-            'type_toepassing',
-            'publicatiedatum'
-          ])
+        const data = await this.$content('statistics')
+          .only(['standards'])
           .fetch()
-
-        this.result = data.filter((standard) =>
+        this.result = data.standards.filter((standard) =>
           this.filterByName(standard, keyword)
         )
       } else {
@@ -47,7 +39,7 @@ export default {
       }
     },
     filterByName(standardObject, searchValue) {
-      return standardObject.naam.toLowerCase().includes(searchValue)
+      return standardObject.standard.toLowerCase().includes(searchValue)
         ? standardObject
         : null
     }

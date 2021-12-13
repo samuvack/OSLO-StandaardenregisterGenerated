@@ -11,10 +11,10 @@
       </p>
     </vl-column>
     <vl-column>
-      <standard-search />
+      <statistics-standard-search />
     </vl-column>
     <vl-column>
-      <standards-search-result />
+      <statistics-standards-search-result />
     </vl-column>
   </vl-grid>
 </template>
