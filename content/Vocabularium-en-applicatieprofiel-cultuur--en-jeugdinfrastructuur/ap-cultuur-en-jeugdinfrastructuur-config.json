@@ -1,0 +1,35 @@
+{
+    "naam": "Vocabularium en applicatieprofiel cultuur- en jeugdinfrastructuur",
+    "rapport": "",
+    "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+    "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+    "publicatiedatum": "TBD",
+    "type_toepassing": "TBD",
+    "categorie": "Vocabularium en applicatieprofielen",
+    "beschrijving": "template-description.md",
+    "specificatiedocument": [],
+    "documentatie": [],
+    "charter": [
+        {
+            "naam": "Werkgroep Charter Cultuur- & Jeugdinfrastructuur",
+            "waarde": "20211018_Werkgroep charter OSLO Basisinventaris cultuur- en jeugdinfrastructuur.docx"
+        }
+    ],
+    "verslagen": [
+{
+	"naam": "Verslag Business Werkgroep - 7 december 2021",
+	"waarde": "20211207_BusinessWorkshop_MeetingMinutes_OSLOCultuurenJeugdinfrastructuur.docx"
+}
+],
+    "presentaties": [
+{
+	"naam":	"Presentatie Business Werkgroep - 7 december 2021",
+	"waarde": "20211207 _BusinessWorkshop_Powerpoint_OSLOCultuurenJeugdinfrastructuur.pptx"
+}
+],
+    "functioneel_toepassingsgebied": "TBD",
+    "organisatorisch_werkingsgebied": "TBD",
+    "datum_van_aanmelding": "TBD",
+    "erkenning_werkgroep_datastandaarden": "TBD",
+    "erkenning_stuurgroep": "TBD"
+}

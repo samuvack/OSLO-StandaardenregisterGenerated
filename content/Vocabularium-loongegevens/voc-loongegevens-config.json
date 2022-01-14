@@ -1,0 +1,34 @@
+{
+    "naam": "Vocabularium loongegevens",
+    "rapport" : "",
+    "verantwoordelijke_organisatie": "Agentschap Uitbetaling Groeipakket",
+    "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO008643",
+    "publicatiedatum": "2021-09-16",
+    "type_toepassing": "TBD",
+    "categorie": "Vocabularium",
+    "beschrijving" : "Het doel van dit traject is om de structuur van data omtrent loongegevens te standaardiseren in samenspraak met alle belanghebbenden. Om zo datastromen semantisch te verrijken, om loongegevens beter vindbaar en begrijpbaar te maken en om deze data beter combineerbaar te maken met andere databronnen. Op basis van internationale standaarden bouwen we het vocabularium op. We brengen dit in lijn met de geldende Vlaamse regelgeving. Dit is een initiatief van het Agentschap voor de Uitbetaling van het Groeipakket, Digitaal Vlaanderen en het Datanutsbedrijf. De standaardisering gebeurt op vraag van de verschillende belanghebbenden binnen de sector.",
+    "specificatiedocument": [],
+    "documentatie": [],
+    "charter": [],
+    "verslagen": [
+    {
+      "naam": "Verslag thematische werkgroep 1 - 30 september 2021",
+      "waarde": "OSLO Loongegevens - Thematische werkgroep 1 (30-09-2021).docx"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie thematische werkgroep 1 - 30 september 2021",
+      "waarde": "OSLO Loon - Thematische werkgroep 1 (v28-09-2021).pptx"
+    },
+    {
+      "naam": "Presentatie thematische werkgroep 2 - 26 oktober 2021",
+      "waarde": "OSLO Loon - Thematische werkgroep 2 (v26-10-2021).pptx"
+    }
+  ],
+  "functioneel_toepassingsgebied": "",
+    "organisatorisch_werkingsgebied": "",
+    "datum_van_aanmelding": "",
+    "erkenning_werkgroep_datastandaarden": "",
+    "erkenning_stuurgroep": ""
+  }
