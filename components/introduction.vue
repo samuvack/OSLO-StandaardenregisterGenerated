@@ -8,6 +8,7 @@
         Standaarden voor Linkende Organisaties (OSLO) van de Vlaamse overheid.
       </vl-introduction>
     </vl-column>
+    <!--TODO: add statistics about tables -->
     <vl-column>
       <p>
         Overheden op lokaal, Vlaams, interfederaal en Europees niveau moeten in

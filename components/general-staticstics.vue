@@ -1,8 +1,5 @@
 <template>
   <vl-grid mod-stacked>
-    <vl-column>
-      <vl-title tag-name="h2" mod-alt> Algemeen </vl-title>
-    </vl-column>
     <vl-column width="4">
       <vl-infotext
         :key="numberOfConfiguredStandards"
