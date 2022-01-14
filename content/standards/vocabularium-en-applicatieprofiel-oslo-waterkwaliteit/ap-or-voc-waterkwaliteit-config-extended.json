@@ -1,0 +1,40 @@
+{
+  "naam": "Vocabularium en applicatieprofiel OSLO Waterkwaliteit",
+  "rapport": "",
+  "verantwoordelijke_organisatie": "Vlaamse Milieumaatschappij (VMM)",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO000092",
+  "publicatiedatum": "TBD",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
+  "categorie": "Vocabularium en applicatieprofielen",
+  "beschrijving": "ap-or-voc-waterkwaliteit.md",
+  "specificatiedocument": [],
+  "documentatie": [],
+  "charter": [],
+  "verslagen": [
+    {
+      "naam": "Verslag Business werkgroep - 9 november 2021",
+      "waarde": "Verslag Business werkgroep - 9 november 2021.docx"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 1 - 9 december 2021",
+      "waarde": "Verslag Business werkgroep - 9 november 2021.docx"
+    }
+  ],
+  "presentaties": [
+    {
+      "naam": "Presentatie Business werkgroep  - 9 november 2021",
+      "waarde": "Presentatie Business werkgroep - 9 november 2021.pdf"
+    },
+    {
+      "naam": "Presentatie thematische werkgroep 1 - 9 december 2021",
+      "waarde": "Presentatie Thematische werkgroep 1 - 9 december 2021.pdf"
+    }
+  ],
+  "functioneel_toepassingsgebied": "TBD",
+  "organisatorisch_werkingsgebied": "TBD",
+  "datum_van_aanmelding": "TBD",
+  "erkenning_werkgroep_datastandaarden": "TBD",
+  "erkenning_stuurgroep": "TBD",
+  "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-Waterkwaliteit/raw/standaardenregister",
+  "status": "standaard-in-ontwikkeling"
+}
