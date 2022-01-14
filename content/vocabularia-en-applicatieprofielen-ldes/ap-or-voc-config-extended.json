@@ -1,0 +1,26 @@
+{
+  "naam": "Vocabularia en Applicatieprofielen LDES",
+  "rapport": "",
+  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "publicatiedatum": "",
+  "type_toepassing": "",
+  "categorie": "Vocabularium & applicatieprofielen",
+  "beschrijving": "ldes-description.md",
+  "specificatiedocument": [],
+  "documentatie": [],
+  "charter": [
+    {
+      "naam": "Projectcharter",
+      "waarde": "Werkgroep charter OSLO LDES.docx"
+    }
+  ],
+  "verslagen": [],
+  "presentaties": [],
+  "functioneel_toepassingsgebied": "",
+  "organisatorisch_werkingsgebied": "",
+  "datum_van_aanmelding": "18 november 2021",
+  "erkenning_werkgroep_datastandaarden": "TBD",
+  "erkenning_stuurgroep": "TBD",
+  "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-ldes/raw/standaardenregister"
+}
