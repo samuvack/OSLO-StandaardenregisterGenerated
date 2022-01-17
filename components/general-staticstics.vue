@@ -18,7 +18,7 @@
       <vl-infotext
         :key="missingReports"
         :value="missingReports.toString()"
-        text="hebben geen of onvolledige statistiek"
+        text="standaarden hebben geen of onvolledige statistiek"
       />
     </vl-column>
     <vl-column width="6">
