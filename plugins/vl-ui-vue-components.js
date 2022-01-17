@@ -29,6 +29,10 @@ import {
   VlAccordion,
   VlInfoblock,
   VlDescriptionDataItem,
+  VlIconList,
+  VlIconListItem,
+  VlSlider,
+  VlSliderSlide,
 } from '@govflanders/vl-ui-vue-components'
 
 Vue.component('vl-content-header', VlContentHeader)
@@ -53,6 +57,10 @@ Vue.component('vl-data-table', VlDataTable)
 Vue.component('vl-accordion', VlAccordion)
 Vue.component('vl-infoblock', VlInfoblock)
 Vue.component('vl-description-data-item', VlDescriptionDataItem)
+Vue.component('vl-icon-list', VlIconList)
+Vue.component('vl-icon-list-item', VlIconListItem)
+Vue.component('vl-slider', VlSlider)
+Vue.component('vl-slider-slide', VlSliderSlide)
 
 Vue.use(VlCore)
 Vue.use(VlUtil)

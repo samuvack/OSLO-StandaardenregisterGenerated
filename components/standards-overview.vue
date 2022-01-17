@@ -21,18 +21,21 @@
       <vl-column>
         <vl-infoblock icon="list" title="Standaarden per status">
           <vl-drawers id="standards-drawer">
-            <vl-drawer label="Erkende standaarden" width="4" width-m="12">
-              <standards-table :standards="standards" />
+            <vl-drawer label="Erkende standaarden" width="3" width-m="12">
+              <standards-table :standards="acknowledgedStandards" />
             </vl-drawer>
-            <vl-drawer label="Kandidaat standaarden" width="4" width-m="12">
-              <standards-table :standards="standards" />
+            <vl-drawer label="Kandidaat standaarden" width="3" width-m="12">
+              <standards-table :standards="candidateStandards" />
             </vl-drawer>
             <vl-drawer
               label="Standaarden in ontwikkeling"
-              width="4"
+              width="3"
               width-m="12"
             >
-              <standards-table :standards="standards" />
+              <standards-table :standards="runningStandards" />
+            </vl-drawer>
+            <vl-drawer label="Standaarden zonder status" width="3">
+              <standards-table :standards="noStatusStandards" />
             </vl-drawer>
           </vl-drawers>
         </vl-infoblock>
@@ -45,23 +48,38 @@
 export default {
   data: () => {
     return {
+      acknowledgedStandards: [],
+      candidateStandards: [],
+      runningStandards: [],
+      noStatusStandards: [],
       standards: []
     }
   },
   async fetch() {
-    const data = await this.$content('standards')
-      .only([
-        'naam',
-        'categorie',
-        'verantwoordelijke_organisatie',
-        'type_toepassing',
-        'publicatiedatum',
-        'file_name'
-      ])
+    this.acknowledgedStandards = await this.$content('standards', {
+      deep: true
+    })
+      .where({
+        extension: '.json',
+        status: 'erkende-standaard'
+      })
+      .sortBy('naam', 'asc')
       .fetch()
 
-    // TODO: filter standards on type
-    this.standards = data
+    this.candidateStandards = await this.$content('standards', { deep: true })
+      .where({ extension: '.json', status: 'kandidaat-standaard' })
+      .sortBy('naam', 'asc')
+      .fetch()
+
+    this.runningStandards = await this.$content('standards', { deep: true })
+      .where({ extension: '.json', status: 'standaard-in-ontwikkeling' })
+      .sortBy('naam', 'asc')
+      .fetch()
+
+    this.noStatusStandards = await this.$content('standards', { deep: true })
+      .where({ extension: '.json', status: 'zonder-status' })
+      .sortBy('naam', 'asc')
+      .fetch()
   }
 }
 </script>

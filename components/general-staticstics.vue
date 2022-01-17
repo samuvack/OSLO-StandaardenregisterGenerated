@@ -68,3 +68,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.vl-infotext {
+  color: #0055cc;
+}
+</style>

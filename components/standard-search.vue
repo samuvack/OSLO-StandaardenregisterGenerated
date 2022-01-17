@@ -29,14 +29,8 @@ export default {
     async onChange() {
       const keyword = this.input.trim()
       if (keyword.length >= 3) {
-        const data = await this.$content('standards')
-          .only([
-            'naam',
-            'categorie',
-            'verantwoordelijke_organisatie',
-            'type_toepassing',
-            'publicatiedatum'
-          ])
+        const data = await this.$content('standards', { deep: true })
+          .where({ extension: '.json' })
           .fetch()
 
         this.result = data.filter((standard) =>

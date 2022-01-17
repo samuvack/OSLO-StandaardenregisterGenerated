@@ -24,9 +24,8 @@ $vl-icon-font-location: '~@govflanders/vl-ui-core/dist/font/iconfont/';
 @import '~@govflanders/vl-ui-accordion/src/scss/accordion';
 @import '~@govflanders/vl-ui-infoblock/src/scss/infoblock';
 @import '~@govflanders/vl-ui-description-data/src/scss/description-data';
-
-
-
+@import '~@govflanders/vl-ui-icon-list/src/scss/icon-list';
+@import '~@govflanders/vl-ui-slider/src/scss/slider';
 
 
 .vl-content-header__entity-logo:visited {
@@ -41,4 +40,11 @@ $vl-icon-font-location: '~@govflanders/vl-ui-core/dist/font/iconfont/';
   opacity: 0;
 }
 
+#prevButton a:visited {
+  color: white;
+}
+
+#prevButton a, a:visited {
+  text-decoration: none;
+}
 

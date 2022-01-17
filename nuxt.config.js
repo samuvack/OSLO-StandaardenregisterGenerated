@@ -61,4 +61,8 @@ export default {
     maxChunkSize: 1000000,
     vendor: ['@govflanders/vl-ui-vue-components'],
   },
+  content: {
+    // Only search in field 'naam'
+    fullTextSearchFields: ['naam'],
+  },
 }
