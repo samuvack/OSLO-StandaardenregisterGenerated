@@ -80,6 +80,17 @@ export default {
       .where({ extension: '.json', status: 'zonder-status' })
       .sortBy('naam', 'asc')
       .fetch()
+  },
+  watch: {
+    acknowledgedStandards(newValue) {
+      this.$root.$emit('onAcknowledgedStandardsUpdate', newValue.length)
+    },
+    candidateStandards(newValue) {
+      this.$root.$emit('onCandidateStandardsUpdate', newValue.length)
+    },
+    runningStandards(newValue) {
+      this.$root.$emit('onRunningStandardsUpdate', newValue.length)
+    }
   }
 }
 </script>

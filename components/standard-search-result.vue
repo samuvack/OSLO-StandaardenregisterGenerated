@@ -11,8 +11,6 @@ export default {
   },
   mounted() {
     this.$root.$on('onStandardInput', (data) => {
-      this.$forceUpdate()
-      console.log(data)
       this.result = data
     })
   }

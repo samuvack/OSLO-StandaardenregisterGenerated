@@ -1,6 +1,5 @@
 <template>
   <vl-grid mod-stacked>
-    <!--TODO: check whether spotlight should be changed to doormat -->
     <vl-column>
       <vl-introduction>
         Dit standaardenregister geeft een overzicht van alle lopende en
@@ -9,7 +8,7 @@
       </vl-introduction>
     </vl-column>
     <vl-column>
-      <general-staticstics />
+      <standards-statistics />
     </vl-column>
     <vl-column>
       <p>

@@ -16,10 +16,10 @@
           </vl-button>
         </vl-column>
         <vl-column>
-          <introduction-statistics />
+          <statistics-introduction />
         </vl-column>
         <vl-column>
-          <general-staticstics />
+          <staticstics-general />
         </vl-column>
         <vl-column>
           <statistics-standard />
@@ -30,9 +30,7 @@
 </template>
 
 <script>
-import generalStaticstics from '../../components/general-staticstics.vue'
 export default {
-  components: { generalStaticstics },
   data: () => {
     return {
       backButtonHover: false
