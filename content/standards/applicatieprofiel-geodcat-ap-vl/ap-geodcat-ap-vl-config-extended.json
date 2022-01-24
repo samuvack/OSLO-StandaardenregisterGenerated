@@ -62,6 +62,14 @@
     {
       "naam": "Opname webinar 2",
       "waarde": "https://digitaalvlaanderen.wetransfer.com/downloads/ac1916783a3855481d9e952d6dd2ffd820211215113009/2207db"
+    },
+    {
+      "naam": "Presentatie webinar 3 – 19 december 2021",
+      "waarde": "Webinar-3-OSLO-GeoDCAT-AP-VL-2.pptx"
+    },
+    {
+      "naam": "Opname webinar 3",
+      "waarde": "https://digitaalvlaanderen.wetransfer.com/downloads/f4fc2e8cbc367b294ba505bd61f7978a20220118122319/e139ac"
     }
   ],
   "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking geografische Data catalogi in Vlaanderen.",
