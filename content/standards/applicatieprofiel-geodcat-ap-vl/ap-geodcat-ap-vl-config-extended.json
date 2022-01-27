@@ -1,16 +1,16 @@
 {
   "naam": "Applicatieprofiel GeoDCAT-AP VL",
-  "rapport": "https://github.com/Informatievlaanderen/OSLO-Generated/blob/test/report/doc/applicatieprofiel/GEODCAT-AP-VL/ontwerpstandaard/2021-10-21/all-geodcatap-vlaanderen.jsonld",
+  "rapport": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/applicatieprofiel/GEODCAT-AP-VL/kandidaatstandaard/2022-02-03/all-geodcatap-vlaanderen.jsonld",
   "verantwoordelijke_organisatie": "Digitaal Vlaanderen",
   "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "2021-10-20",
+  "publicatiedatum": "2022-02-03",
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Applicatieprofiel",
   "beschrijving": "ap-geodcat-ap-vl.md",
   "specificatiedocument": [
     {
       "naam": "GeoDCAT-AP Vlaanderen",
-      "waarde": ""
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/GEODCAT-AP-VL/"
     }
   ],
   "documentatie": [
@@ -42,7 +42,7 @@
   "charter": [
     {
       "naam": "Werkgroep Charter GeoDCAT-AP VL",
-      "waarde": ""
+      "waarde": "Werkgroep-charter-GeoDCAT-AP-VL-2.0.pdf"
     }
   ],
   "verslagen": [],
@@ -75,7 +75,7 @@
   "functioneel_toepassingsgebied": "Semantische standaard voor informatie met betrekking geografische Data catalogi in Vlaanderen.",
   "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
   "datum_van_aanmelding": "16 September 2021",
-  "datum_einde_review": "TDB",
+  "datum_einde_review": "28 feb 2022",
   "erkenning_werkgroep_datastandaarden": "TBD",
   "erkenning_stuurgroep": "TBD",
   "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-GEODCATAPVlaanderen/raw/standaardenregister",
