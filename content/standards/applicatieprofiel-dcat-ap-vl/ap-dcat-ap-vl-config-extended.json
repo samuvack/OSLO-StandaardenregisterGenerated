@@ -1,9 +1,9 @@
 {
   "naam": "Applicatieprofiel DCAT-AP VL",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03/DCAT-AP-VL.jsonld",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/production/report/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2019-10-03/DCAT-AP-VL.jsonld",
   "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
   "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "2019-10-03",
+  "publicatiedatum": "2021-12-02",
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Applicatieprofiel",
   "beschrijving": "ap-dcat-ap-vl.md",
@@ -67,6 +67,7 @@
   "datum_einde_review": "15 Mei 2019",
   "erkenning_werkgroep_datastandaarden": "13 Juni 2019",
   "erkenning_stuurgroep": "03 Oktober 2019",
+  "herroeping_stuurgroep": "02 December 2021",
   "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/raw/standaardenregister",
-  "status": "erkende-standaard"
+  "status": "herroepen-standaard"
 }
