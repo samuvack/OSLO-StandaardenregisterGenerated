@@ -3,14 +3,14 @@
   "rapport": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2021-09-16/all-DCAT-AP-VL-20.jsonld",
   "verantwoordelijke_organisatie": "Digitaal Vlaanderen",
   "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "2021-09-16",
+  "publicatiedatum": "2021-12-02",
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Applicatieprofiel",
   "beschrijving": "ap-dcat-ap-vl.md",
   "specificatiedocument": [
     {
       "naam": "DCAT-AP Vlaanderen",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/DCAT-AP-VL/kandidaatstandaard/2021-09-16"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/DCAT-AP-VL/erkendestandaard/2021-12-02"
     }
   ],
   "documentatie": [
@@ -69,8 +69,8 @@
   "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
   "datum_van_aanmelding": "04 Juni 2021",
   "datum_einde_review": "19 Oktober 2021",
-  "erkenning_werkgroep_datastandaarden": "TBD",
-  "erkenning_stuurgroep": "TBD",
+  "erkenning_werkgroep_datastandaarden": "18 november 2021",
+  "erkenning_stuurgroep": "2 december 2021",
   "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-DCATAPVlaanderen/raw/standaardenregister",
-  "status": "kandidaat-standaard"
+  "status": "erkende-standaard"
 }
