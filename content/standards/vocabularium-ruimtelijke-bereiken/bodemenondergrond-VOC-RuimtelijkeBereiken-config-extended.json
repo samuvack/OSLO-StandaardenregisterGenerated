@@ -1,5 +1,5 @@
 {
-  "naam": "Applicatieprofiel Bodem",
+  "naam": "Vocabularium Ruimtelijke Bereiken",
   "rapport": "",
   "organisatie": [
     {
@@ -15,12 +15,12 @@
   "identificator_organisatie": "http://data.vlaanderen.be/id/organisatie/OVO037637",
   "publicatiedatum": "TBD",
   "type_toepassing": "TBD",
-  "categorie": "Applicatieprofiel",
+  "categorie": "Vocabularium",
   "beschrijving": "bodemenondergrond.md",
   "specificatiedocument": [
     {
-      "naam": "AP Bodem",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem/ontwerpstandaard/2021-08-01"
+      "naam": "VOC Ruimtelijke bereiken",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/ruimtelijke-bereiken/ontwerpstandaard/2021-08-01"
     }
   ],
   "documentatie": [],
