@@ -1,9 +1,9 @@
 {
   "naam": "Applicatieprofiel Dossier",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/dossier/kandidaatstandaard/2020-06-01/all-dossier-ap.jsonld",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/production/report/doc/applicatieprofiel/dossier/kandidaatstandaard/2020-06-01/all-dossier-ap.jsonld",
   "verantwoordelijke_organisatie": "Agentschap Facilitair Bedrijf",
   "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO001834",
-  "publicatiedatum": "TBD",
+  "publicatiedatum": "2021-04-22",
   "type_toepassing": "TBD",
   "categorie": "Applicatieprofiel",
   "beschrijving": "ap-dossier.md",
@@ -84,8 +84,8 @@
   "functioneel_toepassingsgebied": "Semantische standaard voor informatie met dossieren.",
   "organisatorisch_werkingsgebied": "Vlaamse en lokale overheden",
   "datum_van_aanmelding": "14 maart 2019",
-  "erkenning_werkgroep_datastandaarden": "TBD",
-  "erkenning_stuurgroep": "TBD",
+  "erkenning_werkgroep_datastandaarden": "10 oktober 2020",
+  "erkenning_stuurgroep": "22 april 2021",
   "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-dossier/raw/standaardenregister",
-  "status": "kandidaat-standaard"
+  "status": "erkende-standaard"
 }

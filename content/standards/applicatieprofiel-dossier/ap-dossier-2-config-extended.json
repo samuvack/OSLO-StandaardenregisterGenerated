@@ -1,20 +1,20 @@
 {
-  "naam": "Vocabularium Dossier",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/dossier/erkendestandaard/2020-06-01/all-dossier-voc.jsonld",
+  "naam": "Applicatieprofiel Dossier",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/applicatieprofiel/dossier/kandidaatstandaard/2020-06-01/all-dossier-ap.jsonld",
   "verantwoordelijke_organisatie": "Agentschap Facilitair Bedrijf",
   "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO001834",
-  "publicatiedatum": "2021-04-22",
+  "publicatiedatum": "TBD",
   "type_toepassing": "TBD",
-  "categorie": "Vocabularium",
-  "beschrijving": "voc-dossier.md",
+  "categorie": "Applicatieprofiel",
+  "beschrijving": "ap-dossier-2.md",
   "specificatiedocument": [
-    {
-      "naam": "Vocabularium Dossier",
-      "waarde": "https://data.vlaanderen.be/doc/vocabularium/dossier/kandidaatstandaard/2020-06-01"
-    },
     {
       "naam": "Applicatieprofiel Dossier",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/dossier/"
+    },
+    {
+      "naam": "Vocabularium Dossier",
+      "waarde": "https://data.vlaanderen.be/ns/dossier/"
     }
   ],
   "documentatie": [
@@ -84,8 +84,8 @@
   "functioneel_toepassingsgebied": "Semantische standaard voor informatie met dossieren.",
   "organisatorisch_werkingsgebied": "Vlaamse en lokale overheden",
   "datum_van_aanmelding": "14 maart 2019",
-  "erkenning_werkgroep_datastandaarden": "10 oktober 2020",
-  "erkenning_stuurgroep": "22 april 2021",
+  "erkenning_werkgroep_datastandaarden": "TBD",
+  "erkenning_stuurgroep": "TBD",
   "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-dossier/raw/standaardenregister",
-  "status": "erkende-standaard"
+  "status": "kandidaat-standaard"
 }
