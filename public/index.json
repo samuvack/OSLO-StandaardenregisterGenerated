@@ -1,10 +1,1837 @@
 [
   {
-    "id": "",
-    "name": "",
-    "type": "",
-    "url": "",
-    "status": "",
+    "id": "applicatieprofiel-bodem",
+    "name": "Applicatieprofiel Bodem",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-bodem.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "vocabularium-bodem",
+    "name": "Vocabularium Bodem",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-bodem.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "applicatieprofiel-bodem-en-ondergrond",
+    "name": "Applicatieprofiel Bodem en Ondergrond",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-bodem-en-ondergrond.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "vocabularium-bodem-en-ondergrond",
+    "name": "Vocabularium Bodem en Ondergrond",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-bodem-en-ondergrond.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "applicatieprofiel-bodem-en-ondergrond-observaties",
+    "name": "Applicatieprofiel Bodem en Ondergrond Observaties",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-bodem-en-ondergrond-observaties.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "vocabularium-bodem-en-ondergrond-observaties",
+    "name": "Vocabularium Bodem en Ondergrond Observaties",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-bodem-en-ondergrond-observaties.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "applicatieprofiel-bodem-en-ondergrond-interpretaties",
+    "name": "Applicatieprofiel Bodem en Ondergrond Interpretaties",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-bodem-en-ondergrond-interpretaties.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "vocabularium-bodem-en-ondergrond-interpretaties",
+    "name": "Vocabularium Bodem en Ondergrond Interpretaties",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-bodem-en-ondergrond-interpretaties.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "applicatieprofiel-grondboringen",
+    "name": "Applicatieprofiel Grondboringen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-grondboringen.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "vocabularium-grondboringen",
+    "name": "Vocabularium Grondboringen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-grondboringen.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "applicatieprofiel-grondwatermeetnet",
+    "name": "Applicatieprofiel Grondwatermeetnet",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-grondwatermeetnet.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "applicatieprofiel-ruimtelijke-bereiken",
+    "name": "Applicatieprofiel Ruimtelijke Bereiken",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-ruimtelijke-bereiken.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "vocabularium-ruimtelijke-bereiken",
+    "name": "Vocabularium Ruimtelijke Bereiken",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-ruimtelijke-bereiken.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "applicatieprofiel-sonderingen",
+    "name": "Applicatieprofiel Sonderingen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-sonderingen.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "vocabularium-sonderingen",
+    "name": "Vocabularium Sonderingen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-sonderingen.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "applicatieprofiel-sensoren-en-bemonstering",
+    "name": "Applicatieprofiel Sensoren en Bemonstering",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-sensoren-en-bemonstering.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "vocabularium-sensoren-en-bemonstering",
+    "name": "Vocabularium Sensoren en Bemonstering",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-sensoren-en-bemonstering.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "applicatieprofiel-observaties-en-metingen",
+    "name": "Applicatieprofiel Observaties en Metingen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-observaties-en-metingen.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "vocabularium-observaties-en-metingen",
+    "name": "Vocabularium Observaties en Metingen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-observaties-en-metingen.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "applicatieprofiel-doelgericht-digitaal-transformeren",
+    "name": "Applicatieprofiel Doelgericht Digitaal Transformeren",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-doelgericht-digitaal-transformeren.html",
+    "description": "De opzet van dit traject is om cultuurparticipatie te verhogen en een impuls te geven aan datagedreven beleid via digitale innovatie. Via het standaardiseren van data, in samenspraak met alle belanghebbenden, zullen datastromen semantisch verrijkt kunnen worden. Dit maakt de data beter vindbaar en begrijpbaar, alsook beter combineerbaar met andere databronnen."
+  },
+  {
+    "id": "vocabularium-loongegevens",
+    "name": "Vocabularium loongegevens",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-loongegevens.html",
+    "description": "Het doel van dit traject is om de structuur van data omtrent loongegevens te standaardiseren in samenspraak met alle belanghebbenden. Om zo datastromen semantisch te verrijken, om loongegevens beter vindbaar en begrijpbaar te maken en om deze data beter combineerbaar te maken met andere databronnen. Op basis van internationale standaarden bouwen we het vocabularium op. We brengen dit in lijn met de geldende Vlaamse regelgeving. Dit is een initiatief van het Agentschap voor de Uitbetaling van het Groeipakket, Digitaal Vlaanderen en het Datanutsbedrijf. De standaardisering gebeurt op vraag van de verschillende belanghebbenden binnen de sector."
+  },
+  {
+    "id": "applicatieprofiel-loongegevens",
+    "name": "Applicatieprofiel loongegevens",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-loongegevens.html",
+    "description": "Het doel van dit traject is om de structuur van data omtrent loongegevens te standaardiseren in samenspraak met alle belanghebbenden. Om zo datastromen semantisch te verrijken, om loongegevens beter vindbaar en begrijpbaar te maken en om deze data beter combineerbaar te maken met andere databronnen. Op basis van internationale standaarden bouwen we het vocabularium op. We brengen dit in lijn met de geldende Vlaamse regelgeving. Dit is een initiatief van het Agentschap voor de Uitbetaling van het Groeipakket, Digitaal Vlaanderen en het Datanutsbedrijf. De standaardisering gebeurt op vraag van de verschillende belanghebbenden binnen de sector."
+  },
+  {
+    "id": "vocabularium-feitelijke-verenigingen",
+    "name": "Vocabularium feitelijke verenigingen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/vocabularium-feitelijke-verenigingen.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “feitelijke verenigingen” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden en Europese standaarden en in lijn gebracht met vigerende Vlaamse regelgeving."
+  },
+  {
+    "id": "applicatieprofiel-feitelijke-verenigingen",
+    "name": "Applicatieprofiel feitelijke verenigingen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-feitelijke-verenigingen.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “feitelijke verenigingen” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden en Europese standaarden en in lijn gebracht met vigerende Vlaamse regelgeving."
+  },
+  {
+    "id": "generieke-hypermedia-api",
+    "name": "Generieke Hypermedia API",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/TechnischeStandaard"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/generieke-hypermedia-api.html",
+    "description": "Met honderden lokale besturen en administraties die verschillende producten of diensten leveren aan burgers en \nondernemingen met behulp van toepassingen van verschillende dienstenleveranciers is er naast semantische interoperabiliteit \nvan data ook nood aan interoperabiliteit van API’s zelf, en de methoden en operaties die gebruikt worden om de data die \nerdoor ontsloten wordt te bevragen en bewerken.\nEen Generieke Hypermedia API beschrijft in elke respons de verdere stappen die vanaf dat punt kunnen worden genomen \nmet behulp van [Hypermedia Controls](https://martinfowler.com/articles/richardsonMaturityModel.html#level3). \nEen client kan vervolgens een generieke afhandeling voorzien voor elk van deze bouwblokken. \nOp deze manier kan een strikte koppeling tussen client en server vermeden worden.\nOp welke bouwblokken we kunnen rekenen binnen Vlaanderen, wordt gespecificeerd in deze specificatie."
+  },
+  {
+    "id": "proces-en-methode-voor-de-ontwikkeling-en-erkenning-van-data-standaarden",
+    "name": "Proces en methode voor de ontwikkeling en erkenning van data standaarden",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/proces-en-methode-voor-de-ontwikkeling-en-erkenning-van-data-standaarden.html",
     "description": ""
+  },
+  {
+    "id": "proces-en-methode-voor-de-ontwikkeling-en-erkenning-van-data-standaarden-voor-agentschap-wegen-en-verkeer",
+    "name": "Proces en methode voor de ontwikkeling en erkenning van data standaarden voor Agentschap Wegen en Verkeer",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/proces-en-methode-voor-de-ontwikkeling-en-erkenning-van-data-standaarden-voor-agentschap-wegen-en-verkeer.html",
+    "description": ""
+  },
+  {
+    "id": "vlaamse-uri-standaard-voor-data",
+    "name": "Vlaamse URI-Standaard voor Data",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/TechnischeStandaard"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/vlaamse-uri-standaard-voor-data.html",
+    "description": "Voorliggend document beschrijft de vormregels waaraan URI's (Uniform Resource Identifiers) die door \nVlaamse overheden worden toegekend, dienen te voldoen om data-resources op een uniforme manier te \nontsluiten via het Web. Dit document beschrijft hoe “Uniform Resource Identifiers” (URI’s) dienen \nvervaardigd te worden om die resources persistent te identificeren. Hierdoor kunnen achterliggende \nsystemen evolueren terwijl de URI onveranderd blijft. De vormregels zijn niet noodzakelijk van toepassing \nop URI's van services, maar wel voor data die via services worden ontsloten."
+  },
+  {
+    "id": "openbaar-domein-2.0.0",
+    "name": "Openbaar Domein 2.0.0",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein-2.0.0.html",
+    "description": ""
+  },
+  {
+    "id": "api-guidelines",
+    "name": "API guidelines",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/TechnischeStandaard"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/api-guidelines.html",
+    "description": "Bijna elk business proces wordt ondersteund door API's die informatie versluizen van het ene informatiesysteem naar het andere. Naast semantische interoperabiliteit van de data die uitgewisseld worden, is het belangrijk om te weten hoe deze API's kunnen bevraagd worden, welke functionaliteit ze bieden en hoe we ermee kunnen koppelen.\n\nDe in 2018 ontwikkelde [Hypermedia API](https://data.vlaanderen.be/standaarden/erkende-standaarden/generieke-hypermedia-api/generieke-hypermedia-api.html) (richtinggevend voor machines) biedt reeds een aantal gestandaardiseerde bouwblokken aan om integratie met API’s automatisch te laten verlopen, opdat een machine door een API kan browsen zoals wij mensen de hyperlinks volgen op webpagina's. In 2020 wensen we te focussen op de implementatie van de ontwikkelde bouwblokken in productie-API’s en het standaardiseren van nieuwe bouwblokken, specifiek met betrekking tot autorisatie, authenticatie en de integratie met Apigee van Het Facilitair Bedrijf. Daarnaast zetten we ook in om de API-richtlijn (richtinggevend voor mensen) tot een gedragen goede praktijk van overheden in Vlaanderen te verheffen. "
+  },
+  {
+    "id": "conformiteitsraamwerk-voor-data-standaarden",
+    "name": "Conformiteitsraamwerk voor data standaarden",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Interoperabiliteit"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/conformiteitsraamwerk-voor-data-standaarden.html",
+    "description": "Dit document moet duidelijkheid bieden over de betekenis van conformiteit in de context van data standaarden. Het raamwerk is een aanvulling op Proces en Methode. De basis voor de conformiteit zijn de 3 types van OSLO Datastandaarden (Vocabularium, Applicatieprofiel en implementatiemodel). Er wordt verder nog een onderscheid gemaakt in gradatie en niveau binnen conformiteit. Het raamwerk zal zich ook buigen over de communicatie rond conformiteit. "
+  },
+  {
+    "id": "vocabularia-en-applicatieprofielen-bodem-en-ondergrond",
+    "name": "Vocabularia en Applicatieprofielen Bodem en Ondergrond",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularia-en-applicatieprofielen-bodem-en-ondergrond.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “bodem en ondergrond” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met de vigerende Vlaamse regelgeving. "
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-aim-object",
+    "name": "wegenenverkeer implementatiemodel AIM Object",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-aim-object.html",
+    "description": "Geeft een overzicht van de technische specificaties die nodig zijn voor data-uitwisseling met de MOW AIM-omgeving."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-anpr-en-trajectcontrole",
+    "name": "wegenenverkeer implementatiemodel ANPR en trajectcontrole",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-anpr-en-trajectcontrole.html",
+    "description": "Geeft een overzicht van de objecten die horen bij een ANPR-installatie of een Trajectcontrole."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-brandleiding",
+    "name": "wegenenverkeer implementatiemodel Brandleiding",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-brandleiding.html",
+    "description": "Beschrijft het brandleidingensysteem van tunnels en de bijbehorende gebouwen."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-camerainstallatie",
+    "name": "wegenenverkeer implementatiemodel Camerainstallatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-camerainstallatie.html",
+    "description": "Geeft een overzicht van de objecten die horen bij de verschillende opstellingen van camerainstallaties."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-complexe-datatypes",
+    "name": "wegenenverkeer implementatiemodel Complexe datatypes",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-complexe-datatypes.html",
+    "description": "Geeft een overzicht van de complexe datatypes die gebruikt worden in de verschillende vocabularia."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-draagconstructies",
+    "name": "wegenenverkeer implementatiemodel Draagconstructies",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-draagconstructies.html",
+    "description": "Geeft een overzicht van de objecten die als draagconstructie kunnen dienen voor elektromechanische wegaanhorigheden en verkeersborden."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-dynamische-borden",
+    "name": "wegenenverkeer implementatiemodel Dynamische borden",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-dynamische-borden.html",
+    "description": "Geeft een overzicht van de objecten die horen bij de verschillende soorten installaties van dynamische borden."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-ecologische-maatregelen",
+    "name": "wegenenverkeer implementatiemodel Ecologische maatregelen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-ecologische-maatregelen.html",
+    "description": "Beschrijft onderdelen en installaties die horen bij ecologische maatregelen."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-eenvoudige-datatypes",
+    "name": "wegenenverkeer implementatiemodel Eenvoudige datatypes",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-eenvoudige-datatypes.html",
+    "description": "Geeft een overzicht van de basis datatypes die gebruikt worden in de verschillende vocabularia."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-elektrische-componenten",
+    "name": "wegenenverkeer implementatiemodel Elektrische componenten",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-elektrische-componenten.html",
+    "description": "Geeft een overzicht van de objecten die horen bij de elektrische keten te beginnen aan de distributienetbeheerder tot aan een stroomkring."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-fietstelinstallatie",
+    "name": "wegenenverkeer implementatiemodel Fietstelinstallatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-fietstelinstallatie.html",
+    "description": "Geeft een overzicht van de objecten die horen bij punten waar voorbijrijdende fietsers geteld worden."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-hulpposten",
+    "name": "wegenenverkeer implementatiemodel Hulpposten",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-hulpposten.html",
+    "description": "Beschrijft de objecten die horen bij hulpposten en brandbestrijding in tunnels voor gebruik in het Standaardbestek 270."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-inbreuken-zwaar-vervoer",
+    "name": "wegenenverkeer implementatiemodel Inbreuken zwaar vervoer",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-inbreuken-zwaar-vervoer.html",
+    "description": "Geeft een overzicht van de objecten die horen bij een opstelling om inbreuken op de wetgeving rond zwaar vervoer vast te stellen."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-kasten,-cabines,-behuizing",
+    "name": "wegenenverkeer implementatiemodel Kasten, cabines, behuizing",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-kasten,-cabines,-behuizing.html",
+    "description": "Geeft een overzicht van de objecten die horen bij kasten, cabines of behuizingen als “omhulsel” voor EM-componenten."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-lijnvormige-elementen",
+    "name": "wegenenverkeer implementatiemodel Lijnvormige elementen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-lijnvormige-elementen.html",
+    "description": "Geeft een overzicht van de objecten die horen bij lijnvormige elementen zoals gespecificeerd in hoofdstuk 8 van Standaardbestek 250."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-luchtkwaliteit",
+    "name": "wegenenverkeer implementatiemodel Luchtkwaliteit",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-luchtkwaliteit.html",
+    "description": "Beschrijft de objecten die horen bij luchkwaliteitssensoren in tunnels voor gebruik in het Standaardbestek 270."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-luidsprekers-en-intercom",
+    "name": "wegenenverkeer implementatiemodel Luidsprekers en intercom",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-luidsprekers-en-intercom.html",
+    "description": "Beschrijft de objecten die horen bij het luidspreker- en intercomsysteem voor gebruik in het Standaardbestek 270."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-master-implementatiemodel",
+    "name": "wegenenverkeer implementatiemodel Master-implementatiemodel",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-master-implementatiemodel.html",
+    "description": "Geeft een overzicht van alle objecten die voorkomen in het implementatiemodel wegenenverkeer."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-meten-in-vlaanderen",
+    "name": "wegenenverkeer implementatiemodel Meten in Vlaanderen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-meten-in-vlaanderen.html",
+    "description": "Geeft een overzicht van de objecten die horen bij een Meten in Vlaanderen (MIV) - opstelling."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-optisch-transport-netwerk",
+    "name": "wegenenverkeer implementatiemodel Optisch transport netwerk",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-optisch-transport-netwerk.html",
+    "description": "Geeft een overzicht van de objecten die horen bij het optisch transport netwerk (OTN)."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-proeven-en-metingen",
+    "name": "wegenenverkeer implementatiemodel Proeven en metingen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-proeven-en-metingen.html",
+    "description": "Geeft een overzicht van de objecten die horen bij proeven en metingen uitgevoerd op objecten uit het Standaardbestek 250."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-relaties",
+    "name": "wegenenverkeer implementatiemodel Relaties",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-relaties.html",
+    "description": "Geeft een technisch overzicht van de soorten relaties die tussen objecten kunnen voorkomen."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-riolering",
+    "name": "wegenenverkeer implementatiemodel Riolering",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-riolering.html",
+    "description": "Geeft een overzicht van de objecten die horen bij riolering zoals gespecificeerd in hoofdstuk 7 en 9 van Standaardbestek 250."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-signalisatie",
+    "name": "wegenenverkeer implementatiemodel Signalisatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-signalisatie.html",
+    "description": "Beschrijft de objecten die horen bij signalisatie zoals gespecificeerd in hoofdstuk 10 van Standaardbestek 250."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-slagbomen-en-doorsteken",
+    "name": "wegenenverkeer implementatiemodel Slagbomen en doorsteken",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-slagbomen-en-doorsteken.html",
+    "description": "Beschrijft de objecten die horen bij slagbomen en (calamiteiten)doorsteken voor gebruik in het Standaardbestek 270."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-software-en-hardware",
+    "name": "wegenenverkeer implementatiemodel Software en hardware",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-software-en-hardware.html",
+    "description": "Geeft een overzicht van de objecten die horen bij software en hardware."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-tunnelevacuatie",
+    "name": "wegenenverkeer implementatiemodel Tunnelevacuatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-tunnelevacuatie.html",
+    "description": "Beschrijft evacuatiesystemen van tunnels en de bijbehorende gebouwen."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-union-datatypes",
+    "name": "wegenenverkeer implementatiemodel Union datatypes",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-union-datatypes.html",
+    "description": "Geeft een overzicht van de union datatypes die gebruikt worden in de verschillende vocabularia."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-vegetatie",
+    "name": "wegenenverkeer implementatiemodel Vegetatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-vegetatie.html",
+    "description": "Beschrijft de objecten die horen bij vegetatie zoals voornamelijk gespecificeerd in hoofdstuk 11 en ook deels in hoofdstuk 4 en 13 van Standaardbestek 250."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-ventilatie",
+    "name": "wegenenverkeer implementatiemodel Ventilatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-ventilatie.html",
+    "description": "Beschrijft ventilatiesystemen van tunnels en de bijbehorende gebouwen."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-verharding-en-wegfundering",
+    "name": "wegenenverkeer implementatiemodel Verharding en wegfundering",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-verharding-en-wegfundering.html",
+    "description": "Beschrijft de objecten die horen bij verharding, wegfundering en onderfundering zoals gespecificeerd in hoofdstuk 5, 6 en 12 van Standaardbestek 250."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-verkeersregelinstallatie",
+    "name": "wegenenverkeer implementatiemodel Verkeersregelinstallatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-verkeersregelinstallatie.html",
+    "description": "Geeft een overzicht van de objecten die horen bij een verkeersregelinstallatie (VRI)."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-verlichtingsinstallatie",
+    "name": "wegenenverkeer implementatiemodel Verlichtingsinstallatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-verlichtingsinstallatie.html",
+    "description": "Geeft een overzicht van objecten die horen bij verlichting in het algemeen en wegverlichting in het bijzonder binnen het kader van Standaardbestek 270."
+  },
+  {
+    "id": "wegenenverkeer-implementatiemodel-zone-30",
+    "name": "wegenenverkeer implementatiemodel Zone 30",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-implementatiemodel-zone-30.html",
+    "description": "Geeft een overzicht van de objecten die horen bij een zone-30 installatie."
+  },
+  {
+    "id": "wegenenverkeer-vocabularium-abstracten",
+    "name": "wegenenverkeer vocabularium abstracten",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-vocabularium-abstracten.html",
+    "description": "Het beleidsdomein MOW zet in op data standaarden voor het brede domein van wegen en verkeer. De objecttypenbibliotheek (OTL) specificeert een implementatiemodel voor de data-uitwisseling gedurende de volledige levenscyclus van onderdelen en installaties die in brede zin verband houden met wegen en verkeer zoals gespecificeerd in de verschillende Standaardbestekken 250, 260 en 270. Op basis van een aangepaste proces en methode voor dit domein worden vocabularia met bijhorende codelijsten opgesteld. Deze vocabularia vormen de basis voor één master-implementatiemodel waarmee alle data rond weg(aanhorigheden) als één datastroom uitgewisseld kan worden. Dit master implementatiemodel wordt ook aangeboden in kleinere implementatiemodellen gericht op aspect.\n\nDe vocabularia, implementatiemodellen en codelijsten worden gepubliceerd op https://wegenenverkeer.data.vlaanderen.be."
+  },
+  {
+    "id": "wegenenverkeer-vocabularium-implementatieelementen",
+    "name": "wegenenverkeer vocabularium implementatieelementen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-vocabularium-implementatieelementen.html",
+    "description": "Het beleidsdomein MOW zet in op data standaarden voor het brede domein van wegen en verkeer. De objecttypenbibliotheek (OTL) specificeert een implementatiemodel voor de data-uitwisseling gedurende de volledige levenscyclus van onderdelen en installaties die in brede zin verband houden met wegen en verkeer zoals gespecificeerd in de verschillende Standaardbestekken 250, 260 en 270. Op basis van een aangepaste proces en methode voor dit domein worden vocabularia met bijhorende codelijsten opgesteld. Deze vocabularia vormen de basis voor één master-implementatiemodel waarmee alle data rond weg(aanhorigheden) als één datastroom uitgewisseld kan worden. Dit master implementatiemodel wordt ook aangeboden in kleinere implementatiemodellen gericht op aspect.\n\nDe vocabularia, implementatiemodellen en codelijsten worden gepubliceerd op https://wegenenverkeer.data.vlaanderen.be."
+  },
+  {
+    "id": "wegenenverkeer-vocabularium-installatie",
+    "name": "wegenenverkeer vocabularium installatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-vocabularium-installatie.html",
+    "description": "Het beleidsdomein MOW zet in op data standaarden voor het brede domein van wegen en verkeer. De objecttypenbibliotheek (OTL) specificeert een implementatiemodel voor de data-uitwisseling gedurende de volledige levenscyclus van onderdelen en installaties die in brede zin verband houden met wegen en verkeer zoals gespecificeerd in de verschillende Standaardbestekken 250, 260 en 270. Op basis van een aangepaste proces en methode voor dit domein worden vocabularia met bijhorende codelijsten opgesteld. Deze vocabularia vormen de basis voor één master-implementatiemodel waarmee alle data rond weg(aanhorigheden) als één datastroom uitgewisseld kan worden. Dit master implementatiemodel wordt ook aangeboden in kleinere implementatiemodellen gericht op aspect.\n\nDe vocabularia, implementatiemodellen en codelijsten worden gepubliceerd op https://wegenenverkeer.data.vlaanderen.be."
+  },
+  {
+    "id": "wegenenverkeer-vocabularium-levenscyclus",
+    "name": "wegenenverkeer vocabularium levenscyclus",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-vocabularium-levenscyclus.html",
+    "description": "Het beleidsdomein MOW zet in op data standaarden voor het brede domein van wegen en verkeer. De objecttypenbibliotheek (OTL) specificeert een implementatiemodel voor de data-uitwisseling gedurende de volledige levenscyclus van onderdelen en installaties die in brede zin verband houden met wegen en verkeer zoals gespecificeerd in de verschillende Standaardbestekken 250, 260 en 270. Op basis van een aangepaste proces en methode voor dit domein worden vocabularia met bijhorende codelijsten opgesteld. Deze vocabularia vormen de basis voor één master-implementatiemodel waarmee alle data rond weg(aanhorigheden) als één datastroom uitgewisseld kan worden. Dit master implementatiemodel wordt ook aangeboden in kleinere implementatiemodellen gericht op aspect.\n\nDe vocabularia, implementatiemodellen en codelijsten worden gepubliceerd op https://wegenenverkeer.data.vlaanderen.be."
+  },
+  {
+    "id": "wegenenverkeer-vocabularium-onderdeel",
+    "name": "wegenenverkeer vocabularium onderdeel",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-vocabularium-onderdeel.html",
+    "description": "Het beleidsdomein MOW zet in op data standaarden voor het brede domein van wegen en verkeer. De objecttypenbibliotheek (OTL) specificeert een implementatiemodel voor de data-uitwisseling gedurende de volledige levenscyclus van onderdelen en installaties die in brede zin verband houden met wegen en verkeer zoals gespecificeerd in de verschillende Standaardbestekken 250, 260 en 270. Op basis van een aangepaste proces en methode voor dit domein worden vocabularia met bijhorende codelijsten opgesteld. Deze vocabularia vormen de basis voor één master-implementatiemodel waarmee alle data rond weg(aanhorigheden) als één datastroom uitgewisseld kan worden. Dit master implementatiemodel wordt ook aangeboden in kleinere implementatiemodellen gericht op aspect.\n\nDe vocabularia, implementatiemodellen en codelijsten worden gepubliceerd op https://wegenenverkeer.data.vlaanderen.be."
+  },
+  {
+    "id": "wegenenverkeer-vocabularium-proefenmeting",
+    "name": "wegenenverkeer vocabularium proefenmeting",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/wegenenverkeer-vocabularium-proefenmeting.html",
+    "description": "Het beleidsdomein MOW zet in op data standaarden voor het brede domein van wegen en verkeer. De objecttypenbibliotheek (OTL) specificeert een implementatiemodel voor de data-uitwisseling gedurende de volledige levenscyclus van onderdelen en installaties die in brede zin verband houden met wegen en verkeer zoals gespecificeerd in de verschillende Standaardbestekken 250, 260 en 270. Op basis van een aangepaste proces en methode voor dit domein worden vocabularia met bijhorende codelijsten opgesteld. Deze vocabularia vormen de basis voor één master-implementatiemodel waarmee alle data rond weg(aanhorigheden) als één datastroom uitgewisseld kan worden. Dit master implementatiemodel wordt ook aangeboden in kleinere implementatiemodellen gericht op aspect.\n\nDe vocabularia, implementatiemodellen en codelijsten worden gepubliceerd op https://wegenenverkeer.data.vlaanderen.be."
+  },
+  {
+    "id": "data-standaarden-wegenenverkeer",
+    "name": "Data standaarden wegenenverkeer",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+      "https://data.vlaanderen.be/id/concept/StandaardType/Implementatiemodel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/data-standaarden-wegenenverkeer.html",
+    "description": "Het beleidsdomein MOW zet in op data standaarden voor het brede domein van wegen en verkeer. De objecttypenbibliotheek (OTL) specificeert een implementatiemodel voor de data-uitwisseling gedurende de volledige levenscyclus van onderdelen en installaties die in brede zin verband houden met wegen en verkeer zoals gespecificeerd in de verschillende Standaardbestekken 250, 260 en 270. Op basis van een aangepaste proces en methode voor dit domein worden vocabularia met bijhorende codelijsten opgesteld. Deze vocabularia vormen de basis voor één master-implementatiemodel waarmee alle data rond weg(aanhorigheden) als één datastroom uitgewisseld kan worden. Dit master implementatiemodel wordt ook aangeboden in kleinere implementatiemodellen gericht op aspect.\n\nDe vocabularia, implementatiemodellen en codelijsten worden gepubliceerd op https://wegenenverkeer.data.vlaanderen.be."
+  },
+  {
+    "id": "vocabularium-en-applicatieprofielen-vastgoed",
+    "name": "Vocabularium en applicatieprofielen vastgoed",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-en-applicatieprofielen-vastgoed.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “vastgoed” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met vigerende Vlaamse regelgeving."
+  },
+  {
+    "id": "vocabularium-en-applicatieprofiel-air-and-water",
+    "name": "Vocabularium en applicatieprofiel air and water",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-en-applicatieprofiel-air-and-water.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “lucht en water” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met vigerende Vlaamse regelgeving."
+  },
+  {
+    "id": "vocabularium-en-applicatieprofiel-fietsinfrastructuur",
+    "name": "Vocabularium en applicatieprofiel Fietsinfrastructuur",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-en-applicatieprofiel-fietsinfrastructuur.html",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen “fietsinfrastructuur” de verschillende datastromen met betrekking tot dit domein semantisch te modelleren en de structuur van de data te standaardiseren. Het vocabularium wordt opgebouwd op basis van internationale standaarden waar in dit domein een brede consensus over bestaat en in lijn gebracht met vigerende Vlaamse regelgeving."
+  },
+  {
+    "id": "vocabularium-en-applicatieprofiel-oslo-consent",
+    "name": "Vocabularium en applicatieprofiel OSLO Consent",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-en-applicatieprofiel-oslo-consent.html",
+    "description": "TRAPEZE is a project, financed by the European Commission, that delivers a platform as a solution for organisations and citizens with some concrete objectives on security and privacy. It aims to bring stakeholders together under a common framework to provide citizens with the tools and know-how to manage their security and privacy. It wants to support consent mechanisms and checking that data is used in the right way. The aim is to restore citizens' trust in the digital economy by implementing log integrity, non-repudiation and building data lineage and transparency by design. Concrete applications that must prove their usefulness are worked out for three domains: government, telecom and the financial sector.\n\nDigital Flanders (Digitaal Vlaanderen) is already looking at how MijnBurgerprofiel (My Citizen Profile) can work together with Solid to offer a portal where citizens can manage their data and in compliance with the Single Digital Gateway Regulation (SDGR). Solid is a design specification created and managed by the W3C. It adds an identification system, sharing controls and cloud storage to existing web technologies. Public administrations are already custodians of a lot of personal data, such as domiciliation... These data are exchanged between public services to comply with the 'once-only' principle. However, it remains a challenge to give citizens control over their personal data.\n\nThrough this initiative, we wish to model the consent for the use of data semantically. The resulting standard around 'Consent' must be able to be easily reused by all stakeholders. In addition, we will maximize the reuse and conformance to related international and national standards (see section ‘Independencies’).\n\nThe scope of the project will be to build a vocabulary for describing consent in a broad sense and an application profile for a wide range of use cases such as, but not limited to:\n\n- sharing a subset of government controlled data with a private company as a citizen\n- A business party using a permission checking the integrity and validity of a given consent..."
+  },
+  {
+    "id": "vocabularium-en-applicatieprofiel-oslo-waterkwaliteit",
+    "name": "Vocabularium en applicatieprofiel OSLO Waterkwaliteit",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-en-applicatieprofiel-oslo-waterkwaliteit.html",
+    "description": "Provide a description for this standardization trajectory. \nThis text will be shown on the OSLO standards registry."
+  },
+  {
+    "id": "vocabularia-en-applicatieprofielen-hoppinpunten",
+    "name": "Vocabularia en Applicatieprofielen Hoppinpunten",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularia-en-applicatieprofielen-hoppinpunten.html",
+    "description": "Het doel van dit traject is om de structuur van data omtrent Hoppinpunten te standaardiseren in samenspraak met alle belanghebbenden. Om zo datastromen semantisch te verrijken, om hoppinpunten beter vindbaar en begrijpbaar te maken en om deze data beter combineerbaar te maken met andere databronnen. Op basis van internationale standaarden bouwen we het vocabularium op. We brengen dit in lijn met de geldende Vlaamse regelgeving."
+  },
+  {
+    "id": "vocabularia-en-applicatieprofielen-ldes",
+    "name": "Vocabularia en Applicatieprofielen LDES",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularia-en-applicatieprofielen-ldes.html",
+    "description": "Het doel van dit traject is om de structuur van Linked Data Event Streams (LDES) te standaardiseren in samenspraak met de belanghebbenden. Dit zal het mogelijk maken om datastromen semantisch te verrijken, wat synchronisatie met, en replicatie van de LDES-brondata vereenvoudigd alsook beter combineerbaar maakt met je eigen Linked Data Event Stream die op de LDES-brondata is gebaseerd. De OSLO LDES standaard vormt mee de basis voor het uitbouwen van het relanceproject 'Vlaamse Sensor Data Space'."
+  },
+  {
+    "id": "vocabularium-en-applicatieprofiel-cultuur--en-jeugdinfrastructuur",
+    "name": "Vocabularium en applicatieprofiel cultuur- en jeugdinfrastructuur",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-en-applicatieprofiel-cultuur--en-jeugdinfrastructuur.html",
+    "description": "Provide a description for this standardization trajectory. \nThis text will be shown on the OSLO standards registry."
+  },
+  {
+    "id": "vocabularium-organisatie",
+    "name": "Vocabularium Organisatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/vocabularium-organisatie.html",
+    "description": "OSLO-Organisatie voegt termen toe aan drie bestaande vocabularia waarmee organisaties worden beschreven: \n[W3C Organiszation Ontology](https://www.w3.org/TR/vocab-org/#org:Organization); \n[W3C Registerend Organization Vocabulary](https://www.w3.org/TR/vocab-regorg/); en \n[ISA Core Public Organization Vocabularium](https://joinup.ec.europa.eu/asset/cpov/home).\nDe voornaamste toevoegingen zijn subklassen om de veranderingen die organisaties ondergaan tijdens hun levensloop nader \nte specifiëren (namelijk oprichting, fusie, splitsing, stopzetten en verandering)."
+  },
+  {
+    "id": "openbaar-domein---uitbreiding-vegetatie-elementen-vocabularium",
+    "name": "Openbaar Domein - Uitbreiding Vegetatie-elementen (Vocabularium)",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---uitbreiding-vegetatie-elementen-(vocabularium).html",
+    "description": "Dit vocabularium maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "applicatieprofiel-inname-openbaar-domein",
+    "name": "Applicatieprofiel Inname openbaar domein",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-inname-openbaar-domein.html",
+    "description": "Het applicatieprofiel is ontwikkeld binnen het project GIPOD als Gelinkte Open Data en laat toe om innames, \nmobiliteitsmaatregelen en hinder op het openbaar domein gelinkt op te maken en te ontsluiten."
+  },
+  {
+    "id": "applicatieprofiel-besluit-mobiliteit",
+    "name": "Applicatieprofiel Besluit Mobiliteit",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-besluit-mobiliteit.html",
+    "description": "Dit applicatieprofiel beschrijft een informatiemodel om als lokaal bestuur \ngestructureerde besluiten inzake mobiliteit op te stellen en te publiceren. \nEen mobiliteitsbesluit kan momenteel een aanvullend of tijdelijk reglement zijn of een vergunning \nvoor inname en/of signalisatie."
+  },
+  {
+    "id": "applicatieprofiel-dcat-ap-vl",
+    "name": "Applicatieprofiel DCAT-AP VL",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/HerroepenStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/herroepen-standaard/applicatieprofiel-dcat-ap-vl.html",
+    "standardUrl": "http://data.vlaanderen.be/ns/dcatapvl",
+    "description": "De applicaties waarop dit profiel betrekking heeft zijn Open Data portalen in Vlaanderen. \nOpen Data portalen zijn catalogussen van Open Data datasets. Ze hebben als belangrijkste doelstelling het vindbaar maken \nvan data en het het hergebruik ervan te stimuleren. Open Data portalen vervullen een centrale rol in de publieke taak om de \ntoegang tot herbruikbare overheidsinformatie te faciliteren. Met dit applicatieprofiel bevorderen we de uniformiteit van de \nbeschikbare informatie over datasets (metadata). Tevens vereenvoudigen we het aggregatie proces van meerdere \nOpen Data Catalogi naar het Vlaamse, federale en Europese Open Data portaal. \nDCAT-AP Vlaanderen vormt hierdoor een minimum vereiste voor Open Data catalogi in Vlaanderen."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---uitbreiding-waterdeel",
+    "name": "Openbaar Domein 2.0.0 - Uitbreiding Waterdeel",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel",
+    "description": ""
+  },
+  {
+    "id": "vocabularium-mandaat",
+    "name": "Vocabularium Mandaat",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden",
+    "standardUrl": "http://data.vlaanderen.be/ns/mandaat",
+    "description": "Het vocabularium Mandaat is ontwikkeld binnen het project [Lokale Besluiten als Gelinkte Open Data](http://lokaalbestuur.vlaanderen.be/lokale-besluiten-als-gelinkte-open-data). \nHet Mandaat vocabularium specificeert een aantal klassen en eigenschappen om een mandaat te beschrijven."
+  },
+  {
+    "id": "applicatieprofiel-dossier",
+    "name": "Applicatieprofiel Dossier",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-dossier.html",
+    "description": "Het opvolgen van dossiers en de latere archivering van diezelfde dossiers is een onderwerp waar alle overheden in Vlaanderen mee geconfronteerd worden. Een efficiënte opvolging en archivering, op een consistente manier overheen verschillende entiteiten, vereist een (meta)datastandaard die generiek genoeg is om VO-breed in te zetten en tegelijk genoeg vrijheid laat voor context-specifieke implementaties. Als vertrekpunt voor deze oefening wordt gebruik gemaakt van een bestaande ontologieën, voorbereid door Departement Omgeving en Het Facilitair Bedrijf en andere relevante bestaande semantische datastandaarden (FRBR, Dublin Core, PREMIS, EAD DBPedia, …)."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---uitbreiding-watervoorkomen",
+    "name": "Openbaar Domein 2.0.0 - Uitbreiding Watervoorkomen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen",
+    "description": ""
+  },
+  {
+    "id": "openbaar-domein---uitbreiding-terreindelen-vocabularium",
+    "name": "Openbaar Domein - Uitbreiding Terreindelen (Vocabularium)",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---uitbreiding-terreindelen-(vocabularium).html",
+    "description": "Dit vocabularium maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "openbaar-domein---applicatieprofiel-infrastructuurelementen",
+    "name": "Openbaar Domein - Applicatieprofiel Infrastructuurelementen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---applicatieprofiel-infrastructuurelementen.html",
+    "description": "Dit applicatieprofiel maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "vocabularium-bestuur",
+    "name": "Vocabularium Bestuur",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden",
+    "standardUrl": "https://data.vlaanderen.be/ns/bestuur",
+    "description": "Het vocabularium Bestuur is ontwikkeld binnen het project [Lokale Besluiten als Gelinkte Open Data](http://lokaalbestuur.vlaanderen.be/lokale-besluiten-als-gelinkte-open-data). \nHet Bestuur vocabularium specificeert een aantal klassen en eigenschappen om een bestuur te beschrijven."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---applicatieprofiel-begroeid-voorkomen",
+    "name": "Openbaar Domein 2.0.0 - Applicatieprofiel Begroeid Voorkomen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen",
+    "description": ""
+  },
+  {
+    "id": "openbaar-domein-2.0.0---uitbreiding-gebied",
+    "name": "Openbaar Domein 2.0.0 - Uitbreiding Gebied",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/gebied",
+    "description": ""
+  },
+  {
+    "id": "vocabularium-dienst",
+    "name": "Vocabularium Dienst",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-dienst/vocabularium-dienst.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/dienst",
+    "description": "Dit vocabularium laat toe om publieke dienstverlening te beschrijven, t.t.z. dienstverlening ingericht door een \npublieke organisatie ten behoeve van particulieren, bedrijven of voor andere publieke organisaties. \nHet OSLO-Dienst vocabularium is volledig gebaseerd op het \n[ISA Core Public Service vocabularium](https://joinup.ec.europa.eu/asset/core_public_service/description) en op de impliciete \nuitbreiding van dat vocabularium ten behoeve van een [applicatieprofiel voor een dienstencataloog](https://joinup.ec.europa.eu/asset/cpsv-ap/asset_release/core-public-service-vocabulary-application-profile-v20).\nGeen nieuwe termen werden toegevoegd, de uitbreiding bestaat enkel uit een vertaling van de termen naar het Nederlands."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---applicatieprofiel-begraafplaatsen",
+    "name": "Openbaar Domein 2.0.0 - Applicatieprofiel Begraafplaatsen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats",
+    "description": ""
+  },
+  {
+    "id": "openbaar-domein-2.0.0---uitbreiding-begraafplaats",
+    "name": "Openbaar Domein 2.0.0 - Uitbreiding Begraafplaats",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats",
+    "description": ""
+  },
+  {
+    "id": "openbaar-domein-2.0.0---applicatieprofiel-waterdelen",
+    "name": "Openbaar Domein 2.0.0 - Applicatieprofiel Waterdelen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/waterdeel",
+    "description": ""
+  },
+  {
+    "id": "openbaar-domein-2.0.0---uitbreiding-onbegroeid-voorkomen",
+    "name": "Openbaar Domein 2.0.0 - Uitbreiding Onbegroeid Voorkomen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen",
+    "description": ""
+  },
+  {
+    "id": "vocabularium-toestemming",
+    "name": "Vocabularium Toestemming",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-toestemming/vocabularium-toestemming.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/toestemming",
+    "description": "Dit vocabularium werd ontwikkeld om informatie te beschrijven over toestemmingen (consent) die gevraagd worden door \nPublieke Organisaties om bepaalde verwerkingsactiviteiten te stellen met persoonsgegevens van burgers en ondernemers. \nNaast een definitie van de verwerkingsactiviteiten waar toestemming voor gevraagd wordt en relevante relaties met andere organisaties\ndie de gegevens zullen verwerken of extra informatie in de vorm van een privacy- of cookieverklaring bevat dit vocabularium\nook een entiteit 'Toestemming' waarmee een specifieke toestemming van een Agent voor een bepaalde verwerkingsactiviteit kan \ngecapteerd worden.\nDe toepassing van dit vocabularium garandeert geen conformiteit met de [Algemene Verordening Gegevensbescherming \\(GDPR\\) ](http://data.europa.eu/eli/reg/2016/679/oj)\nmaar biedt hergebruikers een instrument om de relevante entiteiten en relaties die nodig zijn in de context van een \ncorrecte verwerking van persoonsgegevens op een gestructureerde manier te beschrijven."
+  },
+  {
+    "id": "applicatieprofiel-adresregister",
+    "name": "Applicatieprofiel Adresregister",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-adresregister.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/adres",
+    "description": "Dit is een applicatieprofiel op bestaande vocabularia m.b.t. addressen waaronder het [OSLO-Adres vocabularium](http://data.vlaanderen.be/ns/adres). \nDit document beschrijft een applicatieprofiel, in dit geval Adresregister. Dit applicatieprofiel beantwoordt de vraag over \nhoe het corresponderende domeinmodel in de praktijk kan toegepast worden. \nDaarbij worden de beperkingen (kardinaliteit, codelijsten) toegelicht en de overeenkomstige (RDF) termen opgelijst."
+  },
+  {
+    "id": "vocabularium-notificatie",
+    "name": "Vocabularium Notificatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-notificatie/vocabularium-notificatie.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/notificatie",
+    "description": "Dit vocabularium werd ontwikkeld om informatie te beschrijven over notificaties. Een notificatie is een bericht van een \nafzender naar een bestemmeling, met als doel de bestemmeling te informeren over een bepaalde gebeurtenis of nieuwswaardigheid. \nDit vocabularium hergebruikt waar mogelijk termen van [Schema.org](https://schema.org/), een initatief van Google, Microsoft, Yahoo en Yandex om \ngestructureerde data op te nemen in onder andere web pagina's en e-mails. De intentie om een notificatie te versturen \nwordt uitgedrukt door de klasse InformeerActie ([schema:InformAction](https://schema.org/InformAction)) en kan beschreven worden aan de hand van eigenschappen \ndie onder meer informatie meegeven over de doelgroep, inhoud en relevantie van het bericht."
+  },
+  {
+    "id": "applicatieprofiel-dienstencataloog",
+    "name": "Applicatieprofiel Dienstencataloog",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-dienstencataloog/applicatieprofiel-dienstencataloog.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/dienst",
+    "description": "Dit is een applicatieprofiel op het [OSLO-Dienst vocabularium](https://data.vlaanderen.be/ns/dienst).\nEen profiel voegt in principe termen samen uit verschillende RDF-vocabularia met het oog op een bepaalde toepassing \n(inclusief beperkingen en/of voorwaarden zoals kardinaliteiten en codelijsten). \n\nVoor het OSLO-Dienst vocabularium baseerden we ons echter volledig op het vocabularium dat door ISA werd gemaakt om het \n[Core Public Service applicatieprofiel](https://joinup.ec.europa.eu/release/core-public-service-vocabulary-application-profile-v20) te ondersteunen. Dat is een applicatieprofiel voor het beschrijven van een \ndienstencataloog, meer concreet een cataloog voor publieke dienstverlening. Het OSLO-Dienst applicatieprofiel neemt het \nISA applicatieprofiel over, d.w.z. dezelfde constraints zijn van toepassing."
+  },
+  {
+    "id": "vocabularium-gebouw",
+    "name": "Vocabularium Gebouw",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden",
+    "standardUrl": "https://data.vlaanderen.be/ns/gebouw",
+    "description": "Het vocabularium OSLO-Gebouw focust op termen die betrekking hebben op gebouwen en gebouweenheden. \nVertrekpunt vormden termen gedefinieerd voor deze entiteiten in het [Gebouwenregister](https://overheid.vlaanderen.be/producten-diensten/gebouwen-adressenregister) (VBR). \nEchter gebeurde ook afstemming met [INSPIRE-Building](https://inspire.ec.europa.eu/data-specifications/2892) en met de federale werkgroep rond gebouwen (GT-BUNI)."
+  },
+  {
+    "id": "vocabularium-weg",
+    "name": "Vocabularium Weg",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-wegen/vocabularium-wegen.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/weg",
+    "description": "Het vocabularium OSLO Weg focust op termen die betrekking hebben op wegen. \nVertrekpunt vormden termen gedefinieerd voor deze entiteiten in het [Wegenregister](https://overheid.vlaanderen.be/producten-diensten/wegenregister) \nen de [INSPIRE standaard voor transportnetwerken](https://inspire.ec.europa.eu/Themes/115/2892)."
+  },
+  {
+    "id": "applicatieprofiel-perceel",
+    "name": "Applicatieprofiel Perceel",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/applicatieprofiel-percelen/applicatieprofiel-percelen.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/perceel",
+    "description": "In Vlaanderen wordt er door Informatie Vlaanderen en de Algemene Administratie voor Patrimoniumdocumentatie (AAPD) gewerkt aan één authentieke bron voor perceelsinformatie (uniek percelenplan). Binnen deze bron wordt elk privaat/eigendoms- perceel in Vlaanderen uniek geïdentificeerd en \ngekenmerkt door een geometrische voorstelling, (bruikbaar in een schaalbereik van 1/250 – 1/5000 OF in lijn met de \naanbevelingen in de INSPIRE dataspecificaties voor kadastrale percelen (link)). De AAPD vervult de rol van beheerder van \ndeze bron en voert deze uit volgens de principes overeengekomen met Informatie Vlaanderen en gebruikers van \nperceelsinformatie in Vlaanderen. De gegevens in deze bron worden verspreid onder verschillende productvormen (Administratief perceel (ADP) in de Basiskaart Vlaanderen (GRB), kadastrale percelen (CaPa) in het kadastraal perceelsplan (CADGIS), …).\nVia dit initiatief wensen overheden in Vlaanderen in samenwerking met de \nAlgemene Administratie voor Patrimoniumdocumentatie (AAPD) perceelsinformatie in Vlaanderen semantisch te modelleren. \nDe resulterende standaard ‘percelen’ moet vlot kunnen worden hergebruikt door alle belanghebbenden."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---uitbreiding-vegetatie",
+    "name": "Openbaar Domein 2.0.0 - Uitbreiding Vegetatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/vegetatie",
+    "description": ""
+  },
+  {
+    "id": "openbaar-domein-2.0.0---applicatieprofiel-terreindelen",
+    "name": "Openbaar Domein 2.0.0 - Applicatieprofiel Terreindelen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel",
+    "description": ""
+  },
+  {
+    "id": "vocabularium-toeristische-logies",
+    "name": "Vocabularium Toeristische Logies",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-toerisme-vlaanderen-logies/",
+    "standardUrl": "https://data.vlaanderen.be/ns/logies",
+    "description": "Via dit initiatief wensen overheden in Vlaanderen als eerste stap de logiesdata semantisch te modelleren en te \nstreven naar een semantische standaard: ‘Toeristische Logies - basis’. \nHet Toeristisch Vocabularium wordt in lijn gebracht met vigerende (internationale) standaarden en verrijkt waar relevant \n(Vlaamse initiatieven en regelgeving).\nToerisme Vlaanderen (TVL) wenst daarbij haar logiesregister semantisch te ontsluiten als Linked Open Data. \nDit initiatief vloeit voort uit het [Logiesdecreet](https://www.toerismevlaanderen.be/logiesdecreet) en \n[TVA decreet](https://www.toerismevlaanderen.be/toerismevoorallen). Het objectief is dat deze kerndata vlot hergebruikt \nkan worden door alle belanghebbenden.\nDit project wordt gerealiseerd in samenwerking met Informatie Vlaanderen (AIV) die TVL \nmethodologisch ondersteunt in het tot stand komen van een standaard en tevens treedt AIV als kwaliteitsbewaker op dat \nhet toeristisch vocabularium deel uitmaakt van het stelsel van Open standaarden voor Linkende Overheden (OSLO). \nAlle belangrijke stakeholders privaat of overheid die direct of indirect met logies te maken hebben worden uitgenodigd. \nDit initiatief is een eerste stap, maar het is de intentie om toekomstgericht ook andere toeristische deeldomeinen te \nstandaardiseren."
+  },
+  {
+    "id": "applicatieprofielen-mobiliteit:-dienstregeling-en-planning",
+    "name": "Applicatieprofielen Mobiliteit: Dienstregeling en Planning",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/",
+    "description": "Openbaar vervoer in Vlaanderen en België wordt gestructureerd aan de hand van het aanbod (lijnen en haltes), de middellange en korte termijn planning van voertuigen en chauffeurs (respectievelijk, lopen en diensten), de communicatie hiervan aan het grote publiek (dienstregelingen en storingen), en uiteindelijk de realtime en historische uitvoering van de geplande ritten.\n\nTot vandaag wordt alle informatie hierrond beheerd, verdeeld en gecommuniceerd door De Lijn en haar drie mede-openbaarvervoermaatschappijen (NMBS, MIVB, TEC) in verscheidene al dan niet ad-hoc dataformaten.\n\nDe Europese Unie heeft vanuit het ITS-project opdracht gegeven om al deze informatie te structureren in het NeTEx formaat, waarbij elke lidstaat de mogelijkheid krijgt een eigen “profiel” te ontwikkelen waarin haar eigenheden in kunnen worden opgenomen. Voor België heeft De Lijn het voortouw genomen om een profielspecificatie op te stellen, gebaseerd op de EPIP substandaard.\n\nAangezien deze informatie een belangrijke bouwsteen is binnen het domein van de Vlaamse mobiliteit, willen we deze specificatie tot stand laten komen binnen het OSLO programma, waarbij de nadruk wordt gelegd op de openbaarheid en linkbaarheid van de informatie. De publieke reviews waartegen de specificatie wordt getoetst, borgen de bruikbaarheid en de toegankelijkheid van de informatie voor de Vlaamse overheidsdiensten en burgerinitiatieven rond structurele mobiliteit.\n\nMet het doorlopen van het officiële OSLO traject beogen we het bekomen van een vocabularium rond structurele mobilliteit, en een applicatieprofiel dat de te bouwen EPIP implementatie aan de hand van dit vocabularium vorm geeft."
+  },
+  {
+    "id": "applicatieprofiel-dienst-transactiemodel",
+    "name": "Applicatieprofiel Dienst Transactiemodel",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/applicatieprofiel-dienst-transactiemodel/",
+    "standardUrl": "https://data.vlaanderen.be/ns/transactie",
+    "description": "Dit is een applicatieprofiel op de [OSLO-Dienst](http://data.vlaanderen.be/ns/dienst) en [OSLO-Transactie](http://data.vlaanderen.be/ns/transactie) vocabularia. \nDeze specificatie beschrijft een informatiemodel voor toepassingen met als use case het gestructureerd bijhouden van \ninformatie met betrekking tot de consumptie van een bepaalde Publieke Dienstverlening.\n\nHet omvat informatie met betrekking tot: de status van de uitvoering van een bepaalde dienst, \nof en wanneer er een actie nodig is van de afnemer, welke actoren betrokken zijn in de uitvoering van de dienstverlening en \nwelke informatie verstrekt wordt door de consument van de dienstverlening. De achterliggende standaarden die \ngebruikt werden om deze specificatie op te stellen zijn de \nISA [Core Public Service Application Profile](https://joinup.ec.europa.eu/solution/core-public-service-vocabulary-application-profile) \nen [Core Criterion & Core Evidence Vocabulary](https://joinup.ec.europa.eu/solution/core-criterion-and-core-evidence-vocabulary)."
+  },
+  {
+    "id": "applicatieprofiel-toeristische-logies-basis",
+    "name": "Applicatieprofiel Toeristische Logies Basis",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/applicatieprofiel-toerisme-vlaanderen-logies/",
+    "standardUrl": "https://data.vlaanderen.be/ns/logies",
+    "description": "Via dit initiatief wensen overheden in Vlaanderen als eerste stap de logiesdata semantisch te modelleren en te \nstreven naar een semantische standaard: ‘Toeristische Logies - basis’. \nHet Toeristisch Vocabularium wordt in lijn gebracht met vigerende (internationale) standaarden en verrijkt \nwaar relevant (Vlaamse initiatieven en regelgeving).\nToerisme Vlaanderen (TVL) wenst daarbij haar logiesregister semantisch te ontsluiten als Linked Open Data. \nDit initiatief vloeit voort uit het [Logiesdecreet](https://www.toerismevlaanderen.be/logiesdecreet) en \n[TVA decreet](https://www.toerismevlaanderen.be/toerismevoorallen). Het objectief is dat deze kerndata vlot \nhergebruikt kan worden door alle belanghebbenden.\nDit project wordt gerealiseerd in samenwerking met Informatie Vlaanderen (AIV) die \nTVL methodologisch ondersteunt in het tot stand komen van een standaard en tevens treedt AIV als kwaliteitsbewaker \nop dat het toeristisch vocabularium deel uitmaakt van het stelsel van Open standaarden voor Linkende Overheden (OSLO). \nAlle belangrijke stakeholders privaat of overheid die direct of indirect met logies te maken hebben worden uitgenodigd. \nDit initiatief is een eerste stap, maar het is de intentie om toekomstgericht ook andere toeristische deeldomeinen te \nstandaardiseren."
+  },
+  {
+    "id": "vocabularium-transactie",
+    "name": "Vocabularium Transactie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-transactie/vocabularium-transactie.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/transactie",
+    "description": "Dit vocabularium is een uitbreiding op het [OSLO-Dienst](http://data.vlaanderen.be/ns/dienst) vocabularium. \nHet definieert extra klassen en attributen voor het beschrijven van publieke dienstverlening in een transactionele context, \nmet andere woorden wanneer een bepaalde Agent (bv. een natuurlijk persoon) een bepaalde publieke dienst consumeert, \nbijvoorbeeld het aanvragen van een nieuwe identiteitskaart.\nIn dit vocabularium worden termen gespecifieerd om de status van de consumptie van een publieke dienst te documenteren, \nmet onder meer eigenschappen die aanduiden of er op een bepaald tijdstip een actie nodig is van de afnemer om de \ndienstverlening te kunnen verder zetten.\nVerder werden termen hergebruikt uit de \n[ISA Core Criterion and Core Evidence Vocabulary](https://joinup.ec.europa.eu/solution/core-criterion-and-core-evidence-vocabulary) om de dynamiek te specifiëren tussen\ncriteria die worden opgelegd om van een bepaalde Publieke Dienstverlening gebruik te kunnen maken en de antwoorden en \nbewijzen die door afnemers worden aangeleverd om te staven dat zij aan deze criteria voldoen."
+  },
+  {
+    "id": "applicatieprofiel-mandatendatabank",
+    "name": "Applicatieprofiel Mandatendatabank",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden",
+    "standardUrl": "http://data.vlaanderen.be/ns/mandaat",
+    "description": "Dit document beschrijft een applicatieprofiel, in dit geval Mandatendatabank AP. \nHet applicatieprofiel is ontwikkeld binnen het project [Lokale Besluiten als Gelinkte Open Data](http://lokaalbestuur.vlaanderen.be/lokale-besluiten-als-gelinkte-open-data) \nen laat toe om een gelinkte mandatendatabank op te zetten op basis van gelinkte besluiten. Het beantwoordt de vraag \nover hoe het \ncorresponderende domeinmodel in de praktijk kan toegepast worden. Daarbij worden de beperkingen (kardinaliteit, codelijsten)\ntoegelicht en de overeenkomstige (RDF) termen opgelijst."
+  },
+  {
+    "id": "vocabularium-perceel",
+    "name": "Vocabularium Perceel",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-percelen/vocabularium-percelen.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/perceel",
+    "description": "In Vlaanderen wordt er door Informatie Vlaanderen en de Algemene Administratie voor Patrimoniumdocumentatie (AAPD) gewerkt aan één authentieke bron voor perceelsinformatie (uniek percelenplan). Binnen deze bron wordt elk privaat/eigendoms- perceel in Vlaanderen uniek geïdentificeerd en \ngekenmerkt door een geometrische voorstelling, (bruikbaar in een schaalbereik van 1/250 – 1/5000 OF in lijn met de \naanbevelingen in de INSPIRE dataspecificaties voor kadastrale percelen (link)). De AAPD vervult de rol van beheerder van \ndeze bron en voert deze uit volgens de principes overeengekomen met Informatie Vlaanderen en gebruikers van \nperceelsinformatie in Vlaanderen. De gegevens in deze bron worden verspreid onder verschillende productvormen (Administratief perceel (ADP) in de Basiskaart Vlaanderen (GRB), kadastrale percelen (CaPa) in het kadastraal perceelsplan (CADGIS), …).\nVia dit initiatief wensen overheden in Vlaanderen in samenwerking met de \nAlgemene Administratie voor Patrimoniumdocumentatie (AAPD) perceelsinformatie in Vlaanderen semantisch te modelleren. \nDe resulterende standaard ‘percelen’ moet vlot kunnen worden hergebruikt door alle belanghebbenden."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---applicatieprofiel-onbegroeid-voorkomen",
+    "name": "Openbaar Domein 2.0.0 - Applicatieprofiel Onbegroeid Voorkomen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/onbegroeidvoorkomen",
+    "description": ""
+  },
+  {
+    "id": "openbaar-domein---uitbreiding-waterdelen-vocabularium",
+    "name": "Openbaar Domein - Uitbreiding Waterdelen (Vocabularium)",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---uitbreiding-waterdelen-(vocabularium).html",
+    "description": "Dit vocabularium maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "openbaar-domein---uitbreiding-begraafplaats-vocabularium",
+    "name": "Openbaar Domein - Uitbreiding Begraafplaats (Vocabularium)",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---uitbreiding-begraafplaats-(vocabularium).html",
+    "description": "Dit vocabularium maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "openbaar-domein---uitbreiding-infrastructuurelementen-vocabularium",
+    "name": "Openbaar Domein - Uitbreiding Infrastructuurelementen (Vocabularium)",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---uitbreiding-infrastructuurelementen-(vocabularium).html",
+    "description": "Dit vocabularium maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "vocabularium-netwerk",
+    "name": "Vocabularium Netwerk",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-mobiliteit-trips-en-aanbod/index.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/netwerk",
+    "description": "Deze vocabularia werden opgesteld in het kader van het Applicatieprofiel \"OSLO-Mobiliteit: Trips en Aanbod\". \nHet vocabularium \"OSLO-Mobiliteit: Trips en Aanbod\" definieert termen die van toepassing zijn op (1) door personen \nuitgevoerde reizen en (2) de mobiliteitsdiensten die ze daarvoor ter beschikking hebben. Het vocabularium \"OSLO-Netwerk\" \ndefinieert termen die van toepassing zijn op netwerken in het algemeen en is gebaseerd op het Generic Network Model van \nINSPIRE. Het vocabularium \"OSLO-Transportnetwerk\" bouwt hierop voort en is gebaseerd op de Data Specification on Transport \nNetworks van INSPIRE."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---basisprofiel-openbaar-domein",
+    "name": "Openbaar Domein 2.0.0 - Basisprofiel Openbaar Domein",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein",
+    "description": ""
+  },
+  {
+    "id": "openbaar-domein---applicatieprofiel-vegetatie-elementen",
+    "name": "Openbaar Domein - Applicatieprofiel Vegetatie-elementen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---applicatieprofiel-vegetatie-elementen.html",
+    "description": "Dit applicatieprofiel maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "vocabularium-subsidies",
+    "name": "Vocabularium Subsidies",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/vocabularium-subsidies.html",
+    "description": "Veel van de informatie over subsidies is terug te vinden in de besluiten die worden opgesteld door lokale besturen. \nIn het kader van LBLOD (lokale besluiten als gelinkte open data) zet het Agentschap Binnenlands Bestuur in op de \ndecentrale inwinning van deze data. Tijdens dit traject focussen we op subsidiereglementen en -toekenningen. \nDit applicatieprofiel zal bijgevolg steunen op OSLO-Besluit Publicatie, maar ook op OSLO-Dienstencataloog, \nOSLO-Dienst Transactiemodel en OSLO-Subsidieregister."
+  },
+  {
+    "id": "applicatieprofiel-issue-tracking-voor-burgers-en-organisaties",
+    "name": "Applicatieprofiel Issue tracking voor burgers en organisaties",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/applicatieprofiel-issue-tracking-voor-burgers-en-organisaties/applicatieprofiel-issue-tracking-voor-burgers-en-organisaties.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/melding",
+    "description": "Dit applicatieprofiel beschrijft een informatiemodel om als overheid gestructureerd meldingen te ontvangen van burgers en \nondernemers. Een melding beschrijft een probleem of een vaststelling die mogelijks aanleiding geeft tot een actie van de \noverheid, zoals het herstellen van een put in de weg of het ophalen van sluikstort.\nEen melding bestaat onder meer uit een titel, een samenvatting en een body. De Melding Body laat toe om extra \ninformatie mee te geven met betrekking tot de melding, bijvoorbeeld een geometrie van een plaats of geïmpacteerd gebied, \nextra beschrijvende tekst, of bijlagen in de vorm van bijvoorbeld foto's of gescande documenten. Een melding kan daarnaast \néén of meerdere Meldingstatussen doorlopen.\nAls voorgestelde codelijst wordt verwezen naar de lijst met mogelijke statussen uit de Generieke Terugmeldfaciliteit (GTMF) \nvan Informatie Vlaanderen. Verder treden voor meldingen verschillende Agents op die een rol spelen in de afhandeling van de \nmelding, zoals een melder, indiener, behandelaar..."
+  },
+  {
+    "id": "applicatieprofiel-besluit-publicatie",
+    "name": "Applicatieprofiel Besluit Publicatie",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden",
+    "standardUrl": "http://data.vlaanderen.be/ns/besluit",
+    "description": "Dit document beschrijft een applicatieprofiel, in dit geval Besluit Publicatie AP. \nHet applicatieprofiel is ontwikkeld binnen het project [Lokale Besluiten als Gelinkte Open Data](https://lokaalbestuur.vlaanderen.be/lokale-besluiten-als-gelinkte-open-data) \nen laat toe om de notulen en \nbesluiten van een bestuursorgaan gelinkt op te maken, gelinkt authentiek te bewaren en gelinkt te ontsluiten. \nHet beantwoordt de vraag over hoe het corresponderende domeinmodel in de praktijk kan toegepast worden. \nDaarbij worden de beperkingen (kardinaliteit, codelijsten) toegelicht en de overeenkomstige (RDF) termen opgelijst."
+  },
+  {
+    "id": "vocabularium-persoon",
+    "name": "Vocabularium Persoon",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-persoon/vocabularium-persoon.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/persoon",
+    "description": "OSLO-Persoon richt zich op het beschrijven van een natuurlijk persoon, d.w.z. een fysiek persoon en geen organisatie. \nNatuurlijke personen hebben een eigen rechtspersoonlijkheid, deze is niet kunstmatig zoals bij rechtspersonen. \nHet vocabularium is een uitbreiding op bestaande RDF-vocabularia over personen. Die zijn immers louter bedoeld om een \npersoon te identificeren (bv. het [ISA Core Person Vocabulary](https://joinup.ec.europa.eu/node/42440) dat o.a. naam, geslacht, geboortedatum modelleert) of ze \nzijn ontworpen voor specifieke toepassingen (bv. [FOAF](http://xmlns.com/foaf/spec/) dat zich voornamelijk focust op relaties tussen personen)."
+  },
+  {
+    "id": "applicatieprofiel-wegenregister",
+    "name": "Applicatieprofiel Wegenregister",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Kandidaat-standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-wegenregister/",
+    "standardUrl": "https://data.vlaanderen.be/ns/weg",
+    "description": "Dit document beschrijft een applicatieprofiel, in dit geval Wegenregister. \nDit applicatieprofiel beantwoordt de vraag over hoe het corresponderende domeinmodel in de praktijk kan toegepast worden. \nDaarbij worden de beperkingen (kardinaliteit, codelijsten) toegelicht en de overeenkomstige (RDF) termen opgelijst."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---uitbreiding-begroeid-voorkomen",
+    "name": "Openbaar Domein 2.0.0 - Uitbreiding Begroeid Voorkomen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/begroeidvoorkomen",
+    "description": ""
+  },
+  {
+    "id": "applicatieprofiel-besluit-subsidies",
+    "name": "Applicatieprofiel Besluit Subsidies",
+    "status": "https://data.vlaanderen.be/id/conceptscheme/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/",
+    "standardUrl": "http://data.vlaanderen.be/ns/subsidie",
+    "description": "Veel van de informatie over subsidies is terug te vinden in de besluiten die worden opgesteld door lokale besturen. \nIn het kader van LBLOD (lokale besluiten als gelinkte open data) zet het Agentschap Binnenlands Bestuur in op de \ndecentrale inwinning van deze data. Tijdens dit traject focussen we op subsidiereglementen en -toekenningen. \nDit applicatieprofiel zal bijgevolg steunen op OSLO-Besluit Publicatie, maar ook op OSLO-Dienstencataloog, \nOSLO-Dienst Transactiemodel en OSLO-Subsidieregister."
+  },
+  {
+    "id": "openbaar-domein---uitbreiding-gebieden-vocabularium",
+    "name": "Openbaar Domein - Uitbreiding Gebieden (Vocabularium)",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---uitbreiding-gebieden-(vocabularium).html",
+    "description": "Dit vocabularium maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "applicatieprofiel-contactvoorkeuren",
+    "name": "Applicatieprofiel Contactvoorkeuren",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/applicatieprofiel-contactvoorkeuren/applicatieprofiel-contactvoorkeuren.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/toestemming",
+    "description": "Dit applicatieprofiel beschrijft een informatiemodel voor een toepassing met als use case het gestructureerd beschrijven van \ncontactvoorkeuren van burgers en ondernemers. Deze specificatie is gebaseerd op de [OSLO-Toestemming](https://data.vlaanderen.be/ns/toestemming) \nen [OSLO-Notificatie](https://data.vlaanderen.be/ns/notificatie) vocabularia \nen heeft als scope het capteren van de expliciete toestemmingen (consent) die gevraagd worden door Publieke Organisaties om \nbepaalde verwerkingsactiviteiten te stellen met persoonsgegevens van burgers en ondernemers.\nNaast een definitie van de verwerkingsactiviteiten waar toestemming voor gevraagd wordt en relevante relaties met andere \norganisaties die de gegevens zullen verwerken of extra informatie in de vorm van een privacy- of cookieverklaring bevat dit \napplicatieprofiel ook een entiteit 'Toestemming' waarmee een specifieke toestemming van een Agent voor een bepaalde \nverwerkingsactiviteit kan gecapteerd worden. Bijvoorbeeld de toestemming om via e-mail een nieuwsbrief te ontvangen van \nInformatie Vlaanderen in verband met de Dienstverlening die door hen wordt aangeboden.\nDe toepassing van dit applicatieprofiel garandeert geen conformiteit met de \n[Algemene Verordening Gegevensbescherming \\(GDPR\\) ](http://data.europa.eu/eli/reg/2016/679/oj)\nmaar biedt hergebruikers een instrument om de relevante entiteiten en relaties die nodig zijn in de context van een correcte \nverwerking van persoonsgegevens op een gestructureerde manier te beschrijven."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---applicatieprofiel-begraafplaatsenbeheer",
+    "name": "Openbaar Domein 2.0.0 - Applicatieprofiel Begraafplaatsenbeheer",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/begraafplaats",
+    "description": ""
+  },
+  {
+    "id": "vocabularium-adres",
+    "name": "Vocabularium Adres",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/vocabularium-adres.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/adres",
+    "description": "Het OSLO-Adres vocabularium voegt termen toe aan bestaande RDF-vocabularia zodat gestructureerde adressen kunnen \nworden uitgewisseld. Een Europese standaard voor dergelijke adressen bestaat ([INSPIRE-Address](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_AD_v3.0.pdf)) maar heeft \nmomenteel nog geen RDF-vocabularium. Bovendien is deze standaard bedoeld om om het even welk Europees adres te beschrijven,\n hij is m.a.w. te generiek voor uitwisseling van Belgische adressen. \n We zorgden er echter voor dat OSLO-Adres perfect mapt op INSPIRE-Address."
+  },
+  {
+    "id": "applicatieprofiel-openbaar-domein",
+    "name": "Applicatieprofiel Openbaar Domein",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/applicatieprofiel-openbaar-domein.html",
+    "description": "Dit applicatieprofiel maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "applicatieprofiel-besluitvorming",
+    "name": "Applicatieprofiel Besluitvorming",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/besluitvorming/besluitvorming.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/besluitvorming",
+    "description": "Het applicatieprofiel OSLO-Besluitvorming focust op de termen die betrekking hebben op informatie uit \nformele besluitvormingsprocedures. Om een efficiënte uitwisseling met alle betrokken partijen te \nfaciliteren werd er een breder gedragen gemeenschappelijk en expliciet begrippenkader opgesteld. \nDit applicatieprofiel steunt bijgevolg op [OSLO-Besluit](https://data.vlaanderen.be/ns/besluit/),\nmaar ook op [OSLO-Dossier](https://data.vlaanderen.be/ns/dossier/), \n[OSLO-Generiek](https://data.vlaanderen.be/ns/generiek), \n[OSLO-Organisatie](https://data.vlaanderen.be/ns/organisatie)\n en de internationale W3C standaard [Provenance Ontology](https://www.w3.org/TR/prov-o/) (PROV-O)."
+  },
+  {
+    "id": "vocabularium-besluitvorming",
+    "name": "Vocabularium Besluitvorming",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/besluitvorming/besluitvorming.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/besluitvorming",
+    "description": "Het applicatieprofiel OSLO-Besluitvorming focust op de termen die betrekking hebben op informatie uit \nformele besluitvormingsprocedures. Om een efficiënte uitwisseling met alle betrokken partijen te \nfaciliteren werd er een breder gedragen gemeenschappelijk en expliciet begrippenkader opgesteld. \nDit applicatieprofiel steunt bijgevolg op [OSLO-Besluit](https://data.vlaanderen.be/ns/besluit/),\nmaar ook op [OSLO-Dossier](https://data.vlaanderen.be/ns/dossier/), \n[OSLO-Generiek](https://data.vlaanderen.be/ns/generiek), \n[OSLO-Organisatie](https://data.vlaanderen.be/ns/organisatie)\n en de internationale W3C standaard [Provenance Ontology](https://www.w3.org/TR/prov-o/) (PROV-O)."
+  },
+  {
+    "id": "vocabularium-generiek",
+    "name": "Vocabularium Generiek",
+    "status": "https://data.vlaanderen.be/id/conceptscheme/ZonderStatus",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/",
+    "standardUrl": "https://data.vlaanderen.be/ns/generiek",
+    "description": ""
+  },
+  {
+    "id": "applicatieprofiel-generiek-basis",
+    "name": "Applicatieprofiel Generiek basis",
+    "status": "https://data.vlaanderen.be/id/conceptscheme/ZonderStatus",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/",
+    "standardUrl": "https://data.vlaanderen.be/ns/generiek",
+    "description": ""
+  },
+  {
+    "id": "openbaar-domein-2.0.0---applicatieprofiel-vegetatie-elementen",
+    "name": "Openbaar Domein 2.0.0 - Applicatieprofiel Vegetatie-elementen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/vegetatie",
+    "description": ""
+  },
+  {
+    "id": "openbaar-domein-2.0.0---uitbreiding-terreindeel",
+    "name": "Openbaar Domein 2.0.0 - Uitbreiding Terreindeel",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/terreindeel",
+    "description": ""
+  },
+  {
+    "id": "vocabularium-mobiliteit:-dienstregeling-en-planning",
+    "name": "Vocabularium Mobiliteit: Dienstregeling en Planning",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/",
+    "description": "Openbaar vervoer in Vlaanderen en België wordt gestructureerd aan de hand van het aanbod (lijnen en haltes), de middellange en korte termijn planning van voertuigen en chauffeurs (respectievelijk, lopen en diensten), de communicatie hiervan aan het grote publiek (dienstregelingen en storingen), en uiteindelijk de realtime en historische uitvoering van de geplande ritten.\n\nTot vandaag wordt alle informatie hierrond beheerd, verdeeld en gecommuniceerd door De Lijn en haar drie mede-openbaarvervoermaatschappijen (NMBS, MIVB, TEC) in verscheidene al dan niet ad-hoc dataformaten.\n\nDe Europese Unie heeft vanuit het ITS-project opdracht gegeven om al deze informatie te structureren in het NeTEx formaat, waarbij elke lidstaat de mogelijkheid krijgt een eigen “profiel” te ontwikkelen waarin haar eigenheden in kunnen worden opgenomen. Voor België heeft De Lijn het voortouw genomen om een profielspecificatie op te stellen, gebaseerd op de EPIP substandaard.\n\nAangezien deze informatie een belangrijke bouwsteen is binnen het domein van de Vlaamse mobiliteit, willen we deze specificatie tot stand laten komen binnen het OSLO programma, waarbij de nadruk wordt gelegd op de openbaarheid en linkbaarheid van de informatie. De publieke reviews waartegen de specificatie wordt getoetst, borgen de bruikbaarheid en de toegankelijkheid van de informatie voor de Vlaamse overheidsdiensten en burgerinitiatieven rond structurele mobiliteit.\n\nMet het doorlopen van het officiële OSLO traject beogen we het bekomen van een vocabularium rond structurele mobilliteit, en een applicatieprofiel dat de te bouwen EPIP implementatie aan de hand van dit vocabularium vorm geeft."
+  },
+  {
+    "id": "applicatieprofiel-persoon-basis",
+    "name": "Applicatieprofiel Persoon basis",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-persoon-basis/applicatieprofiel-persoon-basis.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/persoon",
+    "description": "Het OSLO-Persoon applicatieprofiel brengt termen samen uit vocabularia over personen en in hoofdzaak uit het \n[OSLO-Persoon vocabularium](https://data.vlaanderen.be/ns/persoon). \nIn principe heeft een applicatieprofiel een bepaalde toepassing voor ogen en met dat doel worden \nbijkomende constraints opgelegd zoals kardinaliteiten en voorgeschreven codelijsten. Dat is hier niet het geval en dus \nspreken we van een basisprofiel. \nHet bevat de info die binnen OSLO relevant wordt geacht voor het uitwisselen van gegevens over personen. \nDat neemt niet weg dat het profiel termen samenbrengt die we voornamelijk zien in de context van een bevolkingsregister."
+  },
+  {
+    "id": "vocabularium-bedrijventerrein",
+    "name": "Vocabularium Bedrijventerrein",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-bedrijventerreinen/vocabularium-bedrijventerreinen.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/bedrijventerrein",
+    "description": "Het GIS bedrijventerreinen is een Vlaamse authentieke geografische gegevensbron in beheer van \nhet Agentschap Innoveren en Ondernemen. De dataset omvat twee grote entiteiten, namelijk Percelen en Terreinen. \nPercelen zijn gebruikspercelen met informatie inzake bebouwing, functie, gebruik en beschikbaarheid aangevuld met \nverschillende soorten beperkingen naar ontwikkelings- en activeringspotentieel. Terreinen zijn op hun beurt de contouren \nvan bedrijventerreinen doorheen de fases van planning – ontwikkeling – realisatie en beheer.\nVia dit initiatief wensen overheden in Vlaanderen als eerste stap de bedrijventerreinen semantisch te modelleren en te \nstreven naar een semantische standaard: ‘Bedrijventerreinen’. .Het objectief is dat deze standaard vlot hergebruikt kan \nworden door alle belanghebbenden. Dit project wordt gerealiseerd in samenwerking met Informatie Vlaanderen (AIV) die \nstakeholders methodologisch ondersteunt in het tot stand komen van een standaard en tevens treedt AIV als kwaliteitsbewaker \nop dat de percelenstandaard deel uitmaakt van het stelsel van Open standaarden voor Linkende Overheden (OSLO)."
+  },
+  {
+    "id": "applicatieprofiel-gebouwenregister",
+    "name": "Applicatieprofiel Gebouwenregister",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/applicatieprofiel-gebouwenregister/",
+    "standardUrl": "https://data.vlaanderen.be/ns/gebouw",
+    "description": "De applicatie waarop dit profiel betrekking heeft is een Gebouwenregister. Gebouwregistratie houdt in dat de beheerders \nvan dit gegeven gebouwen en gebouweenheden officieel vaststellen en vastleggen in een register. \nHet Gebouwenregister vormt zo de enige en unieke bron voor gebouwinformatie."
+  },
+  {
+    "id": "applicatieprofiel-verkeersborden",
+    "name": "Applicatieprofiel Verkeersborden",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-verkeersborden.html",
+    "description": "Het applicatieprofiel is ontwikkeld binnen het project Lokale Besluiten als Gelinkte Open Data. \nDit applicatieprofiel beschrijft een informatiemodel om opstellingen van statische verticale verkeersborden op \nhet openbaar domein zodanig \nte beschrijven dat de gegevens kunnen uitgewisseld worden ongeacht de toepassing of de context van de toepassing."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---applicatieprofiel-infrastructuurelementen",
+    "name": "Openbaar Domein 2.0.0 - Applicatieprofiel Infrastructuurelementen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur",
+    "description": ""
+  },
+  {
+    "id": "vocabularium-conceptueel-gegevensmodel-openbaar-domein",
+    "name": "Vocabularium Conceptueel Gegevensmodel Openbaar Domein",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/vocabularium-conceptueel-gegevensmodel-openbaar-domein.html",
+    "description": "Dit vocabularium maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "vocabularium-metadata-dcat",
+    "name": "Vocabularium metadata DCAT",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://test.data.vlaanderen.be/standaarden/kandidaat-standaard/vocabularium-metadata-dcat.html",
+    "standardUrl": "http://data.vlaanderen.be/ns/metadata-dcat",
+    "description": "De digitalisering van de overheid zorgt voor betere, correctere en efficiëntere dienstverlening naar burgers en ondernemers. Om deze groei aan digitale diensten te ondersteunen is er nood aan een overzicht van de beschikbare informatie (datasets) en diensten (dataservices). Vandaag wordt deze informatie in verschillende vormen en niveaus van kwaliteit voorzien, sterk afhankelijk van de gebruikte technologie en platform om de datasets en dataservices aan te bieden. Er is nood aan een overzicht. Het traject richt zich op beschrijvingen van de data en dataservices vanuit het perspectief van de beheerder van een informatiesysteem. Het perspectief van een dienstverlening (zoals bv. het uitreiken van een identiteitskaart) naar burgers of bedrijven is buiten scope. Hiervoor verwijzen we naar het vocabularium Dienst en applicatieprofiel Dienstencataloog. Daarnaast wordt in eerste plaats gekeken naar het toegankelijk maken van datasets en dataservices buiten de domeinen van de geografische informatie en open data; dus naar beschrijvingen van datasets en dataservices in domeinen zoals persoonsgebonden en organisatiegevoelige informatie. Dit omdat in de context van zowel de geografische data en dataservices (ISO/INSPIRE en OGC) en open data (OSLO applicatieprofiel DCAT-AP Vlaanderen) reeds semantische afspraken bestaan. De doelstelling is wel om de nieuwe afspraken integreerbaar te maken met de bestaande afspraken voor geografische gegevens en open data."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---uitbreiding-infrastructuur",
+    "name": "Openbaar Domein 2.0.0 - Uitbreiding Infrastructuur",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/infrastructuur",
+    "description": ""
+  },
+  {
+    "id": "applicatieprofiel-mobiliteit:-trips-en-aanbod",
+    "name": "Applicatieprofiel Mobiliteit: Trips en Aanbod",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/",
+    "standardUrl": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod",
+    "description": "Het applicatieprofiel OSLO-Mobiliteit: Trips en Aanbod toont hoe termen uit de onderliggende vocabularia gebruikt moeten \nworden om gegevens uit te wisselen over (1) door personen uitgevoerde reizen en (2) de mobiliteitsdiensten die ze daarvoor \nter beschikking hebben. \nDe concrete aanleiding voor dit applicatieprofiel was het Decreet Basisbereikbaarheid."
+  },
+  {
+    "id": "openbaar-domein---applicatieprofiel-terreindelen",
+    "name": "Openbaar Domein - Applicatieprofiel Terreindelen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---applicatieprofiel-terreindelen.html",
+    "description": "Dit applicatieprofiel maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "vocabularium-besluit",
+    "name": "Vocabularium Besluit",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden",
+    "standardUrl": "http://data.vlaanderen.be/ns/besluit",
+    "description": "Het vocabularium Besluit is ontwikkeld binnen het project [Lokale Besluiten als Gelinkte Open Data](http://lokaalbestuur.vlaanderen.be/lokale-besluiten-als-gelinkte-open-data). \nHet Besluit vocabularium specificeert een aantal klassen en eigenschappen om een besluit te beschrijven."
+  },
+  {
+    "id": "applicatieprofiel-dcat-ap-vl-2.0",
+    "name": "Applicatieprofiel DCAT-AP VL 2.0",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-dcat-ap-vl-2.0.html",
+    "standardUrl": "http://data.vlaanderen.be/ns/metadata-dcat",
+    "description": "De applicaties waarop dit profiel betrekking heeft zijn Open Data portalen in Vlaanderen. \nOpen Data portalen zijn catalogussen van Open Data datasets. Ze hebben als belangrijkste doelstelling het vindbaar maken \nvan data en het het hergebruik ervan te stimuleren. Open Data portalen vervullen een centrale rol in de publieke taak om de \ntoegang tot herbruikbare overheidsinformatie te faciliteren. Met dit applicatieprofiel bevorderen we de uniformiteit van de \nbeschikbare informatie over datasets (metadata). Tevens vereenvoudigen we het aggregatie proces van meerdere \nOpen Data Catalogi naar het Vlaamse, federale en Europese Open Data portaal. \nDCAT-AP Vlaanderen vormt hierdoor een minimum vereiste voor Open Data catalogi in Vlaanderen."
+  },
+  {
+    "id": "openbaar-domein---applicatieprofiel-water-voorkomen",
+    "name": "Openbaar Domein - Applicatieprofiel Water voorkomen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---applicatieprofiel-water-voorkomen.html",
+    "description": "Dit applicatieprofiel maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "vocabularium-dossier",
+    "name": "Vocabularium Dossier",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/vocabularium-dossier.html",
+    "description": "Het opvolgen van dossiers en de latere archivering van diezelfde dossiers is een onderwerp waar alle overheden in Vlaanderen mee geconfronteerd worden. Een efficiënte opvolging en archivering, op een consistente manier overheen verschillende entiteiten,\nvereist een (meta)datastandaard die generiek genoeg is om VO-breed in te zetten en tegelijk genoeg vrijheid laat voor context-specifieke implementaties. Als vertrekpunt voor deze oefening wordt gebruik gemaakt van een bestaande\nontologieën, voorbereid door Departement Omgeving en Het Facilitair Bedrijf en andere relevante bestaande semantische datastandaarden (FRBR, Dublin Core, PREMIS, EAD DBPedia, …)."
+  },
+  {
+    "id": "applicatieprofiel-organisatie-basis",
+    "name": "Applicatieprofiel Organisatie Basis",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-organisatie-basis.html",
+    "description": "Het OSLO-Organisatie applicatieprofiel is een profiel op bestaande vocabularia mbt organisaties waaronder het \n[OSLO-Organisatie vocabularium](http://data.vlaanderen.be/ns/organisatie).\n\nNormaal brengt een applicatieprofiel termen samen nodig voor een bepaalde toepassing \n(incl. bijkomende constraints zoals kardinaliteiten en codelijsten). In dit geval hebben we echter geen bepaalde \ntoepassing voor ogen, dit is m.a.w. een basisprofiel. Het geeft aan welke termen binnen OSLO relevant geacht worden voor \nhet uitwisselen van informatie over organisaties."
+  },
+  {
+    "id": "applicatieprofiel-metadata-dcat",
+    "name": "Applicatieprofiel metadata DCAT",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://test.data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-metadata-dcat.html",
+    "standardUrl": "http://data.vlaanderen.be/ns/metadata-dcat",
+    "description": "De digitalisering van de overheid zorgt voor betere, correctere en efficiëntere dienstverlening naar burgers en ondernemers. Om deze groei aan digitale diensten te ondersteunen is er nood aan een overzicht van de beschikbare informatie (datasets) en diensten (dataservices). Vandaag wordt deze informatie in verschillende vormen en niveaus van kwaliteit voorzien, sterk afhankelijk van de gebruikte technologie en platform om de datasets en dataservices aan te bieden. Er is nood aan een overzicht. Het traject richt zich op beschrijvingen van de data en dataservices vanuit het perspectief van de beheerder van een informatiesysteem. Het perspectief van een dienstverlening (zoals bv. het uitreiken van een identiteitskaart) naar burgers of bedrijven is buiten scope. Hiervoor verwijzen we naar het vocabularium Dienst en applicatieprofiel Dienstencataloog. Daarnaast wordt in eerste plaats gekeken naar het toegankelijk maken van datasets en dataservices buiten de domeinen van de geografische informatie en open data; dus naar beschrijvingen van datasets en dataservices in domeinen zoals persoonsgebonden en organisatiegevoelige informatie. Dit omdat in de context van zowel de geografische data en dataservices (ISO/INSPIRE en OGC) en open data (OSLO applicatieprofiel DCAT-AP Vlaanderen) reeds semantische afspraken bestaan. De doelstelling is wel om de nieuwe afspraken integreerbaar te maken met de bestaande afspraken voor geografische gegevens en open data."
+  },
+  {
+    "id": "applicatieprofiel-notificatie-basis",
+    "name": "Applicatieprofiel Notificatie Basis",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/applicatieprofiel-notificatiecomponent/applicatieprofiel-notificatiecomponent.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/notificatie",
+    "description": "Dit applicatieprofiel beschrijft een informatiemodel voor een toepassing die als use case heeft het versturen van \nnotificaties vanuit een Publieke Organisatie naar personen en organisaties en daarover informatie wil uitwisselen tussen \nverschillende informatiesystemen. Een notificatie is een bericht van een afzender naar een bestemmeling, met als doel de \nbestemmeling te informeren over een bepaalde gebeurtenis of nieuwswaardigheid.\nDe intentie om een notificatie te versturen wordt uitgedrukt door de klasse InformeerActie \n([schema:InformAction](https://schema.org/InformAction)) en kan beschreven worden aan de hand van eigenschappen die onder \nmeer informatie meegeven over de doelgroep, inhoud en relevantie van het bericht. De doelgroep van een InformeerActie kan \nbepaald worden op basis van een doelgroep type — waarvan de invulling toepassing-specifiek is, bijvoorbeeld alle gebruikers \nvan een bepaalde applicatie —, een geografisch gebied of een identificator.\nDe vertaling van deze doelgroep in een set van bestemmelingen (met een e-mailadres of telefoonnummer voor elke bestemmeling) \nvalt buiten de scope van dit applicatieprofiel en moet uitgewerkt worden binnen een specifieke toepassing."
+  },
+  {
+    "id": "applicatieprofiel-bedrijventerrein",
+    "name": "Applicatieprofiel Bedrijventerrein",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/applicatieprofiel-bedrijventerreinen/applicatieprofiel-bedrijventerreinen.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/bedrijventerrein",
+    "description": "Het GIS bedrijventerreinen is een Vlaamse authentieke geografische gegevensbron in beheer van \nhet Agentschap Innoveren en Ondernemen. De dataset omvat twee grote entiteiten, namelijk Percelen en Terreinen. \nPercelen zijn gebruikspercelen met informatie inzake bebouwing, functie, gebruik en beschikbaarheid aangevuld met \nverschillende soorten beperkingen naar ontwikkelings- en activeringspotentieel. Terreinen zijn op hun beurt de contouren \nvan bedrijventerreinen doorheen de fases van planning – ontwikkeling – realisatie en beheer.\nVia dit initiatief wensen overheden in Vlaanderen als eerste stap de bedrijventerreinen semantisch te modelleren en te \nstreven naar een semantische standaard: ‘Bedrijventerreinen’. .Het objectief is dat deze standaard vlot hergebruikt kan \nworden door alle belanghebbenden. Dit project wordt gerealiseerd in samenwerking met Informatie Vlaanderen (AIV) die \nstakeholders methodologisch ondersteunt in het tot stand komen van een standaard en tevens treedt AIV als kwaliteitsbewaker \nop dat de percelenstandaard deel uitmaakt van het stelsel van Open standaarden voor Linkende Overheden (OSLO)."
+  },
+  {
+    "id": "applicatieprofiel-cultureel-erfgoed-event",
+    "name": "Applicatieprofiel Cultureel Erfgoed Event",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/cultureel-erfgoed/index.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/cultureel-erfgoed",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen de cultureel erfgoedsector de \nverschillende datastromen met betrekking tot de (digitale) collecties semantisch te modelleren en de \nstructuur van de data te standaardiseren. \nHet vocabularium wordt opgebouwd op basis van internationale standaarden waar in de cultureel-erfgoedsector \neen brede consensus over bestaat en in lijn gebracht met vigerende Vlaamse regelgeving."
+  },
+  {
+    "id": "vocabularium-melding",
+    "name": "Vocabularium Melding",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-melding/vocabularium-melding.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/melding",
+    "description": "Dit vocabularium werd ontwikkeld om informatie te beschrijven met betrekking tot meldingen van burgers of organisaties \nnaar de overheid. Meldingen kunnen gaan om problemen vastgesteld in de fysieke wereld, zoals sluikstort of een put in de weg, \nof digitale problemen als fouten en onvolledigheden in digitale gegevensbronnen. Dit vocabularium hergebruikt termen en \nconstructen uit onder meer de [Web Annotation Ontology](https://www.w3.org/TR/annotation-vocab/) \nen [Activity Vocabulary](https://www.w3.org/TR/activitystreams-vocabulary/) van [W3C](https://www.w3.org/)."
+  },
+  {
+    "id": "vocabularium-mobiliteit-trips-en-aanbod",
+    "name": "Vocabularium Mobiliteit Trips en Aanbod",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/",
+    "standardUrl": "https://data.vlaanderen.be/ns/mobiliteit/trips-en-aanbod",
+    "description": "Deze vocabularia werden opgesteld in het kader van het Applicatieprofiel \"OSLO-Mobiliteit: Trips en Aanbod\". \nHet vocabularium \"OSLO-Mobiliteit: Trips en Aanbod\" definieert termen die van toepassing zijn op (1) door personen \nuitgevoerde reizen en (2) de mobiliteitsdiensten die ze daarvoor ter beschikking hebben. Het vocabularium \"OSLO-Netwerk\" \ndefinieert termen die van toepassing zijn op netwerken in het algemeen en is gebaseerd op het Generic Network Model van \nINSPIRE. Het vocabularium \"OSLO-Transportnetwerk\" bouwt hierop voort en is gebaseerd op de Data Specification on Transport \nNetworks van INSPIRE."
+  },
+  {
+    "id": "applicatieprofiel-geodcat-ap-vl",
+    "name": "Applicatieprofiel GeoDCAT-AP VL",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/",
+    "standardUrl": "http://data.vlaanderen.be/ns/metadata-dcat",
+    "description": "De applicaties waarop dit profiel betrekking heeft zijn catalogi van beschrijvingen van geografische data die ontstaan door het transformeren van catalogi die beschreven zijn volgens de ISO (INSPIRE) afspraken.\n\nDit applicatieprofiel is een verdere verfijning van de afspraken gemaakt in het applicatieprofiel metadata DCAT. En heeft als zuster applicatieprofiel DCAT-AP Vlaanderen voor Open data. \nMet dit applicatieprofiel bevorderen we de uniformiteit van de beschikbare informatie over datasets en dataservices (metadata). Daardoor vereenvoudigen we het aggregatie proces van meerdere Open Data Catalogi naar het Vlaamse, federale en Europese Open Data portaal. \n\nZoals aangeven heeft dit applicatieprofiel niet als doel de afspraken die gemaakt zijn in de context GDI Vlaanderen te vervangen. GeoDCAT-AP Vlaanderen geeft meerbepaald weer hoe die afspraken binnen GDI Vlaanderen weergeven worden in brede context van alle dataset en dataservice beschrijvingen. Het vormt dus een brug tussen beide metadata werelden."
+  },
+  {
+    "id": "applicatieprofiel-cultureel-erfgoed-object",
+    "name": "Applicatieprofiel Cultureel Erfgoed Object",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/cultureel-erfgoed/index.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/cultureel-erfgoed",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen de cultureel erfgoedsector de \nverschillende datastromen met betrekking tot de (digitale) collecties semantisch te modelleren en de \nstructuur van de data te standaardiseren. \nHet vocabularium wordt opgebouwd op basis van internationale standaarden waar in de cultureel-erfgoedsector \neen brede consensus over bestaat en in lijn gebracht met vigerende Vlaamse regelgeving."
+  },
+  {
+    "id": "openbaar-domein---applicatieprofiel-begroeid-voorkomen",
+    "name": "Openbaar Domein - Applicatieprofiel Begroeid Voorkomen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---applicatieprofiel-begroeid-voorkomen.html",
+    "description": "Dit applicatieprofiel maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "vocabularium-mobiliteit",
+    "name": "Vocabularium Mobiliteit",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaard/vocabularium-mobiliteit.html",
+    "description": "Het vocabularium Mobiliteit is ontwikkeld binnen de projecten Lokale Besluiten als Gelinkte Open Data, \nGIPOD als Gelinkte Open Data en Verkeersborden Vlaanderen. Het Mobiliteit vocabularium specificeert een \naantal klassen en eigenschappen om de innames, hinder, maatregelen en verkeersborden op het openbaar \ndomein te beschrijven. \nHet semantisch traject van Mobiliteit werd opgesplitst in 3 subtrajecten waaruit telkens een \napplicatieprofiel is voortgevloeid, namelijk Besluit mobiliteit, Verkeersborden en \nInname openbaar domein, met als gemene deler het vocabularium Mobiliteit."
+  },
+  {
+    "id": "openbaar-domein---applicatieprofiel-begraafplaatsenbeheer",
+    "name": "Openbaar Domein - Applicatieprofiel Begraafplaatsenbeheer",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---applicatieprofiel-begraafplaatsenbeheer.html",
+    "description": "Dit applicatieprofiel maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "openbaar-domein---applicatieprofiel-waterdelen",
+    "name": "Openbaar Domein - Applicatieprofiel Waterdelen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---applicatieprofiel-waterdelen.html",
+    "description": "Dit applicatieprofiel maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---applicatieprofiel-watervoorkomen",
+    "name": "Openbaar Domein 2.0.0 - Applicatieprofiel Watervoorkomen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/watervoorkomen",
+    "description": ""
+  },
+  {
+    "id": "openbaar-domein---applicatieprofiel-onbegroeid-voorkomen",
+    "name": "Openbaar Domein - Applicatieprofiel Onbegroeid Voorkomen",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaard/openbaar-domein---applicatieprofiel-onbegroeid-voorkomen.html",
+    "description": "Dit applicatieprofiel maakt deel uit van het thema Openbaar Domein. Het thema Openbaar Domein heeft als doel het specifiëren van een informatiemodel voor het inventariseren \nvan het Openbaar Domein met een minimum aan gegevens dat moet worden bijgehouden en kan uitgewisseld worden."
+  },
+  {
+    "id": "vocabularium-transportnetwerk",
+    "name": "Vocabularium Transportnetwerk",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/vocabularium-mobiliteit-trips-en-aanbod/index.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/transportnetwerk",
+    "description": "Deze vocabularia werden opgesteld in het kader van het Applicatieprofiel \"OSLO-Mobiliteit: Trips en Aanbod\". \nHet vocabularium \"OSLO-Mobiliteit: Trips en Aanbod\" definieert termen die van toepassing zijn op (1) door personen \nuitgevoerde reizen en (2) de mobiliteitsdiensten die ze daarvoor ter beschikking hebben. Het vocabularium \"OSLO-Netwerk\" \ndefinieert termen die van toepassing zijn op netwerken in het algemeen en is gebaseerd op het Generic Network Model van \nINSPIRE. Het vocabularium \"OSLO-Transportnetwerk\" bouwt hierop voort en is gebaseerd op de Data Specification on Transport \nNetworks van INSPIRE."
+  },
+  {
+    "id": "applicatieprofiel-generieke-terugmeldfaciliteit",
+    "name": "Applicatieprofiel Generieke Terugmeldfaciliteit",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/applicatieprofiel-generieke-terugmeldfaciliteit/applicatieprofiel-generieke-terugmeldfaciliteit.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/melding",
+    "description": "Dit document beschrijft een applicatieprofiel, in dit geval Generieke Terugmeldfaciliteit. \nDit applicatieprofiel beantwoordt de vraag over hoe het corresponderende domeinmodel in de praktijk kan toegepast worden. \nDaarbij worden de beperkingen (kardinaliteit, codelijsten) toegelicht en de overeenkomstige (RDF) termen opgelijst."
+  },
+  {
+    "id": "openbaar-domein-2.0.0---applicatieprofiel-gebieden",
+    "name": "Openbaar Domein 2.0.0 - Applicatieprofiel Gebieden",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/openbaar-domein/",
+    "standardUrl": "https://data.vlaanderen.be/ns/openbaardomein/gebied",
+    "description": ""
+  },
+  {
+    "id": "applicatieprofiel-vlaamse-codex",
+    "name": "Applicatieprofiel Vlaamse Codex",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/Standaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/erkende-standaarden/applicatieprofiel-vlaamse-codex/",
+    "standardUrl": "https://data.vlaanderen.be/ns/wetgeving",
+    "description": "Dit applicatieprofiel beschrijft een informatiemodel voor een toepassing met als use case het gestructureerd raadplegen of \nvernieuwen van de Vlaamse regelgeving.\nDeze specificatie is gebaseerd op de [ELI \\(European Legislation Identifier\\)](https://eur-lex.europa.eu/eli-register/about.html) ontologie en vocabularium en heeft als scope de \nVlaamse regelgeving die wordt beheerd op de website van de [Vlaamse Codex](https://codex.vlaanderen.be/)."
+  },
+  {
+    "id": "vocabularium-cultureel-erfgoed",
+    "name": "Vocabularium Cultureel Erfgoed",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+    "types": [
+      "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium"
+    ],
+    "registerUrl": "https://data.vlaanderen.be/standaarden/kandidaat-standaarden/cultureel-erfgoed/index.html",
+    "standardUrl": "https://data.vlaanderen.be/ns/cultureel-erfgoed",
+    "description": "Via dit initiatief wensen de verschillende stakeholders binnen de cultureel erfgoedsector de \nverschillende datastromen met betrekking tot de (digitale) collecties semantisch te modelleren en de \nstructuur van de data te standaardiseren. \nHet vocabularium wordt opgebouwd op basis van internationale standaarden waar in de cultureel-erfgoedsector \neen brede consensus over bestaat en in lijn gebracht met vigerende Vlaamse regelgeving."
   }
 ]
