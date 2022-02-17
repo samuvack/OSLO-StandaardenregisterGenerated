@@ -1,6 +1,6 @@
 {
   "naam": "Vocabularium Dossier",
-  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/test/report/doc/vocabularium/dossier/kandidaat-standaard/2020-10-01/all-dossier-voc.jsonld",
+  "rapport": "https://raw.githubusercontent.com/Informatievlaanderen/OSLO-Generated/production/report/doc/vocabularium/dossier/kandidaatstandaard/2021-04-22/all-dossier-voc.jsonld",
   "verantwoordelijke_organisatie": "Agentschap Facilitair Bedrijf",
   "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO001834",
   "publicatiedatum": "TBD",
@@ -10,7 +10,7 @@
   "specificatiedocument": [
     {
       "naam": "Vocabularium Dossier",
-      "waarde": "https://data.vlaanderen.be/doc/vocabularium/dossier/kandidaatstandaard/2020-10-01"
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/dossier/kandidaatstandaard/2021-04-22"
     },
     {
       "naam": "Applicatieprofiel Dossier",
