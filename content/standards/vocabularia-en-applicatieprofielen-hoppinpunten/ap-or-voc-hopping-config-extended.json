@@ -17,7 +17,16 @@
       "waarde": "https://data.vlaanderen.be/ns/hoppinpunten"
     }
   ],
-  "documentatie": [],
+  "documentatie": [
+    {
+      "naam": "Modificatie Hoppinpuntenmodel - 10 maart 2022",
+      "waarde": "10032022_OSLO Hoppinpunten_Modificatie model_Verslag.pdf"
+    },
+    {
+      "naam": "Mapping Vervoersknooppuntendatabank",
+      "waarde": "Mapping_Vervoersknooppuntendatabank_0.1.xlsx"
+    }
+  ],
   "charter": [
     {
       "naam": "Charter",
@@ -74,5 +83,5 @@
   "erkenning_werkgroep_datastandaarden": "TBD",
   "erkenning_stuurgroep": "TBD",
   "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-hoppinPunten/raw/standaardenregister",
-  "status": "standaard-in-ontwikkeling"
+  "status": "kandidaat-standaard"
 }
