@@ -51,11 +51,11 @@
       "waarde": "OSLO Loongegevens - Thematische werkgroep 4 (211221).pptx"
     }
   ],
-  "functioneel_toepassingsgebied": "",
-  "organisatorisch_werkingsgebied": "",
-  "datum_van_aanmelding": "",
-  "erkenning_werkgroep_datastandaarden": "",
-  "erkenning_stuurgroep": "",
+  "functioneel_toepassingsgebied": "Semantische standaard voor het ontsluiten van loongegevens.",
+  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid en erkende sociale secretariaten",
+  "datum_van_aanmelding": "2021-09-16",
+  "erkenning_werkgroep_datastandaarden": "17 maart 2022",
+  "erkenning_stuurgroep": "TBD",
   "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-loongegevens/raw/standaardenregister",
   "status": "kandidaat-standaard"
 }
