@@ -10,11 +10,11 @@
   "specificatiedocument": [
     {
       "naam": "LDES Applicatieprofiel (ontwerp)",
-      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/ldes/ontwerpstandaard/2022-03-08"
+      "waarde": "https://test.data.vlaanderen.be/doc/applicatieprofiel/ldes/ontwerpstandaard/2022-05-12"
     },
     {
       "naam": "LDES Vocabularium (ontwerp)",
-      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/ldes/ontwerpstandaard/2022-03-08"
+      "waarde": "https://test.data.vlaanderen.be/doc/vocabularium/ldes/ontwerpstandaard/2022-05-12"
     }
   ],
   "documentatie": [],
@@ -36,14 +36,6 @@
     {
       "naam": "Verslag thematische werkgroep 2 - 17 februari 2022",
       "waarde": "Verslag thematische werkgroep 2 - 17 februari 2022.docx"
-    },
-    {
-      "naam": "Verslag thematische werkgroep 3 - 17 maart 2022",
-      "waarde": "Verslag thematische werkgroep 3 - 17 maart 2022.docx"
-    },
-    {
-      "naam": "Verslag thematische werkgroep 4 - 28 april 2022",
-      "waarde": "Verslag thematische werkgroep 4 - 28 april 2022.docx"
     }
   ],
   "presentaties": [
@@ -58,14 +50,6 @@
     {
       "naam": "Presentatie thematische werkgroep 2 - 17 februari 2022",
       "waarde": "Presentatie thematische werkgroep 2 - 17 februari 2022.pdf"
-    },
-    {
-      "naam": "Presentatie thematische werkgroep 3 - 17 maart 2022",
-      "waarde": "Presentatie thematische werkgroep 3 - 17 maart 2022.pdf"
-    },
-    {
-      "naam": "Presentatie thematische werkgroep 4 - 28 april 2022",
-      "waarde": "Presentatie thematische werkgroep 4 - 28 april 2022.pdf"
     }
   ],
   "functioneel_toepassingsgebied": "",
