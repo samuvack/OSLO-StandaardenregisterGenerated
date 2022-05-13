@@ -7,7 +7,16 @@
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Vocabularium en applicatieprofielen",
   "beschrijving": "core-concept.md",
-  "specificatiedocument": [],
+  "specificatiedocument": [
+    {
+      "naam": "Applicatieprofiel Consent",
+      "waarde": "https://purl.eu/doc/applicationprofile/consent/"
+    },
+    {
+      "naam": "Vocabularium Consent",
+      "waarde": "https://purl.eu/ns/consent"
+    }
+  ],
   "documentatie": [],
   "charter": [
     {
@@ -59,9 +68,9 @@
       "waarde": "20211216_ThematicWorkshop4_PowerPoint_OSLOTrapeze.pptx"
     }
   ],
-  "functioneel_toepassingsgebied": "TBD",
-  "organisatorisch_werkingsgebied": "TBD",
-  "datum_van_aanmelding": "TBD",
+  "functioneel_toepassingsgebied": "Semantische standaard voor de toepassing voor het ondersteunen van het consent-mecahanisme en garanderen dat data op de correcte manier gebruikt wordt.",
+  "organisatorisch_werkingsgebied": "Ongelimiteerd, maar de standaard werd vooral gemaakt vanuit het Solid oogpunt.",
+  "datum_van_aanmelding": "Juni 2021",
   "erkenning_werkgroep_datastandaarden": "TBD",
   "erkenning_stuurgroep": "TBD",
   "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-consent/raw/standaardenregister",
