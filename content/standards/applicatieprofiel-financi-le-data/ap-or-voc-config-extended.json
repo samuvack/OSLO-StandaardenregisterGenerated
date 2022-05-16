@@ -1,15 +1,15 @@
 {
   "naam": "Applicatieprofiel Financiële Data",
   "rapport": "",
-  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+  "verantwoordelijke_organisatie": "Departement Cultuur, Jeugd en Media",
+  "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO000067",
   "publicatiedatum": "TBD",
   "type_toepassing": "TBD",
-  "categorie": "",
+  "categorie": "Applicatieprofiel",
   "beschrijving": "ap-FinanciëleData.md",
   "specificatiedocument": [
     {
-      "naam": "Loongegevens Applicatieprofiel",
+      "naam": "Financiële Data Applicatieprofiel",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/financiële-data"
     }
   ],
