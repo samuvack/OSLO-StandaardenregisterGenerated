@@ -20,7 +20,7 @@
   "specificatiedocument": [
     {
       "naam": "AP Bodem en Ondergrond",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/ontwerpstandaard/2021-08-01"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/bodem-en-ondergrond/bodem-en-ondergrond/kandidaatstandaard/2022-04-28"
     }
   ],
   "documentatie": [],
@@ -96,5 +96,5 @@
   "erkenning_werkgroep_datastandaarden": "TBD",
   "erkenning_stuurgroep": "TBD",
   "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/raw/standaardenregister",
-  "status": "standaard-in-ontwikkeling"
+  "status": "kandidaat-standaard"
 }

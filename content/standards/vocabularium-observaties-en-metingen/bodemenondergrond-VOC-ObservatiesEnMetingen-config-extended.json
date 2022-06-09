@@ -20,7 +20,7 @@
   "specificatiedocument": [
     {
       "naam": "VOC Observaties en Metingen",
-      "waarde": "https://data.vlaanderen.be/doc/vocabularium/bodem-en-ondergrond/observaties-en-metingen/ontwerpstandaard/2021-08-01"
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/observaties-en-metingen/kandidaatstandaard/2022-04-28"
     }
   ],
   "documentatie": [],
@@ -96,5 +96,5 @@
   "erkenning_werkgroep_datastandaarden": "TBD",
   "erkenning_stuurgroep": "TBD",
   "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-bodemEnOndergrond/raw/standaardenregister",
-  "status": "standaard-in-ontwikkeling"
+  "status": "kandidaat-standaard"
 }
