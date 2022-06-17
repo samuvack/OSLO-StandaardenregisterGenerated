@@ -13,11 +13,16 @@
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/financiele-data"
     },
     {
+      "naam": "Financiële Data vocabularium",
+      "waarde": "https://data.vlaanderen.be/ns/financiele-data/"
+    }
+  ],
+  "documentatie": [
+    {
       "naam": "Financiële Data taxonomie-dcjm vocabularium",
       "waarde": "https://data.vlaanderen.be/ns/financiele-data/taxonomie-dcjm"
     }
   ],
-  "documentatie": [],
   "charter": [],
   "verslagen": [
     {
