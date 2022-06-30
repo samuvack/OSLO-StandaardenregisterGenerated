@@ -10,11 +10,11 @@
   "specificatiedocument": [
     {
       "naam": "Applicatieprofiel Cultuur- & Jeugdinfrastructuur",
-      "waarde": "www.fixme.com"
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/cultuur-en-jeugdinfrastructuur"
     },
     {
       "naam": "Vocabularium Cultuur- & Jeugdinfrastructuur",
-      "waarde": "www.fixme.com"
+      "waarde": "https://data.vlaanderen.be/ns/cultuur-en-jeugdinfrastructuur"
     }
   ],
   "documentatie": [],
