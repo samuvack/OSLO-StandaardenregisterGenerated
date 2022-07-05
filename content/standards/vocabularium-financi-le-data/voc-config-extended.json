@@ -1,16 +1,16 @@
 {
-  "naam": "Applicatieprofiel Financiële Data",
-  "rapport": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/applicatieprofiel/financiele-data/kandidaatstandaard/2022-06-23/all-financieledata-ap.jsonld",
+  "naam": "Vocabularium Financiële Data",
+  "rapport": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/vocabularium/financiele-data/kandidaatstandaard/2022-06-23/all-financieledata-voc.jsonld",
   "verantwoordelijke_organisatie": "Departement Cultuur, Jeugd en Media",
   "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO000067",
   "publicatiedatum": "17/03/2022",
   "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "applicatieprofiel",
-  "beschrijving": "ap-FinanciëleData.md",
+  "categorie": "vocabularium",
+  "beschrijving": "voc-FinanciëleData.md",
   "specificatiedocument": [
     {
-      "naam": "Financiële Data Applicatieprofiel",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/financiele-data"
+      "naam": "Financiële Data vocabularium",
+      "waarde": "https://data.vlaanderen.be/ns/financiele-data/"
     }
   ],
   "documentatie": [
