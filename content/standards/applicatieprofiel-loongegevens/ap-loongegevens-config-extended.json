@@ -1,10 +1,10 @@
 {
   "naam": "Applicatieprofiel loongegevens",
-  "rapport": "",
+  "rapport": "https://github.com/Informatievlaanderen/OSLO-Generated/raw/production/report/doc/applicatieprofiel/loongegevens/kandidaatstandaard/2022-03-17/all-loongegevens-ap.jsonld",
   "verantwoordelijke_organisatie": "Agentschap Uitbetaling Groeipakket",
   "identificator_organisatie": "https://data.vlaanderen.be/doc/organisatie/OVO008643",
   "publicatiedatum": "2021-09-16",
-  "type_toepassing": "TBD",
+  "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Applicatieprofiel",
   "beschrijving": "ap-loongegevens.md",
   "specificatiedocument": [
@@ -14,7 +14,12 @@
     }
   ],
   "documentatie": [],
-  "charter": [],
+  "charter": [
+    {
+      "naam": "OSLO Loongegevens Charter",
+      "waarde": "Template-Werkgroep-Charter-OSLO.docx"
+    }
+  ],
   "verslagen": [
     {
       "naam": "Verslag thematische werkgroep 1 - 30 september 2021",
