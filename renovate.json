@@ -11,7 +11,7 @@
             }
         }
     ],
-    "ignoreDeps" : ["sass-loader"],
+    "ignoreDeps" : ["sass-loader", "@vue/cli-plugin-babel", "@vue/cli-service"],
     "baseBranches" : ["master"],
     "commitBody": "[skip ci]"
 }
