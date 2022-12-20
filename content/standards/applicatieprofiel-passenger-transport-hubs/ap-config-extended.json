@@ -3,7 +3,7 @@
   "rapport": "",
   "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
   "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "2022-07-11",
+  "publicatiedatum": "2022-12-01",
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Applicatieprofiel",
   "beschrijving": "ap-passenger-transport-hubs.md",
@@ -53,7 +53,7 @@
   "datum_van_aanmelding": "",
   "datum_einde_review": "2022-10-11",
   "erkenning_werkgroep_datastandaarden": "TBD",
-  "erkenning_stuurgroep": "TBD",
+  "erkenning_stuurgroep": "2022-12-01",
   "baseURL": "https://github.com/Informatievlaanderen/OSLOthema-passengerTransportHubs/raw/standaardenregister",
-  "status": "kandidaat-standaard"
+  "status": "erkende-standaard"
 }
